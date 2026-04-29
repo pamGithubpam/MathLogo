@@ -29,9 +29,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-
-      - name: Install correct npm version
-        run: npm install -g npm@10.9.2
+          cache: npm
 
       - name: Setup Pages
         id: pages
