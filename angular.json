@@ -22,6 +22,11 @@
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/assets",
+                "output": "assets"
               }
             ],
             "styles": [
@@ -60,6 +65,10 @@
             },
             "development": {
               "buildTarget": "mathlogo:build:development"
+            },
+            "https": {
+              "buildTarget": "mathlogo:build:development",
+              "ssl": true
             }
           },
           "defaultConfiguration": "development"

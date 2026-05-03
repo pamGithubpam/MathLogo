@@ -1,0 +1,48 @@
+{
+  "categories": [
+    {
+      "name": "Addition simple",
+      "image": "addition",
+      "calculations": [
+        {"text": "1 + 1 =", "answer": "2"},
+        {"text": "2 + 2 =", "answer": "4"},
+        {"text": "3 + 3 =", "answer": "6"},
+        {"text": "4 + 4 =", "answer": "8"},
+        {"text": "5 + 5 =", "answer": "10"}
+      ]
+    },
+    {
+      "name": "Soustraction simple",
+      "image": "soustraction",
+      "calculations": [
+        {"text": "2 - 1 =", "answer": "1"},
+        {"text": "4 - 2 =", "answer": "2"},
+        {"text": "6 - 3 =", "answer": "3"},
+        {"text": "8 - 4 =", "answer": "4"},
+        {"text": "10 - 5 =", "answer": "5"}
+      ]
+    },
+    {
+      "name": "Multiplication simple",
+      "image": "multiplication",
+      "calculations": [
+        {"text": "2 × 2 =", "answer": "4"},
+        {"text": "3 × 3 =", "answer": "9"},
+        {"text": "4 × 2 =", "answer": "8"},
+        {"text": "5 × 2 =", "answer": "10"},
+        {"text": "6 × 1 =", "answer": "6"}
+      ]
+    },
+    {
+      "name": "Division simple",
+      "image": "division",
+      "calculations": [
+        {"text": "4 ÷ 2 =", "answer": "2"},
+        {"text": "6 ÷ 3 =", "answer": "2"},
+        {"text": "8 ÷ 4 =", "answer": "2"},
+        {"text": "10 ÷ 5 =", "answer": "2"},
+        {"text": "12 ÷ 6 =", "answer": "2"}
+      ]
+    }
+  ]
+}

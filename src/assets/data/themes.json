@@ -1,0 +1,24 @@
+{
+  "themes": [
+    {
+      "name": "Halloween",
+      "images": ["pumpkin", "ghost", "witch", "bat", "candy"]
+    },
+    {
+      "name": "Noël",
+      "images": ["tree", "santa", "snowman", "gift", "star"]
+    },
+    {
+      "name": "Carnaval",
+      "images": ["mask", "balloon", "confetti", "clown", "parade"]
+    },
+    {
+      "name": "Pâques",
+      "images": ["egg", "bunny", "chick", "basket", "flower"]
+    },
+    {
+      "name": "Vacances d'été",
+      "images": ["sun", "beach", "icecream", "ball", "shell"]
+    }
+  ]
+}

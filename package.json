@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start:https": "ng serve --ssl true --port 4300",
     "build": "ng build",
     "build:pages": "ng build --base-href ./",
     "watch": "ng build --watch --configuration development",

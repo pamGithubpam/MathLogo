@@ -1,0 +1,101 @@
+<div class="setup-container">
+  <h1>Configuration du Jeu</h1>
+
+  <div class="form-group">
+    <label>Nombre de calculs:</label>
+    <input type="number" [(ngModel)]="numberOfCalculations" min="1" max="50">
+  </div>
+
+  <div class="form-group">
+    <label>Catégories:</label>
+    <div class="categories-status">
+      <small>Chargées: {{ categories().length }} catégorie(s)</small>
+    </div>
+    <div class="categories-list">
+      <select (change)="addCategory($event)">
+        <option value="">Ajouter une catégorie</option>
+        @for (cat of categories(); track cat.name) {
+          <option [value]="cat.name">{{ cat.name }}</option>
+        }
+      </select>
+      <div class="categories-grid">
+        @for (cat of selectedCategories(); track cat.name) {
+          <div class="category-card">
+            @if (getCategoryImage(cat.name); as imagePath) {
+              <img [src]="imagePath" [alt]="cat.name" class="category-image">
+            }
+            <div class="category-info">
+              <span class="category-name">{{ cat.name }}</span>
+              <input
+                type="number"
+                [ngModel]="cat.percentage"
+                (ngModelChange)="updatePercentage(cat.name, $event)"
+                min="0"
+                max="100"
+                placeholder="%"
+                step="0.01"
+                class="percentage-input">
+              <span class="percentage-unit">%</span>
+              <button (click)="removeCategory(cat.name)" class="remove-btn">✕</button>
+            </div>
+          </div>
+        }
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label>
+      <input type="checkbox" [(ngModel)]="rewardEnabled"> Activer les récompenses
+    </label>
+  </div>
+
+  @if (rewardEnabled()) {
+    <div class="form-group">
+      <label>Thème:</label>
+      <div class="themes-status">
+        <small>Chargés: {{ themes().length }} thème(s)</small>
+      </div>
+      <div class="themes-grid">
+        @for (theme of themes(); track theme.name) {
+          <div class="theme-card" 
+               [class.selected]="selectedTheme() === theme.name"
+               (click)="onThemeSelect(theme.name)">
+            <div class="theme-preview">
+              @for (image of theme.images.slice(0, 2); track image) {
+                <img [src]="'assets/images/themes/' + theme.name + '/' + image + '.svg'" 
+                     [alt]="image"
+                     class="preview-image">
+              }
+            </div>
+            <span class="theme-name">{{ theme.name }}</span>
+          </div>
+        }
+      </div>
+    </div>
+  }
+
+  @if (selectedTheme()) {
+    <div class="form-group">
+      <label>Choisir 2 images de récompense:</label>
+      <div class="images-list">
+        @for (image of themes().find(t => t.name === selectedTheme())?.images; track image) {
+          <div class="image-item"
+               [class.selected]="selectedImages().includes(image)"
+               (click)="toggleImage(image)">
+            <img [src]="'assets/images/themes/' + selectedTheme() + '/' + image + '.svg'" [alt]="image">
+            <span>{{ image }}</span>
+          </div>
+        }
+      </div>
+    </div>
+  }
+
+  <div class="percentage-summary">
+    <span>Total: {{ totalPercent }}%</span>
+    @if (!percentageValid) {
+      <span class="error">Le total des pourcentages doit être de 100&nbsp;%.</span>
+    }
+  </div>
+  <button (click)="startGame()" [disabled]="selectedCategories().length === 0 || !percentageValid">Commencer le Jeu</button>
+</div>

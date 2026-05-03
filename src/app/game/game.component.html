@@ -1,0 +1,18 @@
+<div class="game-container">
+  @if (currentCalculation(); as calc) {
+    <h2>{{ calc.text }}</h2>
+
+    @if (calc.answer) {
+      <input type="text" [(ngModel)]="userAnswer" (keyup.enter)="submitAnswer()" placeholder="Votre réponse" inputmode="numeric">
+      <button (click)="submitAnswer()">Valider</button>
+    } @else {
+      <button (click)="skip()">Suivant</button>
+    }
+  }
+
+  @if (showReward()) {
+    <div class="reward-overlay">
+      <img [src]="'/assets/images/themes/' + rewardImage() + '.png'" [alt]="rewardImage()">
+    </div>
+  }
+</div>
