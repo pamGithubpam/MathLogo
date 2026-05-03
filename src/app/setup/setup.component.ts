@@ -7,7 +7,7 @@ import { GameService, Category, Theme, GameConfig } from '../game.service';
   selector: 'app-setup',
   imports: [FormsModule],
   templateUrl: './setup.component.html',
-  styleUrls: ['./setup.component.css']
+  styleUrls: ['./setup.component.css'],
 })
 export class SetupComponent {
   gameService = inject(GameService);
@@ -31,8 +31,8 @@ export class SetupComponent {
 
   addCategory(event: Event) {
     const value = (event.target as HTMLSelectElement).value;
-    if (value && !this.selectedCategories().find(c => c.name === value)) {
-      this.selectedCategories.update(cats => {
+    if (value && !this.selectedCategories().find((c) => c.name === value)) {
+      this.selectedCategories.update((cats) => {
         const next = [...cats, { name: value, percentage: 0 }];
         return this.distributePercentages(next);
       });
@@ -40,27 +40,29 @@ export class SetupComponent {
   }
 
   removeCategory(name: string) {
-    this.selectedCategories.update(cats => {
-      const next = cats.filter(c => c.name !== name);
+    this.selectedCategories.update((cats) => {
+      const next = cats.filter((c) => c.name !== name);
       return next.length === 0 ? [] : this.distributePercentages(next);
     });
   }
 
-  private distributePercentages(cats: { name: string; percentage: number }[]): { name: string; percentage: number }[] {
+  private distributePercentages(
+    cats: { name: string; percentage: number }[],
+  ): { name: string; percentage: number }[] {
     if (cats.length === 0) return [];
     if (cats.length === 1) return [{ ...cats[0], percentage: 100 }];
-    
+
     const percentage = 100 / cats.length;
     const result = cats.map((c, i) => ({
       ...c,
-      percentage: i === cats.length - 1 ? 100 - (percentage * (cats.length - 1)) : percentage
+      percentage: i === cats.length - 1 ? 100 - percentage * (cats.length - 1) : percentage,
     }));
     return result;
   }
 
   updatePercentage(name: string, percentage: number) {
-    this.selectedCategories.update(cats =>
-      cats.map(c => c.name === name ? { ...c, percentage } : c)
+    this.selectedCategories.update((cats) =>
+      cats.map((c) => (c.name === name ? { ...c, percentage } : c)),
     );
   }
 
@@ -78,14 +80,14 @@ export class SetupComponent {
   toggleImage(image: string) {
     const current = this.selectedImages();
     if (current.includes(image)) {
-      this.selectedImages.set(current.filter(i => i !== image));
+      this.selectedImages.set(current.filter((i) => i !== image));
     } else if (current.length < 2) {
       this.selectedImages.set([...current, image]);
     }
   }
 
   getCategoryImage(categoryName: string): string | null {
-    const category = this.categories().find(c => c.name === categoryName);
+    const category = this.categories().find((c) => c.name === categoryName);
     if (category && category.image) {
       return `assets/images/categories/${category.image}.svg`;
     }
@@ -102,7 +104,7 @@ export class SetupComponent {
       categories: this.selectedCategories(),
       rewardEnabled: this.rewardEnabled(),
       theme: this.selectedTheme(),
-      selectedImages: this.selectedImages()
+      selectedImages: this.selectedImages(),
     };
     this.gameService.setGameConfig(config);
     this.router.navigate(['/game']);

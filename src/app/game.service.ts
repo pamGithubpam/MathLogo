@@ -27,7 +27,7 @@ export interface GameConfig {
 }
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class GameService {
   private _calculations = signal<Category[]>([]);
@@ -45,22 +45,22 @@ export class GameService {
 
   private loadData() {
     this.http.get<{ categories: Category[] }>('assets/data/calculations.json').subscribe({
-      next: data => {
+      next: (data) => {
         console.log('Loaded categories', data.categories.length);
         this._calculations.set(data.categories);
       },
-      error: error => {
+      error: (error) => {
         console.error('Failed to load categories', error);
-      }
+      },
     });
     this.http.get<{ themes: Theme[] }>('assets/data/themes.json').subscribe({
-      next: data => {
+      next: (data) => {
         console.log('Loaded themes', data.themes.length);
         this._themes.set(data.themes);
       },
-      error: error => {
+      error: (error) => {
         console.error('Failed to load themes', error);
-      }
+      },
     });
   }
 
@@ -80,8 +80,8 @@ export class GameService {
   private generateCalculations() {
     const config = this.gameConfig()!;
     const allCalcs: Calculation[] = [];
-    config.categories.forEach(catConfig => {
-      const category = this._calculations().find(c => c.name === catConfig.name);
+    config.categories.forEach((catConfig) => {
+      const category = this._calculations().find((c) => c.name === catConfig.name);
       if (category) {
         const num = Math.round((catConfig.percentage / 100) * config.numberOfCalculations);
         const selected = this.shuffle(category.calculations).slice(0, num);
@@ -113,7 +113,7 @@ export class GameService {
     if (calc && calc.answer) {
       const correct = answer.trim() === calc.answer;
       if (correct) {
-        this.score.update(s => s + 1);
+        this.score.update((s) => s + 1);
       }
       return correct;
     }
@@ -121,7 +121,7 @@ export class GameService {
   }
 
   nextCalculation() {
-    this.currentIndex.update(i => i + 1);
+    this.currentIndex.update((i) => i + 1);
   }
 
   isGameFinished(): boolean {
