@@ -1,52 +1,273 @@
 {
-  "categories": [
-    {
-      "name": "Amis de 8",
-      "image": "addition",
-      "features": ["Amis de","Lacunaire"],
-      "calculations": [
-        {"text": "1 + 1 =", "answer": "2"},
-        {"text": "2 + 2 =", "answer": "4"},
-        {"text": "3 + 3 =", "answer": "6"},
-        {"text": "4 + 4 =", "answer": "8"},
-        {"text": "5 + 5 =", "answer": "10"}
-      ]
-    },
-    {
-      "name": "Soustraction simple",
-      "image": "soustraction",
-      "features": ["facile", "calcul-mental", "nombres-petits"],
-      "calculations": [
-        {"text": "2 - 1 =", "answer": "1"},
-        {"text": "4 - 2 =", "answer": "2"},
-        {"text": "6 - 3 =", "answer": "3"},
-        {"text": "8 - 4 =", "answer": "4"},
-        {"text": "10 - 5 =", "answer": "5"}
-      ]
-    },
-    {
-      "name": "Multiplication simple",
-      "image": "multiplication",
-      "features": ["moyen", "tables", "nombres-petits"],
-      "calculations": [
-        {"text": "2 × 2 =", "answer": "4"},
-        {"text": "3 × 3 =", "answer": "9"},
-        {"text": "4 × 2 =", "answer": "8"},
-        {"text": "5 × 2 =", "answer": "10"},
-        {"text": "6 × 1 =", "answer": "6"}
-      ]
-    },
-    {
-      "name": "Division simple",
-      "image": "division",
-      "features": ["moyen", "calcul-mental", "nombres-petits"],
-      "calculations": [
-        {"text": "4 ÷ 2 =", "answer": "2"},
-        {"text": "6 ÷ 3 =", "answer": "2"},
-        {"text": "8 ÷ 4 =", "answer": "2"},
-        {"text": "10 ÷ 5 =", "answer": "2"},
-        {"text": "12 ÷ 6 =", "answer": "2"}
-      ]
-    }
-  ]
+    "categories": [{
+            "name": "Diviser",
+            "image": "division",
+            "features": ["Calculs"],
+            "calculations": [{
+                    "text": "... : 4 = 6",
+                    "answer": "24"
+                }, {
+                    "text": "125 : 5 = ...",
+                    "answer": "25"
+                }, {
+                    "text": "65 : 5 = ...",
+                    "answer": "13"
+                }, {
+                    "text": "27 : ... = 9",
+                    "answer": "3"
+                }, {
+                    "text": "32 : ... = 8",
+                    "answer": "4"
+                }, {
+                    "text": "72 : 3 = ...",
+                    "answer": "24"
+                }, {
+                    "text": "24 : 6 = ...",
+                    "answer": "4"
+                }, {
+                    "text": "260 : 2 = ...",
+                    "answer": "130"
+                }, {
+                    "text": "32 : 2 = ...",
+                    "answer": "16"
+                }, {
+                    "text": "48 : 4 = ...",
+                    "answer": "12"
+                }, {
+                    "text": "250 : 2 = ...",
+                    "answer": "125"
+                }, {
+                    "text": "36 : 3 = ...",
+                    "answer": "12"
+                }, {
+                    "text": "32 : 8 = ...",
+                    "answer": "4"
+                }, {
+                    "text": "36 : 6 = ...",
+                    "answer": "6"
+                }, {
+                    "text": "65 : 5 = ...",
+                    "answer": "13"
+                }, {
+                    "text": "32 : 2 = ...",
+                    "answer": "16"
+                }, {
+                    "text": "68 : 4 = ...",
+                    "answer": "17"
+                }, {
+                    "text": "42 : 7 = ...",
+                    "answer": "6"
+                }, {
+                    "text": "... : 8 = 9",
+                    "answer": "72"
+                }, {
+                    "text": "48 : 4 = ...",
+                    "answer": "12"
+                }, {
+                    "text": "45 : 5 = ...",
+                    "answer": "9"
+                }, {
+                    "text": "65 : 5 = ...",
+                    "answer": "13"
+                }, {
+                    "text": "56 : 2 = ...",
+                    "answer": "28"
+                }, {
+                    "text": "24 : ... = 6",
+                    "answer": "4"
+                }, {
+                    "text": "28 : 4 = ...",
+                    "answer": "7"
+                }]
+        }, {
+            "name": "DU +/- U | Non lacunaire | Sans passage",
+            "image": "--",
+            "features": ["DU +/- U", "Non lacunaire", "sans passage"],
+            "calculations": [{
+                    "text": "29 - 3 = ...",
+                    "answer": "26"
+                }, {
+                    "text": "47 - 4 = ...",
+                    "answer": "43"
+                }, {
+                    "text": "24 + 5 = ...",
+                    "answer": "29"
+                }, {
+                    "text": "97 - 3 = ...",
+                    "answer": "94"
+                }, {
+                    "text": "72 - 1 = ...",
+                    "answer": "71"
+                }, {
+                    "text": "57 - 4 = ...",
+                    "answer": "53"
+                }, {
+                    "text": "25 + 4 = ...",
+                    "answer": "29"
+                }, {
+                    "text": "89 - 5 = ...",
+                    "answer": "84"
+                }, {
+                    "text": "59 - 4 = ...",
+                    "answer": "55"
+                }, {
+                    "text": "29 - 3 = ...",
+                    "answer": "26"
+                }, {
+                    "text": "7 + 32 = ...",
+                    "answer": "39"
+                }, {
+                    "text": "35 + 3 = ...",
+                    "answer": "38"
+                }, {
+                    "text": "36 + 3 = ...",
+                    "answer": "39"
+                }, {
+                    "text": "24 + 5 = ...",
+                    "answer": "29"
+                }, {
+                    "text": "34 + ... = 38",
+                    "answer": "4"
+                }, {
+                    "text": "69 - 4 = ...",
+                    "answer": "65"
+                }, {
+                    "text": "52 + 6 = ...",
+                    "answer": "58"
+                }, {
+                    "text": "83 + 4 = ...",
+                    "answer": "87"
+                }, {
+                    "text": "49 - 7 = ...",
+                    "answer": "42"
+                }, {
+                    "text": "41 + 8 = ...",
+                    "answer": "49"
+                }, {
+                    "text": "... = 24 + 4",
+                    "answer": "28"
+                }, {
+                    "text": "23 + 6 = ...",
+                    "answer": "29"
+                }, {
+                    "text": "67 - 4 = ...",
+                    "answer": "63"
+                }, {
+                    "text": "23 + 6",
+                    "answer": "26"
+                }, {
+                    "text": "41 + 8 = ...",
+                    "answer": "49"
+                }, {
+                    "text": "72 + ... = 76",
+                    "answer": "4"
+                }, {
+                    "text": "49 - 7 = ...",
+                    "answer": "42"
+                }, {
+                    "text": "24 + 3 = ...",
+                    "answer": "27"
+                }, {
+                    "text": "20 + 3 = ...",
+                    "answer": "23"
+                }, {
+                    "text": "59 - 7 = ...",
+                    "answer": "52"
+                }, {
+                    "text": "9 - 3 = ...",
+                    "answer": "6"
+                }]
+        }, {
+            "name": "DU +/- U | Non lacunaire | Sans passage | Situation problème",
+            "image": "multiplication",
+            "features": ["DU +/- U", " Non lacunaire", "Sans passage", "Situation problème"],
+            "calculations": [{
+                    "text": "L'institutrice vient de ranger 86 crayons de couleur. 6 trainent encore sur une table. Combien l'institutrice possède-t-elle de crayons en tout ?",
+                    "answer": "92"
+                }, {
+                    "text": "Le fermier avait 36 poules. Il en vend 4. Combien en reste-t-il ?",
+                    "answer": "32"
+                }, {
+                    "text": "Maman a cuit 29 biscuits. Elle en mange quelques-uns, il lui en reste alors 24. Combien en a-t-elle mangé ?",
+                    "answer": "5"
+                }, {
+                    "text": "J'ai rangé 23 tasses et mon frère 6. Combien en a-t-on rangé en tout ?",
+                    "answer": "29"
+                }, {
+                    "text": "Ma sœur a déjà enfilé 23 perles. Elle en enfile 5 de plus. Combien en a-t-elle enfilé au total ?",
+                    "answer": "28"
+                }, {
+                    "text": "J'ai mangé 11 bonbons et mon frère 6. Combien en a-t-on mangé en tout ?",
+                    "answer": "17"
+                }, {
+                    "text": "J'avais 18 voitures et j'en ai donné 5 à mon frère. Combien m'en reste-t-il ?",
+                    "answer": "13"
+                }, {
+                    "text": "Papa plante 32 salades et 6 poireaux. Combien de légumes a-t-il plantés en tout ?",
+                    "answer": "38"
+                }, {
+                    "text": "Maman avait 34 biscuits. Elle en achète quelques-uns en plus, et en a maintenant 37. Combien en a-t-elle acheté en plus ?",
+                    "answer": "3"
+                }, {
+                    "text": "Mon frère possède 38 petites voitures. Il en a perdu 7 en jouant avec ses amis. Combien lui en reste-t-il ?",
+                    "answer": "31"
+                }, {
+                    "text": "Le boucher installe 25 saucisses et 4 brochettes dans son étalage. Combien de spécialités installe-t-il ?",
+                    "answer": "29"
+                }, {
+                    "text": "Je collectionne les serviettes. J'en ai 8 venant de Belgique, 7 de France et 4 d'Allemagne. Combien ai-je de serviettes ?",
+                    "answer": "19"
+                }, {
+                    "text": "Paul cuit 77 croissants. Il en donne quelques-uns à ses parents et il lui en reste 73. Combien en a-t-il donnés ?",
+                    "answer": "4"
+                }, {
+                    "text": "26 lapins sont nés à la ferme cette année. 4 sont déjà vendus. Combien sont toujours à la ferme ?",
+                    "answer": "22"
+                }, {
+                    "text": "Une bibliothèque a 52 livres dans la section aventures et 7 dans la section science-fiction. Combien de livres y a-t-il en tout ?",
+                    "answer": "59"
+                }, {
+                    "text": "Lors d'une fête, Paul a ramassé 22 ballons et Marie 6. Combien de ballons ont-ils ramassés ensemble ?",
+                    "answer": "28"
+                }, {
+                    "text": "L'institutrice a acheté 26 bics pour les élèves. 4 ne fonctionnent pas. Combien fonctionnent ?",
+                    "answer": "22"
+                }, {
+                    "text": "La boulangère installe 22 croissants, 3 pains au chocolat et 4 couques au beurre. Combien de viennoiseries a-t-elle installées ?",
+                    "answer": "29"
+                }, {
+                    "text": "Avant les vacances de Pâques, mon grand frère avait 46 euros dans sa tirelire. Il a acheté une petite voiture pour 4 euros. Combien reste-t-il d'argent dans sa tirelire ?",
+                    "answer": "42"
+                }, {
+                    "text": "Un boucher a vendu un rôti à 16 euros et une saucisse sèche à 3 euros. Combien d'argent a-t-il encaissé lors de cette vente ?",
+                    "answer": "19"
+                }, {
+                    "text": "J'ai compté 38 petits oiseaux posés sur les branches d'un arbre. 4 viennent de s'envoler. Combien d'oiseaux sont encore sur l'arbre ?",
+                    "answer": "34"
+                }, {
+                    "text": "Le boucher avait 67 brochettes. Un client en a acheté 5. Combien lui en reste-t-il ?",
+                    "answer": "62"
+                }, {
+                    "text": "Lors d'une fête, Paul a ramassé 22 ballons et Marie en a ramassé 6. Combien de ballons ont-ils ramassés ensemble ?",
+                    "answer": "28"
+                }, {
+                    "text": "Maman cuit 12 tartelettes et en achète 6 de plus pour les invités. Combien y a-t-il de tartelettes au total ?",
+                    "answer": "18"
+                }, {
+                    "text": "Emma avait 77 livres dans sa bibliothèque. Elle en a donné 5 à sa cousine. Combien de livres lui reste-t-il ?",
+                    "answer": "72"
+                }, {
+                    "text": "J'avais 18 voitures et j'en ai donné 5 à mon frère. Combien m'en reste-t-il ?",
+                    "answer": "13"
+                }, {
+                    "text": "J'ai mangé 11 bonbons et mon frère 6. Combien en a-t-on mangé en tout ?",
+                    "answer": "17"
+                }, {
+                    "text": "Ma sœur a déjà enfilé 21 perles. Elle en enfile 6 de plus. Combien en a-t-elle enfilé au total ?",
+                    "answer": "27"
+                }, {
+                    "text": "Papa plante 12 salades et 6 poireaux. Combien de légumes a-t-il plantés en tout ?",
+                    "answer": "18"
+                }]
+        }]
 }
