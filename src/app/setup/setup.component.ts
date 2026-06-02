@@ -22,29 +22,57 @@ export class SetupComponent {
   selectedImages = signal<string[]>([]);
   selectedFeatures = signal<string[]>([]);
 
+  private normalizeFeature(feature: string): string {
+    return feature.trim().toLocaleLowerCase();
+  }
+
   get allFeatures(): string[] {
-    const features = new Set<string>();
+    const features = new Map<string, string>();
     this.categories().forEach((cat) => {
-      cat.features?.forEach((f) => features.add(f));
+      cat.features?.forEach((f) => {
+        const trimmed = f.trim();
+        if (!trimmed) {
+          return;
+        }
+        const normalized = this.normalizeFeature(trimmed);
+        if (!features.has(normalized)) {
+          features.set(normalized, trimmed);
+        }
+      });
     });
-    return Array.from(features).sort();
+    return Array.from(features.values()).sort((a, b) =>
+      a.localeCompare(b, 'fr', { sensitivity: 'base' }),
+    );
   }
 
   get filteredCategories(): { name: string; calculations: Calculation[] }[] {
     if (this.selectedFeatures().length === 0) {
       return this.categories();
     }
-    return this.categories().filter((cat) =>
-      this.selectedFeatures().some((f) => cat.features?.includes(f)),
+    const selectedFeatures = new Set(this.selectedFeatures().map((f) => this.normalizeFeature(f)));
+    return this.categories().filter(
+      (cat) =>
+        Array.from(selectedFeatures).every((selectedFeature) =>
+          cat.features?.some((f) => this.normalizeFeature(f) === selectedFeature),
+        ) ?? false,
     );
   }
 
   toggleFeature(feature: string) {
+    const normalizedFeature = this.normalizeFeature(feature);
+    if (!normalizedFeature) {
+      return;
+    }
+
     const current = this.selectedFeatures();
-    if (current.includes(feature)) {
-      this.selectedFeatures.set(current.filter((f) => f !== feature));
+    const hasFeature = current.some((f) => this.normalizeFeature(f) === normalizedFeature);
+
+    if (hasFeature) {
+      this.selectedFeatures.set(
+        current.filter((f) => this.normalizeFeature(f) !== normalizedFeature),
+      );
     } else {
-      this.selectedFeatures.set([...current, feature]);
+      this.selectedFeatures.set([...current, feature.trim()]);
     }
   }
 
@@ -105,6 +133,11 @@ export class SetupComponent {
     } else if (current.length < 2) {
       this.selectedImages.set([...current, image]);
     }
+  }
+
+  getThemeImagePath(themeName: string, imageName: string): string {
+    const filename = imageName.includes('.') ? imageName : `${imageName}.svg`;
+    return `assets/images/themes/${themeName}/${filename}`;
   }
 
   getCategoryImage(categoryName: string): string | null {

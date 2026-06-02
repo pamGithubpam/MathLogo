@@ -77,7 +77,7 @@
              (click)="onThemeSelect(theme.name)">
           <div class="theme-preview">
             @for (image of theme.images.slice(0, 2); track image) {
-              <img [src]="'assets/images/themes/' + theme.name + '/' + image + '.svg'"
+              <img [src]="getThemeImagePath(theme.name, image)"
                    [alt]="image"
                    class="preview-image">
             }
@@ -97,7 +97,7 @@
             <div class="image-item"
                  [class.selected]="selectedImages().includes(image)"
                  (click)="toggleImage(image)">
-              <img [src]="'assets/images/themes/' + selectedTheme() + '/' + image + '.svg'" [alt]="image">
+              <img [src]="getThemeImagePath(selectedTheme(), image)" [alt]="image">
               <span>{{ image }}</span>
             </div>
           }

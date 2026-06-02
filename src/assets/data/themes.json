@@ -12,7 +12,13 @@
     },
     {
       "name": "Carnaval",
-      "images": ["mask", "balloon", "confetti", "clown", "parade"],
+      "images": [
+        "carnaval_1_bouffon.png",
+        "carnaval_2_tente.png",
+        "carnaval_3_masque.png",
+        "carnaval_4_defile.png",
+        "carnaval_5_affiche.png"
+      ],
       "feedback": { "correct": "correct", "wrong": "wrong" }
     },
     {

@@ -138,13 +138,17 @@ export class GameService {
     return this.currentCalculations().length;
   }
 
+  private toThemeImageFilename(imageName: string): string {
+    return imageName.includes('.') ? imageName : `${imageName}.svg`;
+  }
+
   getRandomRewardImage(): string | null {
     const config = this.gameConfig();
     const themeName = config?.theme;
     if (config?.rewardEnabled && themeName && config.selectedImages.length > 0) {
       const randomIndex = Math.floor(Math.random() * config.selectedImages.length);
       const imageName = config.selectedImages[randomIndex];
-      return `assets/images/themes/${themeName}/${imageName}.svg`;
+      return `assets/images/themes/${themeName}/${this.toThemeImageFilename(imageName)}`;
     }
     return null;
   }
@@ -162,7 +166,7 @@ export class GameService {
     const imageName = correct
       ? (theme.feedback?.correct ?? 'correct')
       : (theme.feedback?.wrong ?? 'wrong');
-    return `assets/images/themes/${themeName}/${imageName}.svg`;
+    return `assets/images/themes/${themeName}/${this.toThemeImageFilename(imageName)}`;
   }
 
   resetGame() {
