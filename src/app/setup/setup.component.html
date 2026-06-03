@@ -1,9 +1,17 @@
 <div class="setup-container">
   <h1>Configuration du Jeu</h1>
 
-  <div class="form-group">
-    <label>Nombre de calculs:</label>
-    <input type="number" [(ngModel)]="numberOfCalculations" min="1" max="50">
+  <div class="form-group inline-config-row">
+    <div class="config-item config-item-number">
+      <label for="numberOfCalculations">Nombre de calculs:</label>
+      <input id="numberOfCalculations" type="number" [(ngModel)]="numberOfCalculations" min="1" max="999">
+    </div>
+    <label class="config-item checkbox-item">
+      <input type="checkbox" [(ngModel)]="rewardEnabled"> Activer les récompenses
+    </label>
+    <label class="config-item checkbox-item">
+      <input type="checkbox" [(ngModel)]="showFinalScore"> Afficher le score final
+    </label>
   </div>
 
   <div class="form-group">
@@ -22,13 +30,10 @@
   </div>
 
   <div class="form-group">
-    <label>Catégories ({{ filteredCategories.length }} disponible(s)):</label>
-    <div class="categories-status">
-      <small>Chargées: {{ categories().length }} catégorie(s)</small>
-    </div>
+    <label>Catégories (Total: {{ totalPercent }}%, {{ filteredCategories.length }} disponible(s)):</label>
     <div class="categories-list">
       <select class="category-select" (change)="addCategory($event)">
-        <option value="">Ajouter une catégorie</option>
+        <option value="" disabled selected hidden>Ajouter une catégorie</option>
         @for (cat of filteredCategories; track cat.name) {
           <option [value]="cat.name">{{ cat.name }}</option>
         }
@@ -57,16 +62,7 @@
   </div>
 
   <div class="form-group">
-    <label>
-      <input type="checkbox" [(ngModel)]="rewardEnabled"> Activer les récompenses
-    </label>
-  </div>
-
-  <div class="form-group">
-    <label>Thème:</label>
-    <div class="themes-status">
-      <small>Chargés: {{ themes().length }} thème(s)</small>
-    </div>
+    <label>Choisir un thème:</label>
     <div class="themes-grid">
       @for (theme of themes(); track theme.name) {
         <div class="theme-card"
@@ -95,7 +91,6 @@
                  [class.selected]="selectedImages().includes(image)"
                  (click)="toggleImage(image)">
               <img [src]="getThemeImagePath(selectedTheme(), image)" [alt]="image">
-              <span>{{ image }}</span>
             </div>
           }
         </div>
@@ -106,11 +101,8 @@
   }
 
 
-  <div class="percentage-summary">
-    <span>Total: {{ totalPercent }}%</span>
-    @if (!percentageValid) {
-      <span class="error">Le total des pourcentages doit être de 100&nbsp;%.</span>
-    }
-  </div>
+  @if (!percentageValid) {
+    <div class="error">Le total des pourcentages doit être de 100&nbsp;%.</div>
+  }
   <button (click)="startGame()" [disabled]="selectedCategories().length === 0 || !percentageValid || !selectedTheme()">Commencer le Jeu</button>
 </div>

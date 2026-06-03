@@ -18,6 +18,7 @@ export class SetupComponent {
   selectedCategories = signal<{ name: string; percentage: number }[]>([]);
   numberOfCalculations = signal(10);
   rewardEnabled = signal(false);
+  showFinalScore = signal(true);
   selectedTheme = signal<string>('');
   selectedImages = signal<string[]>([]);
   selectedFeatures = signal<string[]>([]);
@@ -85,13 +86,15 @@ export class SetupComponent {
   }
 
   addCategory(event: Event) {
-    const value = (event.target as HTMLSelectElement).value;
+    const select = event.target as HTMLSelectElement;
+    const value = select.value;
     if (value && !this.selectedCategories().find((c) => c.name === value)) {
       this.selectedCategories.update((cats) => {
         const next = [...cats, { name: value, percentage: 0 }];
         return this.distributePercentages(next);
       });
     }
+    select.value = '';
   }
 
   removeCategory(name: string) {
@@ -151,6 +154,7 @@ export class SetupComponent {
       rewardEnabled: this.rewardEnabled(),
       theme: this.selectedTheme(),
       selectedImages: this.selectedImages(),
+      showFinalScore: this.showFinalScore(),
     };
     this.gameService.setGameConfig(config);
     this.router.navigate(['/game']);

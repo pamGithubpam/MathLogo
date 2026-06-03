@@ -76,9 +76,9 @@
                     "answer": "7",
                     "text": "28 : 4 = ..."
                 }],
-            "features": ["Calculs"],
+            "features": ["Divisions/multiplications","Calculs"],
             "image": "division",
-            "name": "Diviser"
+            "name": "Divisions | Calculs"
         }, {
             "calculations": [{
                     "answer": "26",
@@ -288,9 +288,9 @@
                     "answer": "95",
                     "text": "98 - 3 = ..."
                 }],
-            "features": ["DU +/- U", "Non lacunaire", "sans passage"],
+            "features": ["DU +/- U", "Non lacunaire", "Sans passage","Calculs"],
             "image": "--",
-            "name": "DU +/- U | Non lacunaire | Sans passage"
+            "name": "DU +/- U | Calculs | Non lacunaire | Sans passage "
         }, {
             "calculations": [{
                     "answer": "92",
@@ -382,6 +382,6 @@
                 }],
             "features": ["DU +/- U", " Non lacunaire", "Sans passage", "Situation problème"],
             "image": "multiplication",
-            "name": "DU +/- U | Non lacunaire | Sans passage | Situation problème"
+            "name": "DU +/- U | Situation problème | Non lacunaire | Sans passage "
         }]
 }

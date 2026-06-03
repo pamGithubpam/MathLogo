@@ -90,4 +90,8 @@ export class GameComponent implements OnInit {
   skip() {
     this.next();
   }
+
+  quitGame() {
+    this.router.navigate(['/setup']);
+  }
 }

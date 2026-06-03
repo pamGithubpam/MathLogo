@@ -1,14 +1,13 @@
 <div class="game-container">
+  <div class="game-header">
+    <button type="button" class="quit-button" (click)="quitGame()">Quitter</button>
+  </div>
   @if (currentCalculation(); as calc) {
     <h2>{{ calc.text }}</h2>
 
     @if (calc.answer) {
       <div class="keyboard-container">
         <div class="keyboard-row">
-          <div class="answer-box">
-            <input type="text" [value]="userAnswer()" placeholder="Votre réponse" readonly>
-            <button type="button" (click)="submitAnswer()">Valider</button>
-          </div>
           <div class="keypad-grid">
             <button type="button" (click)="addDigit('1')">1</button>
             <button type="button" (click)="addDigit('2')">2</button>
@@ -23,10 +22,14 @@
             <button type="button" (click)="addDigit('0')">0</button>
             <button type="button" (click)="clearAnswer()">C</button>
           </div>
-        </div>
-        <div class="feedback-panel" *ngIf="feedbackImage()">
-          <img [src]="feedbackImage()" [alt]="feedbackMessage()" />
-          <span>{{ feedbackMessage() }}</span>
+          <div class="answer-box">
+            <input type="text" [value]="userAnswer()" placeholder="Ta réponse" readonly>
+            <button type="button" (click)="submitAnswer()">Valider</button>
+            <div class="feedback-panel" *ngIf="feedbackImage()">
+              <img [src]="feedbackImage()" [alt]="feedbackMessage()" />
+              <span>{{ feedbackMessage() }}</span>
+            </div>
+          </div>
         </div>
       </div>
     } @else {

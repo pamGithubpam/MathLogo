@@ -26,6 +26,7 @@ export interface GameConfig {
   rewardEnabled: boolean;
   theme?: string;
   selectedImages: string[];
+  showFinalScore: boolean;
 }
 
 @Injectable({
@@ -138,6 +139,10 @@ export class GameService {
     return this.currentCalculations().length;
   }
 
+  showFinalScore(): boolean {
+    return this.gameConfig()?.showFinalScore ?? true;
+  }
+
   private toThemeImageFilename(imageName: string): string {
     return imageName.includes('.') ? imageName : `${imageName}.svg`;
   }
@@ -174,5 +179,11 @@ export class GameService {
     this.currentCalculations.set([]);
     this.currentIndex.set(0);
     this.score.set(0);
+  }
+
+  restartGameWithSameConfig() {
+    if (this.gameConfig()) {
+      this.generateCalculations();
+    }
   }
 }
