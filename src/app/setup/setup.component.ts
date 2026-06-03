@@ -140,14 +140,6 @@ export class SetupComponent {
     return `assets/images/themes/${themeName}/${filename}`;
   }
 
-  getCategoryImage(categoryName: string): string | null {
-    const category = this.categories().find((c) => c.name === categoryName);
-    if (category && category.image) {
-      return `assets/images/categories/${category.image}.svg`;
-    }
-    return null;
-  }
-
   startGame() {
     if (!this.percentageValid || this.selectedCategories().length === 0 || !this.selectedTheme()) {
       return;
