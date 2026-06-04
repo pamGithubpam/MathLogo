@@ -1,387 +1,1793 @@
 {
-    "categories": [{
-            "calculations": [{
-                    "answer": "24",
-                    "text": "... : 4 = 6"
-                }, {
-                    "answer": "25",
-                    "text": "125 : 5 = ..."
-                }, {
-                    "answer": "13",
-                    "text": "65 : 5 = ..."
-                }, {
-                    "answer": "3",
-                    "text": "27 : ... = 9"
-                }, {
-                    "answer": "4",
-                    "text": "32 : ... = 8"
-                }, {
-                    "answer": "24",
-                    "text": "72 : 3 = ..."
-                }, {
-                    "answer": "4",
-                    "text": "24 : 6 = ..."
-                }, {
-                    "answer": "130",
-                    "text": "260 : 2 = ..."
-                }, {
-                    "answer": "16",
-                    "text": "32 : 2 = ..."
-                }, {
-                    "answer": "12",
-                    "text": "48 : 4 = ..."
-                }, {
-                    "answer": "125",
-                    "text": "250 : 2 = ..."
-                }, {
-                    "answer": "12",
-                    "text": "36 : 3 = ..."
-                }, {
-                    "answer": "4",
-                    "text": "32 : 8 = ..."
-                }, {
-                    "answer": "6",
-                    "text": "36 : 6 = ..."
-                }, {
-                    "answer": "13",
-                    "text": "65 : 5 = ..."
-                }, {
-                    "answer": "16",
-                    "text": "32 : 2 = ..."
-                }, {
-                    "answer": "17",
-                    "text": "68 : 4 = ..."
-                }, {
-                    "answer": "6",
-                    "text": "42 : 7 = ..."
-                }, {
-                    "answer": "72",
-                    "text": "... : 8 = 9"
-                }, {
-                    "answer": "12",
-                    "text": "48 : 4 = ..."
-                }, {
-                    "answer": "9",
-                    "text": "45 : 5 = ..."
-                }, {
-                    "answer": "13",
-                    "text": "65 : 5 = ..."
-                }, {
-                    "answer": "28",
-                    "text": "56 : 2 = ..."
-                }, {
-                    "answer": "4",
-                    "text": "24 : ... = 6"
-                }, {
-                    "answer": "7",
-                    "text": "28 : 4 = ..."
-                }],
-            "features": ["Divisions/multiplications","Calculs"],
-            "image": "division",
-            "name": "Divisions | Calculs"
-        }, {
-            "calculations": [{
-                    "answer": "26",
-                    "text": "29 - 3 = ..."
-                }, {
-                    "answer": "43",
-                    "text": "47 - 4 = ..."
-                }, {
-                    "answer": "29",
-                    "text": "24 + 5 = ..."
-                }, {
-                    "answer": "94",
-                    "text": "97 - 3 = ..."
-                }, {
-                    "answer": "71",
-                    "text": "72 - 1 = ..."
-                }, {
-                    "answer": "53",
-                    "text": "57 - 4 = ..."
-                }, {
-                    "answer": "29",
-                    "text": "25 + 4 = ..."
-                }, {
-                    "answer": "84",
-                    "text": "89 - 5 = ..."
-                }, {
-                    "answer": "55",
-                    "text": "59 - 4 = ..."
-                }, {
-                    "answer": "26",
-                    "text": "29 - 3 = ..."
-                }, {
-                    "answer": "39",
-                    "text": "7 + 32 = ..."
-                }, {
-                    "answer": "38",
-                    "text": "35 + 3 = ..."
-                }, {
-                    "answer": "39",
-                    "text": "36 + 3 = ..."
-                }, {
-                    "answer": "29",
-                    "text": "24 + 5 = ..."
-                }, {
-                    "answer": "4",
-                    "text": "34 + ... = 38"
-                }, {
-                    "answer": "65",
-                    "text": "69 - 4 = ..."
-                }, {
-                    "answer": "58",
-                    "text": "52 + 6 = ..."
-                }, {
-                    "answer": "87",
-                    "text": "83 + 4 = ..."
-                }, {
-                    "answer": "42",
-                    "text": "49 - 7 = ..."
-                }, {
-                    "answer": "49",
-                    "text": "41 + 8 = ..."
-                }, {
-                    "answer": "28",
-                    "text": "... = 24 + 4"
-                }, {
-                    "answer": "29",
-                    "text": "23 + 6 = ..."
-                }, {
-                    "answer": "63",
-                    "text": "67 - 4 = ..."
-                }, {
-                    "answer": "26",
-                    "text": "23 + 6"
-                }, {
-                    "answer": "49",
-                    "text": "41 + 8 = ..."
-                }, {
-                    "answer": "4",
-                    "text": "72 + ... = 76"
-                }, {
-                    "answer": "42",
-                    "text": "49 - 7 = ..."
-                }, {
-                    "answer": "27",
-                    "text": "24 + 3 = ..."
-                }, {
-                    "answer": "23",
-                    "text": "20 + 3 = ..."
-                }, {
-                    "answer": "52",
-                    "text": "59 - 7 = ..."
-                }, {
-                    "answer": "6",
-                    "text": "9 - 3 = ..."
-                }, {
-                    "answer": "28",
-                    "text": "24 + 4 = ..."
-                }, {
-                    "answer": "37",
-                    "text": "31 + 6 = ..."
-                }, {
-                    "answer": "67",
-                    "text": "61 + 6 = ..."
-                }, {
-                    "answer": "57",
-                    "text": "52 + 5 = ..."
-                }, {
-                    "answer": "32",
-                    "text": "35 - 3 = ..."
-                }, {
-                    "answer": "42",
-                    "text": "48 - 6 = ..."
-                }, {
-                    "answer": "15",
-                    "text": "13 + 2 = ..."
-                }, {
-                    "answer": "46",
-                    "text": "44 + 2 = ..."
-                }, {
-                    "answer": "79",
-                    "text": "5 + 74 = ..."
-                }, {
-                    "answer": "27",
-                    "text": "21 + 6 = ..."
-                }, {
-                    "answer": "95",
-                    "text": "98 - 3 = ..."
-                }, {
-                    "answer": "39",
-                    "text": "32 + 7 = ..."
-                }, {
-                    "answer": "68",
-                    "text": "66 + 2 = ..."
-                }, {
-                    "answer": "79",
-                    "text": "74 + 5 = ..."
-                }, {
-                    "answer": "34",
-                    "text": "38 - 4 = ..."
-                }, {
-                    "answer": "16",
-                    "text": "18 - 2 = ..."
-                }, {
-                    "answer": "84",
-                    "text": "88 - 4 = ..."
-                }, {
-                    "answer": "87",
-                    "text": "81 + 6 = ..."
-                }, {
-                    "answer": "27",
-                    "text": "21 + 6 = ..."
-                }, {
-                    "answer": "27",
-                    "text": "23 + 4 = ..."
-                }, {
-                    "answer": "62",
-                    "text": "66 - 4 = ..."
-                }, {
-                    "answer": "18",
-                    "text": "14 + 4 = ..."
-                }, {
-                    "answer": "73",
-                    "text": "75 - 2 = ..."
-                }, {
-                    "answer": "65",
-                    "text": "68 - 3 = ..."
-                }, {
-                    "answer": "46",
-                    "text": "41 + 5=..."
-                }, {
-                    "answer": "66",
-                    "text": "63 + 3=..."
-                }, {
-                    "answer": "66",
-                    "text": "62 + 4=..."
-                }, {
-                    "answer": "60",
-                    "text": "53 + 7=..."
-                }, {
-                    "answer": "50",
-                    "text": "46 + 4=..."
-                }, {
-                    "answer": "40",
-                    "text": "36 + 4 = ..."
-                }, {
-                    "answer": "87",
-                    "text": "84 + 3 = ..."
-                }, {
-                    "answer": "48",
-                    "text": "41 + 7 = ..."
-                }, {
-                    "answer": "33",
-                    "text": "38 - 5 = ..."
-                }, {
-                    "answer": "37",
-                    "text": "31 + 6 = ..."
-                }, {
-                    "answer": "22",
-                    "text": "26 - 4 = ..."
-                }, {
-                    "answer": "76",
-                    "text": "72 + 4 = ..."
-                },{
-                    "answer": "78",
-                    "text": "75 + 3 = ..."
-                },{
-                    "answer": "95",
-                    "text": "98 - 3 = ..."
-                }],
-            "features": ["DU +/- U", "Non lacunaire", "Sans passage","Calculs"],
-            "image": "--",
-            "name": "DU +/- U | Calculs | Non lacunaire | Sans passage "
-        }, {
-            "calculations": [{
-                    "answer": "92",
-                    "text": "L'institutrice vient de ranger 86 crayons de couleur. 6 trainent encore sur une table. Combien l'institutrice possède-t-elle de crayons en tout ?"
-                }, {
-                    "answer": "32",
-                    "text": "Le fermier avait 36 poules. Il en vend 4. Combien en reste-t-il ?"
-                }, {
-                    "answer": "5",
-                    "text": "Maman a cuit 29 biscuits. Elle en mange quelques-uns, il lui en reste alors 24. Combien en a-t-elle mangé ?"
-                }, {
-                    "answer": "29",
-                    "text": "J'ai rangé 23 tasses et mon frère 6. Combien en a-t-on rangé en tout ?"
-                }, {
-                    "answer": "28",
-                    "text": "Ma sœur a déjà enfilé 23 perles. Elle en enfile 5 de plus. Combien en a-t-elle enfilé au total ?"
-                }, {
-                    "answer": "17",
-                    "text": "J'ai mangé 11 bonbons et mon frère 6. Combien en a-t-on mangé en tout ?"
-                }, {
-                    "answer": "13",
-                    "text": "J'avais 18 voitures et j'en ai donné 5 à mon frère. Combien m'en reste-t-il ?"
-                }, {
-                    "answer": "38",
-                    "text": "Papa plante 32 salades et 6 poireaux. Combien de légumes a-t-il plantés en tout ?"
-                }, {
-                    "answer": "3",
-                    "text": "Maman avait 34 biscuits. Elle en achète quelques-uns en plus, et en a maintenant 37. Combien en a-t-elle acheté en plus ?"
-                }, {
-                    "answer": "31",
-                    "text": "Mon frère possède 38 petites voitures. Il en a perdu 7 en jouant avec ses amis. Combien lui en reste-t-il ?"
-                }, {
-                    "answer": "29",
-                    "text": "Le boucher installe 25 saucisses et 4 brochettes dans son étalage. Combien de spécialités installe-t-il ?"
-                }, {
-                    "answer": "19",
-                    "text": "Je collectionne les serviettes. J'en ai 8 venant de Belgique, 7 de France et 4 d'Allemagne. Combien ai-je de serviettes ?"
-                }, {
-                    "answer": "4",
-                    "text": "Paul cuit 77 croissants. Il en donne quelques-uns à ses parents et il lui en reste 73. Combien en a-t-il donnés ?"
-                }, {
-                    "answer": "22",
-                    "text": "26 lapins sont nés à la ferme cette année. 4 sont déjà vendus. Combien sont toujours à la ferme ?"
-                }, {
-                    "answer": "59",
-                    "text": "Une bibliothèque a 52 livres dans la section aventures et 7 dans la section science-fiction. Combien de livres y a-t-il en tout ?"
-                }, {
-                    "answer": "28",
-                    "text": "Lors d'une fête, Paul a ramassé 22 ballons et Marie 6. Combien de ballons ont-ils ramassés ensemble ?"
-                }, {
-                    "answer": "22",
-                    "text": "L'institutrice a acheté 26 bics pour les élèves. 4 ne fonctionnent pas. Combien fonctionnent ?"
-                }, {
-                    "answer": "29",
-                    "text": "La boulangère installe 22 croissants, 3 pains au chocolat et 4 couques au beurre. Combien de viennoiseries a-t-elle installées ?"
-                }, {
-                    "answer": "42",
-                    "text": "Avant les vacances de Pâques, mon grand frère avait 46 euros dans sa tirelire. Il a acheté une petite voiture pour 4 euros. Combien reste-t-il d'argent dans sa tirelire ?"
-                }, {
-                    "answer": "19",
-                    "text": "Un boucher a vendu un rôti à 16 euros et une saucisse sèche à 3 euros. Combien d'argent a-t-il encaissé lors de cette vente ?"
-                }, {
-                    "answer": "34",
-                    "text": "J'ai compté 38 petits oiseaux posés sur les branches d'un arbre. 4 viennent de s'envoler. Combien d'oiseaux sont encore sur l'arbre ?"
-                }, {
-                    "answer": "62",
-                    "text": "Le boucher avait 67 brochettes. Un client en a acheté 5. Combien lui en reste-t-il ?"
-                }, {
-                    "answer": "28",
-                    "text": "Lors d'une fête, Paul a ramassé 22 ballons et Marie en a ramassé 6. Combien de ballons ont-ils ramassés ensemble ?"
-                }, {
-                    "answer": "18",
-                    "text": "Maman cuit 12 tartelettes et en achète 6 de plus pour les invités. Combien y a-t-il de tartelettes au total ?"
-                }, {
-                    "answer": "72",
-                    "text": "Emma avait 77 livres dans sa bibliothèque. Elle en a donné 5 à sa cousine. Combien de livres lui reste-t-il ?"
-                }, {
-                    "answer": "13",
-                    "text": "J'avais 18 voitures et j'en ai donné 5 à mon frère. Combien m'en reste-t-il ?"
-                }, {
-                    "answer": "17",
-                    "text": "J'ai mangé 11 bonbons et mon frère 6. Combien en a-t-on mangé en tout ?"
-                }, {
-                    "answer": "27",
-                    "text": "Ma sœur a déjà enfilé 21 perles. Elle en enfile 6 de plus. Combien en a-t-elle enfilé au total ?"
-                }, {
-                    "answer": "18",
-                    "text": "Papa plante 12 salades et 6 poireaux. Combien de légumes a-t-il plantés en tout ?"
-                }],
-            "features": ["DU +/- U", " Non lacunaire", "Sans passage", "Situation problème"],
-            "image": "multiplication",
-            "name": "DU +/- U | Situation problème | Non lacunaire | Sans passage "
-        }]
+	"categories": [
+		{
+			"calculations": [
+				{
+					"answer": "24",
+					"text": "... : 4 = 6"
+				},
+				{
+					"answer": "25",
+					"text": "125 : 5 = ..."
+				},
+				{
+					"answer": "13",
+					"text": "65 : 5 = ..."
+				},
+				{
+					"answer": "3",
+					"text": "27 : ... = 9"
+				},
+				{
+					"answer": "4",
+					"text": "32 : ... = 8"
+				},
+				{
+					"answer": "24",
+					"text": "72 : 3 = ..."
+				},
+				{
+					"answer": "4",
+					"text": "24 : 6 = ..."
+				},
+				{
+					"answer": "130",
+					"text": "260 : 2 = ..."
+				},
+				{
+					"answer": "16",
+					"text": "32 : 2 = ..."
+				},
+				{
+					"answer": "12",
+					"text": "48 : 4 = ..."
+				},
+				{
+					"answer": "125",
+					"text": "250 : 2 = ..."
+				},
+				{
+					"answer": "12",
+					"text": "36 : 3 = ..."
+				},
+				{
+					"answer": "4",
+					"text": "32 : 8 = ..."
+				},
+				{
+					"answer": "6",
+					"text": "36 : 6 = ..."
+				},
+				{
+					"answer": "13",
+					"text": "65 : 5 = ..."
+				},
+				{
+					"answer": "16",
+					"text": "32 : 2 = ..."
+				},
+				{
+					"answer": "17",
+					"text": "68 : 4 = ..."
+				},
+				{
+					"answer": "6",
+					"text": "42 : 7 = ..."
+				},
+				{
+					"answer": "72",
+					"text": "... : 8 = 9"
+				},
+				{
+					"answer": "12",
+					"text": "48 : 4 = ..."
+				},
+				{
+					"answer": "9",
+					"text": "45 : 5 = ..."
+				},
+				{
+					"answer": "13",
+					"text": "65 : 5 = ..."
+				},
+				{
+					"answer": "28",
+					"text": "56 : 2 = ..."
+				},
+				{
+					"answer": "4",
+					"text": "24 : ... = 6"
+				},
+				{
+					"answer": "7",
+					"text": "28 : 4 = ..."
+				}
+			],
+			"features": [
+				"Divisions/multiplications",
+				"Calculs"
+			],
+			"image": "division",
+			"name": "Divisions | Calculs"
+		},
+		{
+			"calculations": [
+				{
+					"answer": "26",
+					"text": "29 - 3 = ..."
+				},
+				{
+					"answer": "43",
+					"text": "47 - 4 = ..."
+				},
+				{
+					"answer": "29",
+					"text": "24 + 5 = ..."
+				},
+				{
+					"answer": "94",
+					"text": "97 - 3 = ..."
+				},
+				{
+					"answer": "71",
+					"text": "72 - 1 = ..."
+				},
+				{
+					"answer": "53",
+					"text": "57 - 4 = ..."
+				},
+				{
+					"answer": "29",
+					"text": "25 + 4 = ..."
+				},
+				{
+					"answer": "84",
+					"text": "89 - 5 = ..."
+				},
+				{
+					"answer": "55",
+					"text": "59 - 4 = ..."
+				},
+				{
+					"answer": "26",
+					"text": "29 - 3 = ..."
+				},
+				{
+					"answer": "39",
+					"text": "7 + 32 = ..."
+				},
+				{
+					"answer": "38",
+					"text": "35 + 3 = ..."
+				},
+				{
+					"answer": "39",
+					"text": "36 + 3 = ..."
+				},
+				{
+					"answer": "29",
+					"text": "24 + 5 = ..."
+				},
+				{
+					"answer": "4",
+					"text": "34 + ... = 38"
+				},
+				{
+					"answer": "65",
+					"text": "69 - 4 = ..."
+				},
+				{
+					"answer": "58",
+					"text": "52 + 6 = ..."
+				},
+				{
+					"answer": "87",
+					"text": "83 + 4 = ..."
+				},
+				{
+					"answer": "42",
+					"text": "49 - 7 = ..."
+				},
+				{
+					"answer": "49",
+					"text": "41 + 8 = ..."
+				},
+				{
+					"answer": "28",
+					"text": "... = 24 + 4"
+				},
+				{
+					"answer": "29",
+					"text": "23 + 6 = ..."
+				},
+				{
+					"answer": "63",
+					"text": "67 - 4 = ..."
+				},
+				{
+					"answer": "26",
+					"text": "23 + 6"
+				},
+				{
+					"answer": "49",
+					"text": "41 + 8 = ..."
+				},
+				{
+					"answer": "4",
+					"text": "72 + ... = 76"
+				},
+				{
+					"answer": "42",
+					"text": "49 - 7 = ..."
+				},
+				{
+					"answer": "27",
+					"text": "24 + 3 = ..."
+				},
+				{
+					"answer": "23",
+					"text": "20 + 3 = ..."
+				},
+				{
+					"answer": "52",
+					"text": "59 - 7 = ..."
+				},
+				{
+					"answer": "6",
+					"text": "9 - 3 = ..."
+				},
+				{
+					"answer": "28",
+					"text": "24 + 4 = ..."
+				},
+				{
+					"answer": "37",
+					"text": "31 + 6 = ..."
+				},
+				{
+					"answer": "67",
+					"text": "61 + 6 = ..."
+				},
+				{
+					"answer": "57",
+					"text": "52 + 5 = ..."
+				},
+				{
+					"answer": "32",
+					"text": "35 - 3 = ..."
+				},
+				{
+					"answer": "42",
+					"text": "48 - 6 = ..."
+				},
+				{
+					"answer": "15",
+					"text": "13 + 2 = ..."
+				},
+				{
+					"answer": "46",
+					"text": "44 + 2 = ..."
+				},
+				{
+					"answer": "79",
+					"text": "5 + 74 = ..."
+				},
+				{
+					"answer": "27",
+					"text": "21 + 6 = ..."
+				},
+				{
+					"answer": "95",
+					"text": "98 - 3 = ..."
+				},
+				{
+					"answer": "39",
+					"text": "32 + 7 = ..."
+				},
+				{
+					"answer": "68",
+					"text": "66 + 2 = ..."
+				},
+				{
+					"answer": "79",
+					"text": "74 + 5 = ..."
+				},
+				{
+					"answer": "34",
+					"text": "38 - 4 = ..."
+				},
+				{
+					"answer": "16",
+					"text": "18 - 2 = ..."
+				},
+				{
+					"answer": "84",
+					"text": "88 - 4 = ..."
+				},
+				{
+					"answer": "87",
+					"text": "81 + 6 = ..."
+				},
+				{
+					"answer": "27",
+					"text": "21 + 6 = ..."
+				},
+				{
+					"answer": "27",
+					"text": "23 + 4 = ..."
+				},
+				{
+					"answer": "62",
+					"text": "66 - 4 = ..."
+				},
+				{
+					"answer": "18",
+					"text": "14 + 4 = ..."
+				},
+				{
+					"answer": "73",
+					"text": "75 - 2 = ..."
+				},
+				{
+					"answer": "65",
+					"text": "68 - 3 = ..."
+				},
+				{
+					"answer": "46",
+					"text": "41 + 5=..."
+				},
+				{
+					"answer": "66",
+					"text": "63 + 3=..."
+				},
+				{
+					"answer": "66",
+					"text": "62 + 4=..."
+				},
+				{
+					"answer": "60",
+					"text": "53 + 7=..."
+				},
+				{
+					"answer": "50",
+					"text": "46 + 4=..."
+				},
+				{
+					"answer": "40",
+					"text": "36 + 4 = ..."
+				},
+				{
+					"answer": "87",
+					"text": "84 + 3 = ..."
+				},
+				{
+					"answer": "48",
+					"text": "41 + 7 = ..."
+				},
+				{
+					"answer": "33",
+					"text": "38 - 5 = ..."
+				},
+				{
+					"answer": "37",
+					"text": "31 + 6 = ..."
+				},
+				{
+					"answer": "22",
+					"text": "26 - 4 = ..."
+				},
+				{
+					"answer": "76",
+					"text": "72 + 4 = ..."
+				},
+				{
+					"answer": "78",
+					"text": "75 + 3 = ..."
+				},
+				{
+					"answer": "95",
+					"text": "98 - 3 = ..."
+				}
+			],
+			"features": [
+				"DU +/- U",
+				"Non lacunaire",
+				"Sans passage",
+				"Calculs"
+			],
+			"image": "--",
+			"name": "DU +/- U | Calculs | Non lacunaire | Sans passage "
+		},
+		{
+			"calculations": [
+				{
+					"answer": "92",
+					"text": "L'institutrice vient de ranger 86 crayons de couleur. 6 trainent encore sur une table. Combien l'institutrice possède-t-elle de crayons en tout ?"
+				},
+				{
+					"answer": "32",
+					"text": "Le fermier avait 36 poules. Il en vend 4. Combien en reste-t-il ?"
+				},
+				{
+					"answer": "5",
+					"text": "Maman a cuit 29 biscuits. Elle en mange quelques-uns, il lui en reste alors 24. Combien en a-t-elle mangé ?"
+				},
+				{
+					"answer": "29",
+					"text": "J'ai rangé 23 tasses et mon frère 6. Combien en a-t-on rangé en tout ?"
+				},
+				{
+					"answer": "28",
+					"text": "Ma sœur a déjà enfilé 23 perles. Elle en enfile 5 de plus. Combien en a-t-elle enfilé au total ?"
+				},
+				{
+					"answer": "17",
+					"text": "J'ai mangé 11 bonbons et mon frère 6. Combien en a-t-on mangé en tout ?"
+				},
+				{
+					"answer": "13",
+					"text": "J'avais 18 voitures et j'en ai donné 5 à mon frère. Combien m'en reste-t-il ?"
+				},
+				{
+					"answer": "38",
+					"text": "Papa plante 32 salades et 6 poireaux. Combien de légumes a-t-il plantés en tout ?"
+				},
+				{
+					"answer": "3",
+					"text": "Maman avait 34 biscuits. Elle en achète quelques-uns en plus, et en a maintenant 37. Combien en a-t-elle acheté en plus ?"
+				},
+				{
+					"answer": "31",
+					"text": "Mon frère possède 38 petites voitures. Il en a perdu 7 en jouant avec ses amis. Combien lui en reste-t-il ?"
+				},
+				{
+					"answer": "29",
+					"text": "Le boucher installe 25 saucisses et 4 brochettes dans son étalage. Combien de spécialités installe-t-il ?"
+				},
+				{
+					"answer": "19",
+					"text": "Je collectionne les serviettes. J'en ai 8 venant de Belgique, 7 de France et 4 d'Allemagne. Combien ai-je de serviettes ?"
+				},
+				{
+					"answer": "4",
+					"text": "Paul cuit 77 croissants. Il en donne quelques-uns à ses parents et il lui en reste 73. Combien en a-t-il donnés ?"
+				},
+				{
+					"answer": "22",
+					"text": "26 lapins sont nés à la ferme cette année. 4 sont déjà vendus. Combien sont toujours à la ferme ?"
+				},
+				{
+					"answer": "59",
+					"text": "Une bibliothèque a 52 livres dans la section aventures et 7 dans la section science-fiction. Combien de livres y a-t-il en tout ?"
+				},
+				{
+					"answer": "28",
+					"text": "Lors d'une fête, Paul a ramassé 22 ballons et Marie 6. Combien de ballons ont-ils ramassés ensemble ?"
+				},
+				{
+					"answer": "22",
+					"text": "L'institutrice a acheté 26 bics pour les élèves. 4 ne fonctionnent pas. Combien fonctionnent ?"
+				},
+				{
+					"answer": "29",
+					"text": "La boulangère installe 22 croissants, 3 pains au chocolat et 4 couques au beurre. Combien de viennoiseries a-t-elle installées ?"
+				},
+				{
+					"answer": "42",
+					"text": "Avant les vacances de Pâques, mon grand frère avait 46 euros dans sa tirelire. Il a acheté une petite voiture pour 4 euros. Combien reste-t-il d'argent dans sa tirelire ?"
+				},
+				{
+					"answer": "19",
+					"text": "Un boucher a vendu un rôti à 16 euros et une saucisse sèche à 3 euros. Combien d'argent a-t-il encaissé lors de cette vente ?"
+				},
+				{
+					"answer": "34",
+					"text": "J'ai compté 38 petits oiseaux posés sur les branches d'un arbre. 4 viennent de s'envoler. Combien d'oiseaux sont encore sur l'arbre ?"
+				},
+				{
+					"answer": "62",
+					"text": "Le boucher avait 67 brochettes. Un client en a acheté 5. Combien lui en reste-t-il ?"
+				},
+				{
+					"answer": "28",
+					"text": "Lors d'une fête, Paul a ramassé 22 ballons et Marie en a ramassé 6. Combien de ballons ont-ils ramassés ensemble ?"
+				},
+				{
+					"answer": "18",
+					"text": "Maman cuit 12 tartelettes et en achète 6 de plus pour les invités. Combien y a-t-il de tartelettes au total ?"
+				},
+				{
+					"answer": "72",
+					"text": "Emma avait 77 livres dans sa bibliothèque. Elle en a donné 5 à sa cousine. Combien de livres lui reste-t-il ?"
+				},
+				{
+					"answer": "13",
+					"text": "J'avais 18 voitures et j'en ai donné 5 à mon frère. Combien m'en reste-t-il ?"
+				},
+				{
+					"answer": "17",
+					"text": "J'ai mangé 11 bonbons et mon frère 6. Combien en a-t-on mangé en tout ?"
+				},
+				{
+					"answer": "27",
+					"text": "Ma sœur a déjà enfilé 21 perles. Elle en enfile 6 de plus. Combien en a-t-elle enfilé au total ?"
+				},
+				{
+					"answer": "18",
+					"text": "Papa plante 12 salades et 6 poireaux. Combien de légumes a-t-il plantés en tout ?"
+				}
+			],
+			"features": [
+				"DU +/- U",
+				"Non lacunaire",
+				"Sans passage",
+				"Situation problème"
+			],
+			"image": "multiplication",
+			"name": "DU +/- U | Situation problème | Non lacunaire | Sans passage "
+		},
+		{
+			"calculations": [
+				{
+					"answer": "58",
+					"text": "Sophie achète 34 pommes et 24 oranges au marché. Combien de fruits a-t-elle acheté en tout ?"
+				},
+				{
+					"answer": "79",
+					"text": "Lors d'une fête, Paul a ramassé 46 ballons et Marie en a ramassé 33. Combien de ballons ont-ils ramassé ensemble ?"
+				},
+				{
+					"answer": "42",
+					"text": "Dans une classe, il y avait 87 élèves présents le matin. 45 élèves partent en sortie scolaire. Combien d'élèves restent dans la classe ?"
+				},
+				{
+					"answer": "22",
+					"text": "Emma avait 56 livres dans sa bibliothèque. Elle en a donné 34 à sa cousine. Combien de livres lui reste-t-il ?"
+				},
+				{
+					"answer": "23",
+					"text": "L'institutrice achète 68 pommes pour faire de la compote avec ses élèves. Les enfants en ont pelé 45. Combien en reste-t-il ?"
+				},
+				{
+					"answer": "82",
+					"text": "Max possède un sac de billes. Il en a 37 et son copain lui donne 45. Combien Max a de billes en tout ?"
+				},
+				{
+					"answer": "46",
+					"text": "Camille avait 78 autocollants dans sa collection. Elle en offre 32 à sa sœur. Combien d'autocollants lui reste-t-il ?"
+				},
+				{
+					"answer": "22",
+					"text": "Le fermier a 37 cochons. Il en vend 15. Combien lui en reste-t-il ?"
+				},
+				{
+					"answer": "42",
+					"text": "Le prix d'un jouet était de 65 €. Pendant une promotion, le prix a été réduit de 23 €. Quel est le nouveau prix du jouet ?"
+				},
+				{
+					"answer": "12",
+					"text": "Le fermier avait 24 poules, le renard en a mangé 12. Combien reste-t-il de poules ?"
+				},
+				{
+					"answer": "33",
+					"text": "Le boulanger a cuit 56 pains, il en vend 23, combien lui en reste-t-il ?"
+				},
+				{
+					"answer": "79",
+					"text": "Tom a 56 cartes à jouer. Il en trouve 23 supplémentaires sous son lit. Combien de cartes a Tom maintenant ?"
+				},
+				{
+					"answer": "57",
+					"text": "Je bricole un joli collier avec 23 perles. Pour le terminer, Julie me donne 34 perles supplémentaires. Combien y a-t-il de perles sur mon collier fini ?"
+				},
+				{
+					"answer": "79",
+					"text": "Mia a planté 58 bulbes de jacinthes et 21 de tulipes. Combien de fleurs vont pousser ?"
+				},
+				{
+					"answer": "87",
+					"text": "Emma possède 62 perles pour fabriquer des colliers. Elle en achète 25 de plus. Combien de perles Emma a-t-elle au total ?"
+				},
+				{
+					"answer": "57",
+					"text": "Le fermier a 23 poules. Il en achète 34 de plus. Combien en a-t-il en tout ?"
+				},
+				{
+					"answer": "42",
+					"text": "Pour le déjeuner de Saint Nicolas, maman achète 14 croissants et 28 pains au chocolat. Combien de viennoiseries a-t-elle achetées ?"
+				},
+				{
+					"answer": "53",
+					"text": "Un magasin avait 98 jouets en stock. Il en vend 45 en une journée. Combien de jouets lui reste-t-il ?"
+				},
+				{
+					"answer": "12",
+					"text": "Le fermier avait 24 poules, le renard en a mangé 12. Combien reste-t-il de poules ?"
+				}
+			],
+			"features": [
+				"DU +/- DU",
+				"Non lacunaire",
+				"Sans passage",
+				"Situation problème"
+			],
+			"image": "",
+			"name": "DU +/- DU | Situation problème | Non lacunaire | Sans passage "
+		},
+		{
+			"calculations": [
+				{
+					"answer": "58",
+					"text": "45 + 13 = ..."
+				},
+				{
+					"answer": "66",
+					"text": "42 + 24 = ..."
+				},
+				{
+					"answer": "42",
+					"text": "54 - 12 = ..."
+				},
+				{
+					"answer": "11",
+					"text": "42 - 31 = ..."
+				},
+				{
+					"answer": "35",
+					"text": "67 - 32 = ..."
+				},
+				{
+					"answer": "23",
+					"text": "56 - 33 = ..."
+				},
+				{
+					"answer": "97",
+					"text": "73 + 24 = ..."
+				},
+				{
+					"answer": "26",
+					"text": "14 + 12 = ..."
+				},
+				{
+					"answer": "75",
+					"text": "31 + 44 = ..."
+				},
+				{
+					"answer": "59",
+					"text": "35 + 24 = ..."
+				},
+				{
+					"answer": "57",
+					"text": "22 + 35 = ..."
+				},
+				{
+					"answer": "89",
+					"text": "51 + 38 = ..."
+				},
+				{
+					"answer": "46",
+					"text": "24 + 22 = ..."
+				},
+				{
+					"answer": "56",
+					"text": "41 + 15 = ..."
+				},
+				{
+					"answer": "69",
+					"text": "24 + 45 = ..."
+				},
+				{
+					"answer": "88",
+					"text": "72 + 16 = ..."
+				},
+				{
+					"answer": "25",
+					"text": "49 - 24 = ..."
+				},
+				{
+					"answer": "25",
+					"text": "49 - 24 = ..."
+				},
+				{
+					"answer": "75",
+					"text": "42 + 33 = ..."
+				},
+				{
+					"answer": "78",
+					"text": "55 + 23 = ..."
+				},
+				{
+					"answer": "71",
+					"text": "34 + 37 = ..."
+				},
+				{
+					"answer": "69",
+					"text": "47 + 22 = ..."
+				},
+				{
+					"answer": "36",
+					"text": "68 - 32 = ..."
+				},
+				{
+					"answer": "35",
+					"text": "23 + 12 = ..."
+				},
+				{
+					"answer": "96",
+					"text": "65 + 31 = ..."
+				},
+				{
+					"answer": "76",
+					"text": "41 + 35 = ..."
+				},
+				{
+					"answer": "69",
+					"text": "26 + 43 = ..."
+				}
+			],
+			"features": [
+				"DU +/- DU",
+				"Non lacunaire",
+				"Sans passage",
+				"Calculs"
+			],
+			"image": "",
+			"name": "DU +/- DU | Calculs | Non lacunaire | Sans passage "
+		},
+		{
+			"calculations": [
+				{
+					"answer": "192",
+					"text": "568 kilos de grain ont été livrés pour nourrir les poules d'un élevage. 376 seulement ont déjà été utilisés. Combien de kilos de grain restent encore dans la réserve ?"
+				},
+				{
+					"answer": "798",
+					"text": "Un magasin vend 326 articles en janvier et 472 articles en février. Combien d'articles ont-ils été vendus au total sur ces deux mois ?"
+				},
+				{
+					"answer": "147",
+					"text": "Le boulanger a cuit 273 pains cette semaine et en a déjà vendu 126. Combien en reste-t-il à vendre ?"
+				},
+				{
+					"answer": "221",
+					"text": "Une usine produit 752 unités en mai et seulement 531 unités en juin de la même année. Quelle est la différence de production entre les deux mois ?"
+				},
+				{
+					"answer": "449",
+					"text": "874 kilos de poisson ont été livrés pour nourrir les otaries. 425 seulement ont déjà été utilisés. Combien de kilos reste-t-il encore dans la réserve ?"
+				},
+				{
+					"answer": "725",
+					"text": "Le facteur a distribué 487 dans la rue du Trieu et 238 dans la rue de Gourdine. Combien en a-t-il distribué en tout ?"
+				},
+				{
+					"answer": "643",
+					"text": "Le fermier du village a 354 poules dans son élevage. Son fils a lui aussi un élevage de 289 poulets. Combien ont-ils de volatiles à eux deux ?"
+				},
+				{
+					"answer": "147",
+					"text": "Le boulanger a cuit 273 pains cette semaine et en a déjà vendu 126. Combien en reste-t-il à vendre ?"
+				},
+				{
+					"answer": "861",
+					"text": "Un magasin a vendu 369 jouets le lundi et 492 jouets le mardi. Combien de jouets ont été vendus au total sur ces deux jours ?"
+				},
+				{
+					"answer": "460",
+					"text": "Pour la fête de l'école, les instituteurs ont préparé 268 pains saucisses et 192 pains brochettes. Combien de pains seront-ils à vendre en tout lors de la fête ?"
+				},
+				{
+					"answer": "46",
+					"text": "Émilie avait 691 euros dans son compte bancaire. Après avoir payé son loyer de 645 euros, combien d'argent lui reste-t-il ?"
+				},
+				{
+					"answer": "247",
+					"text": "Lucie avait 734 perles. Elle en utilise 487 pour faire un collier. Combien de perles lui reste-t-il ?"
+				},
+				{
+					"answer": "625",
+					"text": "Le facteur a distribué 487 dans la rue du Trieu et 138 dans la rue de Gourdine. Combien en a-t-il distribué en tout ?"
+				},
+				{
+					"answer": "1021",
+					"text": "Un libraire a vendu 582 livres le matin et 439 livres l'après-midi. Combien de livres a-t-il vendu en tout dans la journée ?"
+				}
+			],
+			"features": [
+				"CDU +/- CDU",
+				"Non lacunaire",
+				"Situation problème"
+			],
+			"image": "",
+			"name": "CDU +/- CDU | Situation problème | Non lacunaire"
+		},
+		{
+			"calculations": [
+				{
+					"answer": "414",
+					"text": "539 - 125 = ..."
+				},
+				{
+					"answer": "454",
+					"text": "256 + 198 = ..."
+				},
+				{
+					"answer": "472",
+					"text": "756 - 284 = ..."
+				},
+				{
+					"answer": "533",
+					"text": "771 - 238 = ..."
+				},
+				{
+					"answer": "326",
+					"text": "455 - 129 = ..."
+				},
+				{
+					"answer": "598",
+					"text": "357 + 241 = ..."
+				},
+				{
+					"answer": "-46",
+					"text": "266 - 312 = ..."
+				},
+				{
+					"answer": "584",
+					"text": "455 + 129 = ..."
+				},
+				{
+					"answer": "237",
+					"text": "375 - 138 = ..."
+				},
+				{
+					"answer": "824",
+					"text": "285 + 539 = ..."
+				}
+			],
+			"features": [
+				"CDU +/- CDU",
+				"Non lacunaire",
+				"Calculs"
+			],
+			"image": "",
+			"name": "CDU +/- CDU | Calculs | Non lacunaire"
+		},
+		{
+			"calculations": [
+				{
+					"answer": "321",
+					"text": "348 - 27 = ..."
+				},
+				{
+					"answer": "107",
+					"text": "136 - 29 = ..."
+				},
+				{
+					"answer": "696",
+					"text": "719 - 23 = ..."
+				},
+				{
+					"answer": "183",
+					"text": "146 + 37 = ..."
+				},
+				{
+					"answer": "528",
+					"text": "567 - 39 = ..."
+				},
+				{
+					"answer": "662",
+					"text": "635 + 27 = ..."
+				},
+				{
+					"answer": "204",
+					"text": "241 - 37 = ..."
+				},
+				{
+					"answer": "393",
+					"text": "355 + 38 = ..."
+				},
+				{
+					"answer": "396",
+					"text": "375 + 21 = ..."
+				},
+				{
+					"answer": "253",
+					"text": "235 + 18 = ..."
+				},
+				{
+					"answer": "529",
+					"text": "571 - 42 = ..."
+				}
+			],
+			"features": [
+				"CDU +/- DU",
+				"Non lacunaire",
+				"Calculs"
+			],
+			"image": "",
+			"name": "CDU +/- DU | Calculs | Non lacunaire"
+		},
+		{
+			"calculations": [
+				{
+					"answer": "6",
+					"text": "27 - ... = 21"
+				},
+				{
+					"answer": "4",
+					"text": "33 + ... = 37"
+				},
+				{
+					"answer": "4",
+					"text": "33 + ... = 37"
+				},
+				{
+					"answer": "5",
+					"text": "44 + ... = 49"
+				},
+				{
+					"answer": "6",
+					"text": "23 + ... = 29"
+				},
+				{
+					"answer": "4",
+					"text": "83 + ... = 87"
+				},
+				{
+					"answer": "3",
+					"text": "43 + ... = 46"
+				},
+				{
+					"answer": "4",
+					"text": "33 + ... = 37"
+				},
+				{
+					"answer": "5",
+					"text": "42 + ... = 47"
+				},
+				{
+					"answer": "7",
+					"text": "71 + ... = 78"
+				},
+				{
+					"answer": "6",
+					"text": "52 + ... = 58"
+				},
+				{
+					"answer": "6",
+					"text": "32 + ... = 38"
+				},
+				{
+					"answer": "7",
+					"text": "72 + ... = 79"
+				},
+				{
+					"answer": "5",
+					"text": "39 - ... = 34"
+				},
+				{
+					"answer": "6",
+					"text": "67 - ... = 61"
+				},
+				{
+					"answer": "3",
+					"text": "57 + ... = 60"
+				},
+				{
+					"answer": "2",
+					"text": "21 + ... = 23"
+				},
+				{
+					"answer": "7",
+					"text": "58 - ... = 51"
+				},
+				{
+					"answer": "3",
+					"text": "87 - ... = 84"
+				},
+				{
+					"answer": "3",
+					"text": "26 + ... = 29"
+				},
+				{
+					"answer": "6",
+					"text": "38 - ... = 32"
+				},
+				{
+					"answer": "3",
+					"text": "46 + ... = 49"
+				},
+				{
+					"answer": "6",
+					"text": "33 + ... = 39"
+				},
+				{
+					"answer": "5",
+					"text": "21 + ... = 26"
+				},
+				{
+					"answer": "7",
+					"text": "41 + ... = 48"
+				},
+				{
+					"answer": "6",
+					"text": "69 - ... = 63"
+				},
+				{
+					"answer": "4",
+					"text": "38 - ... = 34"
+				},
+				{
+					"answer": "8",
+					"text": "11 + ... = 19"
+				},
+				{
+					"answer": "5",
+					"text": "83 + ... = 88"
+				},
+				{
+					"answer": "5",
+					"text": "56 - ... = 51"
+				},
+				{
+					"answer": "4",
+					"text": "85 - ... = 81"
+				},
+				{
+					"answer": "3",
+					"text": "36 = 39 - ..."
+				},
+				{
+					"answer": "4",
+					"text": "17 = 13 + ..."
+				},
+				{
+					"answer": "3",
+					"text": "35 - ... = 32"
+				}
+			],
+			"features": [
+				"DU +/- U",
+				"Lacunaire",
+				"Sans passage",
+				"Calculs"
+			],
+			"image": "",
+			"name": "DU +/- U | Calculs | Lacunaire | Sans passage"
+		},
+		{
+			"calculations": [
+				{
+					"answer": "6",
+					"text": "73 ballons sont déjà gonflés pour garnir une salle de fête. 79 doivent être gonflés en tout. Combien dois-je encore en gonfler ?"
+				},
+				{
+					"answer": "3",
+					"text": "Un grand-père collectionne des playmobils pour ses petits enfants. Il en a déjà 56, il en veut 59. Combien lui en faut-il encore ?"
+				},
+				{
+					"answer": "7",
+					"text": "Lila avait 42 autocollants dans son carnet. Elle en reçoit quelques-uns en plus et maintenant elle en a 49. Combien d'autocollants a-t-elle reçus ?"
+				},
+				{
+					"answer": "6",
+					"text": "Le magasin distribue des petits bonhommes à collectionner. J'en ai déjà 34, la collection complète est de 40 bonhommes. Combien m'en faut-il encore pour terminer ma collection ?"
+				},
+				{
+					"answer": "5",
+					"text": "62 piquets sont déjà plantés pour construire une clôture. 67 doivent être plantés en tout. Combien dois-je encore en planter ?"
+				},
+				{
+					"answer": "6",
+					"text": "Léa va au marché. Elle achète des fruits pour 23 euros et quelques légumes. Elle paie en tout 29 euros. Combien a-t-elle payé ses légumes ?"
+				},
+				{
+					"answer": "5",
+					"text": "Dans une école, il y a 87 élèves normalement. 82 seulement sont présents ce matin. Combien d'élèves sont absents ?"
+				},
+				{
+					"answer": "50",
+					"text": "Papa mange un plat à 28 euros. Après avoir payé, le serveur lui rend 22 euros. Combien d'argent papa a-t-il donné au serveur pour payer ?"
+				},
+				{
+					"answer": "5",
+					"text": "L'institutrice avait 47 crayons. Elle en donne quelques-uns à Lucie pour colorier. Il lui en reste 42. Combien en a-t-elle donné à Lucie ?"
+				},
+				{
+					"answer": "7",
+					"text": "Pour la kermesse de l'école, le directeur a acheté 69 bonbons. Il en restait 62 après mon passage. Combien de bonbons ai-je mangé ?"
+				},
+				{
+					"answer": "68",
+					"text": "J'ai bricolé 61 cartes de Noël pour vendre lors du marché de Noël du village. Je compte encore en faire 7 de plus ce soir. Combien en aurais-je en tout ?"
+				},
+				{
+					"answer": "5",
+					"text": "Maman a cuit 29 biscuits. Elle en mange quelques-uns, il lui en reste alors 24. Combien en a-t-elle mangé ?"
+				},
+				{
+					"answer": "6",
+					"text": "L'instituteur a acheté 48 livres pour offrir à ses élèves. 42 élèves ont déjà reçu leurs livres. Combien d'élèves doivent encore recevoir les leurs ?"
+				},
+				{
+					"answer": "4",
+					"text": "Paul cuit 77 croissants. Il en donne quelques-uns à ses parents et il lui en reste 73. Combien en a-t-il donnés ?"
+				}
+			],
+			"features": [
+				"DU +/- U",
+				"Lacunaire",
+				"Sans passage",
+				"Situation problème"
+			],
+			"image": "",
+			"name": "DU +/- U | Situation problème | Lacunaire | Sans passage"
+		},
+		{
+			"calculations": [
+				{
+					"answer": "24",
+					"text": "6 + 18 = ..."
+				},
+				{
+					"answer": "77",
+					"text": "82 - 5 = ..."
+				},
+				{
+					"answer": "73",
+					"text": "68 + 5 = ..."
+				},
+				{
+					"answer": "63",
+					"text": "54 + 9 = ..."
+				},
+				{
+					"answer": "32",
+					"text": "28 + 4 = ..."
+				},
+				{
+					"answer": "34",
+					"text": "... = 39 - 5"
+				},
+				{
+					"answer": "24",
+					"text": "16 + 8 = ..."
+				},
+				{
+					"answer": "20",
+					"text": "13 + 7 = ..."
+				},
+				{
+					"answer": "64",
+					"text": "57 + 7 = ..."
+				},
+				{
+					"answer": "19",
+					"text": "27 - 8 = ..."
+				},
+				{
+					"answer": "52",
+					"text": "46 + 6 = ..."
+				},
+				{
+					"answer": "71",
+					"text": "64 + 7 = ..."
+				},
+				{
+					"answer": "31",
+					"text": "25 + 6 = ..."
+				},
+				{
+					"answer": "53",
+					"text": "47 + 6 = ..."
+				},
+				{
+					"answer": "36",
+					"text": "29 + 7 = ..."
+				},
+				{
+					"answer": "62",
+					"text": "57 + 5 = ..."
+				},
+				{
+					"answer": "53",
+					"text": "46 + 7 = ..."
+				},
+				{
+					"answer": "91",
+					"text": "82 + 9 = ..."
+				},
+				{
+					"answer": "71",
+					"text": "63 + 8 = ..."
+				},
+				{
+					"answer": "23",
+					"text": "8 + 15 = ..."
+				},
+				{
+					"answer": "73",
+					"text": "64 + 9 = ..."
+				},
+				{
+					"answer": "52",
+					"text": "47 + 5 = ..."
+				},
+				{
+					"answer": "31",
+					"text": "24 + 7 = ..."
+				},
+				{
+					"answer": "71",
+					"text": "64 + 7 = ..."
+				},
+				{
+					"answer": "94",
+					"text": "87 + 7 = ..."
+				},
+				{
+					"answer": "31",
+					"text": "22 + 9 = ..."
+				},
+				{
+					"answer": "31",
+					"text": "23 + 8 = ..."
+				},
+				{
+					"answer": "26",
+					"text": "34 - 8 = ..."
+				},
+				{
+					"answer": "24",
+					"text": "18 + 6 = ..."
+				},
+				{
+					"answer": "91",
+					"text": "82 + 9 = ..."
+				},
+				{
+					"answer": "54",
+					"text": "46 + 8 = ..."
+				},
+				{
+					"answer": "45",
+					"text": "52 - 7 = ..."
+				},
+				{
+					"answer": "52",
+					"text": "45 + 7 = ..."
+				},
+				{
+					"answer": "91",
+					"text": "86 + 5 = ..."
+				},
+				{
+					"answer": "18",
+					"text": "24 - 6 = ..."
+				},
+				{
+					"answer": "94",
+					"text": "86 + 8 = ..."
+				},
+				{
+					"answer": "71",
+					"text": "7 + 64 = ..."
+				},
+				{
+					"answer": "23",
+					"text": "15 + 8 = ..."
+				},
+				{
+					"answer": "61",
+					"text": "55 + 6 = ..."
+				},
+				{
+					"answer": "65",
+					"text": "57 + 8 = ..."
+				},
+				{
+					"answer": "53",
+					"text": "47 + 6 = ..."
+				},
+				{
+					"answer": "83",
+					"text": "75 + 8 = ..."
+				},
+				{
+					"answer": "32",
+					"text": "... = 24 + 8"
+				},
+				{
+					"answer": "52",
+					"text": "7 + 45 = ..."
+				},
+				{
+					"answer": "55",
+					"text": "... = 58 - 3"
+				},
+				{
+					"answer": "32",
+					"text": "24 + 8 = ..."
+				},
+				{
+					"answer": "46",
+					"text": "37 + 9 = ..."
+				},
+				{
+					"answer": "92",
+					"text": "86 + 6 = ..."
+				},
+				{
+					"answer": "62",
+					"text": "58 + 4 = ..."
+				}
+			],
+			"features": [
+				"DU +/- U",
+				"Non Lacunaire",
+				"Avec passage",
+				"Calculs"
+			],
+			"image": "",
+			"name": "DU +/- U | Calculs | Non Lacunaire | Avec passage"
+		},
+		{
+			"calculations": [
+				{
+					"answer": "18",
+					"text": "Maman a acheté 25 pommes mais j'en ai déjà mangé 7. Combien en reste-t-il ?"
+				},
+				{
+					"answer": "36",
+					"text": "Julien avait 42 billes mais il en a perdu 6. Combien lui en reste-t-il ?"
+				},
+				{
+					"answer": "24",
+					"text": "Mon frère possède 31 petites voitures. Il en a perdu 7 en jouant avec ses amis. Combien lui en reste-t-il ?"
+				},
+				{
+					"answer": "19",
+					"text": "Je collectionne les serviettes. J'en ai 8 venant de Belgique, 7 de France et 4 d'Allemagne. Combien ai-je de serviettes ?"
+				},
+				{
+					"answer": "36",
+					"text": "Lors d'une brocante, mon grand-père avait 43 livres à vendre. Il en vend 7 sur la matinée. Combien lui en reste-t-il à vendre ?"
+				},
+				{
+					"answer": "51",
+					"text": "Je collectionne les autocollants. J'en avais déjà 45. Ma grand-mère m'en a offerts 6 de plus. Combien d'autocollants ai-je maintenant ?"
+				},
+				{
+					"answer": "18",
+					"text": "Maman a acheté 25 pommes mais j'en ai déjà mangé 7. Combien en reste-t-il ?"
+				}
+			],
+			"features": [
+				"DU +/- U",
+				"Non Lacunaire",
+				"Avec passage",
+				"Situation problème"
+			],
+			"image": "",
+			"name": "DU +/- U | Situation problème | Non Lacunaire | Avec passage"
+		},
+		{
+			"calculations": [
+				{
+					"answer": "6",
+					"text": "65 + ... = 71"
+				},
+				{
+					"answer": "7",
+					"text": "26 + ... = 33"
+				},
+				{
+					"answer": "8",
+					"text": "68 - ... = 60"
+				},
+				{
+					"answer": "9",
+					"text": "56 - ... = 47"
+				},
+				{
+					"answer": "7",
+					"text": "24 + ... = 31"
+				},
+				{
+					"answer": "7",
+					"text": "63 - ... = 56"
+				},
+				{
+					"answer": "4",
+					"text": "43 - ... = 39"
+				},
+				{
+					"answer": "7",
+					"text": "35 + ... = 42"
+				},
+				{
+					"answer": "9",
+					"text": "35 + ... = 44"
+				},
+				{
+					"answer": "6",
+					"text": "28 + ... = 34"
+				},
+				{
+					"answer": "8",
+					"text": "72 - ... = 64"
+				}
+			],
+			"features": [
+				"DU +/- U",
+				"Lacunaire",
+				"Avec passage",
+				"Calculs"
+			],
+			"image": "",
+			"name": "DU +/- U | Calculs | Lacunaire | Avec passage"
+		},
+		{
+			"calculations": [
+				{
+					"answer": "9",
+					"text": "62 piquets sont déjà plantés pour construire une clôture. 71 doivent être plantés en tout. Combien dois-je encore en planter ?"
+				},
+				{
+					"answer": "8",
+					"text": "Pour préparer un gâteau, Paul n'a plus que 85 g de sucre, mais lui en faut 93 pour sa recette. Combien de grammes de sucre lui manque-t-il ?"
+				},
+				{
+					"answer": "9",
+					"text": "54 lapins sont nés à la ferme cette année. Après en avoir vendus quelques-uns, il en reste 45. Combien ont été vendus ?"
+				},
+				{
+					"answer": "7",
+					"text": "J'ai acheté un billet de train à 15 Euro et suis ensuite allé déjeuner. J'ai dépensé en tout 22 Euro. Combien ai-je payé pour mon déjeuner ?"
+				},
+				{
+					"answer": "6",
+					"text": "J'ai commandé un plat à 19 Euros au restaurant et ai ensuite choisi un dessert. J'ai payé en tout 25 Euros. Combien coûtait mon dessert ?"
+				},
+				{
+					"answer": "9",
+					"text": "Pierre a prévu de marcher 65 minutes en tout. Après un certain temps de marche, il lui reste 56 minutes. Combien de minutes a-t-il déjà couru ?"
+				},
+				{
+					"answer": "7",
+					"text": "Dans la classe de Julie, les élèves ont collecté 55 € mais ils ont besoin de 62 euros. Combien doivent-ils encore collecter ?"
+				},
+				{
+					"answer": "5",
+					"text": "Lors de la kermesse, j'ai payé 36 Euro pour des manèges et 41 Euro en tout. Combien ai-je payé mes croustillons ?"
+				},
+				{
+					"answer": "7",
+					"text": "J'ai acheté 36 pommes. Après distribution, il m'en reste 29. Combien en ai-je distribué ?"
+				},
+				{
+					"answer": "9",
+					"text": "Les enfants avaient 68 biscuits. Après en avoir mangé, il en reste 59. Combien ont-ils mangé ?"
+				},
+				{
+					"answer": "5",
+					"text": "Lila avait 46 autocollants et maintenant 51. Combien en a-t-elle reçu ?"
+				},
+				{
+					"answer": "9",
+					"text": "68 vaches sont nées. Après en avoir vendues, il en reste 59. Combien ont été vendues ?"
+				},
+				{
+					"answer": "8",
+					"text": "Dans la classe de Julie, les élèves ont collecté 65 € mais ils ont besoin de 73 euros. Combien doivent-ils encore collecter ?"
+				},
+				{
+					"answer": "8",
+					"text": "Léa va au marché. Elle paie 31 euros au total dont 23 euros pour les fruits. Combien a-t-elle payé ses légumes ?"
+				},
+				{
+					"answer": "6",
+					"text": "La boulangère cuit 48 croissants mais doit en cuire 54. Combien doit-elle encore cuire ?"
+				},
+				{
+					"answer": "8",
+					"text": "Paul cuit 77 croissants et il lui en reste 69. Combien en a-t-il distribués ?"
+				},
+				{
+					"answer": "7",
+					"text": "Il y a 46 enfants dans la classe, 39 sont déjà rentrés. Combien doivent encore entrer ?"
+				},
+				{
+					"answer": "7",
+					"text": "J'ai acheté des fleurs à 35 euros. J'avais 42 euros. Combien me reste-t-il ?"
+				},
+				{
+					"answer": "11",
+					"text": "Lucie avait 86 figurines et il lui en reste 75. Combien en a-t-elle offertes ?"
+				},
+				{
+					"answer": "4",
+					"text": "Léa avait 32 autocollants et il lui en reste 28. Combien en a-t-elle utilisés ?"
+				},
+				{
+					"answer": "8",
+					"text": "Clara avait 27 biscuits et il lui en reste 19. Combien ont été mangés ?"
+				},
+				{
+					"answer": "9",
+					"text": "J'avais 74 euros avant d'aller au cinéma. Après avoir acheté mon ticket et une petite friandise, il me reste 65 euro en poche. Combien ai-je dépensé au cinéma ?"
+				},
+				{
+					"answer": "6",
+					"text": "J'avais 35 € dans son porte-monnaie. Après avoir payé mon repas, il me reste 29 €. Combien a coûté mon repas ?"
+				}
+			],
+			"features": [
+				"DU +/- U",
+				"Lacunaire",
+				"Avec passage",
+				"Situation problème"
+			],
+			"image": "",
+			"name": "DU +/- U | Situation problème | Lacunaire | Avec passage"
+		},
+		{
+			"calculations": [
+				{
+					"answer": "29",
+					"text": "29 + ... = 58"
+				},
+				{
+					"answer": "39",
+					"text": "78 - ... = 39"
+				},
+				{
+					"answer": "35",
+					"text": "76 - ... = 41"
+				},
+				{
+					"answer": "18",
+					"text": "28 + ... = 46"
+				},
+				{
+					"answer": "16",
+					"text": "38 + ... = 54"
+				},
+				{
+					"answer": "36",
+					"text": "75 - ... = 39"
+				},
+				{
+					"answer": "7",
+					"text": "44 + ... = 51"
+				},
+				{
+					"answer": "24",
+					"text": "18 + ... = 42"
+				},
+				{
+					"answer": "36",
+					"text": "25 + ... = 61"
+				},
+				{
+					"answer": "22",
+					"text": "36 + ... = 58"
+				},
+				{
+					"answer": "28",
+					"text": "53 + ... = 81"
+				}
+			],
+			"features": [
+				"DU +/- DU",
+				"Lacunaire",
+				"Avec passage",
+				"Calculs"
+			],
+			"image": "",
+			"name": "DU +/- DU | Calculs | Lacunaire | Avec passage"
+		},
+		{
+			"calculations": [
+				{
+					"answer": "15",
+					"text": "J'aide papa à cueillir les pommes dans le jardin. J'en avais 36, papa en ajoute au panier. Il y en a maintenant 51. Combien papa en a-t-il ajoutés dans le panier ?"
+				},
+				{
+					"answer": "23",
+					"text": "Emma a 41 autocollants dans sa boite. Après en avoir reçu quelques-uns, elle en a maintenant 64. Combien d'autocollants a-t-elle reçus ?"
+				}
+			],
+			"features": [
+				"DU +/- DU",
+				"Lacunaire",
+				"Avec passage",
+				"Situation problème"
+			],
+			"image": "",
+			"name": "DU +/- DU | Situation problème | Lacunaire | Avec passage"
+		},
+		{
+			"calculations": [
+				{
+					"answer": "54",
+					"text": "34 + 20 = ..."
+				},
+				{
+					"answer": "36",
+					"text": "56 - 20 = ..."
+				},
+				{
+					"answer": "66",
+					"text": "26 + 40 = ..."
+				},
+				{
+					"answer": "33",
+					"text": "63 - 30 = ..."
+				},
+				{
+					"answer": "86",
+					"text": "46 + 40 = ..."
+				},
+				{
+					"answer": "37",
+					"text": "27 + 10 = ..."
+				},
+				{
+					"answer": "55",
+					"text": "25 + 30 = ..."
+				},
+				{
+					"answer": "54",
+					"text": "34 + 20 = ..."
+				},
+				{
+					"answer": "83",
+					"text": "43 + 40 = ..."
+				},
+				{
+					"answer": "63",
+					"text": "20 + 43 = ..."
+				},
+				{
+					"answer": "33",
+					"text": "63 - 30 = ..."
+				},
+				{
+					"answer": "26",
+					"text": "16 + 10 = ..."
+				}
+			],
+			"features": [
+				"DU +/- Dizaines",
+				"Calculs"
+			],
+			"image": "",
+			"name": "DU +/- Dizaines | Calculs"
+		},
+		{
+			"calculations": [
+				{
+					"answer": "67",
+					"text": "358 + ... = 425"
+				},
+				{
+					"answer": "529",
+					"text": "236 + ... = 765"
+				},
+				{
+					"answer": "205",
+					"text": "444 + ... = 649"
+				},
+				{
+					"answer": "394",
+					"text": "825 - ... = 431"
+				},
+				{
+					"answer": "271",
+					"text": "696 - ... = 425"
+				},
+				{
+					"answer": "90",
+					"text": "238 + ... = 328"
+				},
+				{
+					"answer": "271",
+					"text": "696 - ... = 425"
+				},
+				{
+					"answer": "300",
+					"text": "775 - ... = 475"
+				},
+				{
+					"answer": "205",
+					"text": "444 + ... = 649"
+				}
+			],
+			"features": [
+				"CDU +/- CDU",
+				"Lacunaire",
+				"Calculs"
+			],
+			"image": "",
+			"name": "CDU +/- CDU | Calculs |Lacunaire"
+		},
+		{
+			"calculations": [
+				{
+					"answer": "57",
+					"text": "321 + ... = 378"
+				},
+				{
+					"answer": "29",
+					"text": "455 - ... = 426"
+				},
+				{
+					"answer": "15",
+					"text": "321 - ... = 306"
+				}
+			],
+			"features": [
+				"CDU +/- DU",
+				"Lacunaire",
+				"Calculs"
+			],
+			"image": "",
+			"name": "CDU +/- DU | Calculs |Lacunaire"
+		},
+		{
+			"calculations": [
+				{
+					"answer": "257",
+					"text": "Pierre a 546 cartes Pokémon. Après en avoir donné à son ami, il lui en reste 289. Combien en a-t-il donné à son ami ?"
+				},
+				{
+					"answer": "325",
+					"text": "Un magasin avait 753 jouets en stock. Après une journée de soldes, il en reste 428. Combien de jouets ont été vendus ?"
+				},
+				{
+					"answer": "145",
+					"text": "Lucien avait 365 euros au début de la journée. Après avoir payé l'entrée du Zoo pour toute la famille, il lui reste 220 euros en poche. Combien a-t-il payé pour les entrées ?"
+				},
+				{
+					"answer": "143",
+					"text": "Un maraicher a repiqué 685 salades dans son terrain de culture. Ce matin, après une nuit pluvieuse, il lui en reste 542. Combien de salades ont été mangées par les limaces ?"
+				},
+				{
+					"answer": "342",
+					"text": "Une maman avait 585 euros en poche au début du mois. Après avoir payé les courses, il ne lui reste que 243 euros. Combien a-t-elle dépensé ce mois pour ses courses ?"
+				},
+				{
+					"answer": "283",
+					"text": "Un agriculteur plante des pommes de terre en mai et en juin. En mai, il en plante 685 plants. Au total, il en plante 968. Combien a-t-il planté en juin ?"
+				}
+			],
+			"features": [
+				"CDU +/- CDU",
+				"Lacunaire",
+				"Situation problème"
+			],
+			"image": "",
+			"name": "CDU +/- CDU | Situation problème | Lacunaire"
+		},
+		{
+			"calculations": [
+				{
+					"answer": "54",
+					"text": "Dans une bibliothèque, il y a 624 livres en français. Il y a 678 livres en tout. Combien de livres en anglais se trouvent dans la bibliothèque ?"
+				},
+				{
+					"answer": "25",
+					"text": "Un magasin avait 753 jouets en stock. Après une journée de soldes, il en reste 728. Combien de jouets ont été vendus ?"
+				}
+			],
+			"features": [
+				"CDU +/- DU",
+				"Lacunaire",
+				"Situation problème"
+			],
+			"image": "",
+			"name": "CDU +/- DU | Situation problème | Lacunaire"
+		}
+	]
 }
