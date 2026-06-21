@@ -7,7 +7,13 @@
     },
     {
       "name": "Noël",
-      "images": ["tree", "santa", "snowman", "gift", "star"],
+      "images": [
+        "01_pere_noel_joyeux.png",
+        "02_renne_cartoon.png",
+        "03_sapin_personnage.png",
+        "04_bonhomme_neige.png",
+        "05_pere_noel_colere.png"
+      ],
       "feedback": { "correct": "correct", "wrong": "wrong" }
     },
     {
