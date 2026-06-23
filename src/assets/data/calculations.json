@@ -789,8 +789,48 @@
           "text": "Le facteur a distribué 487 dans la rue du Trieu et 138 dans la rue de Gourdine. Combien en a-t-il distribué en tout ?"
         },
         {
-          "answer": "1021",
-          "text": "Un libraire a vendu 582 livres le matin et 439 livres l'après-midi. Combien de livres a-t-il vendu en tout dans la journée ?"
+          "answer": "255",
+          "text": "Une ferme a récolté 742 pommes. Elle en vend 487 au marché. Combien de pommes lui reste-t-il ?"
+        },
+        {
+          "answer": "922",
+          "text": "Une école reçoit 468 cahiers en septembre et 454 en octobre. Combien de cahiers l'école a-t-elle reçus en tout ?"
+        },
+        {
+          "answer": "376",
+          "text": "Le musée a accueilli 865 visiteurs le samedi et 489 le dimanche. Quelle est la différence de fréquentation entre les deux jours ?"
+        },
+        {
+          "answer": "851",
+          "text": "Un supermarché vend 396 bouteilles d'eau le matin et 455 l'après-midi. Combien de bouteilles a-t-il vendues au total ?"
+        },
+        {
+          "answer": "242",
+          "text": "Un maraîcher avait 703 salades prêtes à vendre. Il en a déjà vendu 461. Combien lui en reste-t-il ?"
+        },
+        {
+          "answer": "867",
+          "text": "Une imprimerie a produit 528 affiches le lundi et 339 le mardi. Combien d'affiches ont été produites en tout ?"
+        },
+        {
+          "answer": "357",
+          "text": "Dans un dépôt, il y avait 914 cartons. 557 cartons ont été expédiés. Combien de cartons restent au dépôt ?"
+        },
+        {
+          "answer": "1000",
+          "text": "Une bibliothèque possède 624 romans et 376 bandes dessinées. Combien de livres cela représente-t-il au total ?"
+        },
+        {
+          "answer": "286",
+          "text": "Un éleveur avait 835 kilos de nourriture. Après une semaine, 549 kilos ont été utilisés. Combien de kilos restent ?"
+        },
+        {
+          "answer": "940",
+          "text": "Un magasin a vendu 472 jouets en novembre et 468 en décembre. Combien de jouets ont été vendus sur les deux mois ?"
+        },
+        {
+          "answer": "495",
+          "text": "Une entreprise a produit 981 pièces cette semaine. 486 pièces ont déjà été livrées. Combien de pièces restent à livrer ?"
         }
       ],
       "features": [
@@ -842,6 +882,106 @@
         {
           "answer": "824",
           "text": "285 + 539 = ..."
+        },
+        {
+          "answer": "861",
+          "text": "643 + 218 = ..."
+        },
+        {
+          "answer": "413",
+          "text": "872 - 459 = ..."
+        },
+        {
+          "answer": "821",
+          "text": "534 + 287 = ..."
+        },
+        {
+          "answer": "425",
+          "text": "901 - 476 = ..."
+        },
+        {
+          "answer": "797",
+          "text": "468 + 329 = ..."
+        },
+        {
+          "answer": "517",
+          "text": "755 - 238 = ..."
+        },
+        {
+          "answer": "849",
+          "text": "692 + 157 = ..."
+        },
+        {
+          "answer": "573",
+          "text": "840 - 267 = ..."
+        },
+        {
+          "answer": "821",
+          "text": "376 + 445 = ..."
+        },
+        {
+          "answer": "409",
+          "text": "983 - 574 = ..."
+        },
+        {
+          "answer": "943",
+          "text": "259 + 684 = ..."
+        },
+        {
+          "answer": "352",
+          "text": "700 - 348 = ..."
+        },
+        {
+          "answer": "794",
+          "text": "418 + 376 = ..."
+        },
+        {
+          "answer": "368",
+          "text": "865 - 497 = ..."
+        },
+        {
+          "answer": "823",
+          "text": "537 + 286 = ..."
+        },
+        {
+          "answer": "338",
+          "text": "924 - 586 = ..."
+        },
+        {
+          "answer": "900",
+          "text": "671 + 229 = ..."
+        },
+        {
+          "answer": "418",
+          "text": "812 - 394 = ..."
+        },
+        {
+          "answer": "923",
+          "text": "345 + 578 = ..."
+        },
+        {
+          "answer": "475",
+          "text": "760 - 285 = ..."
+        },
+        {
+          "answer": "723",
+          "text": "489 + 234 = ..."
+        },
+        {
+          "answer": "463",
+          "text": "930 - 467 = ..."
+        },
+        {
+          "answer": "892",
+          "text": "724 + 168 = ..."
+        },
+        {
+          "answer": "527",
+          "text": "856 - 329 = ..."
+        },
+        {
+          "answer": "822",
+          "text": "397 + 425 = ..."
         }
       ],
       "features": [
@@ -1534,48 +1674,104 @@
     {
       "calculations": [
         {
-          "answer": "29",
-          "text": "29 + ... = 58"
-        },
-        {
-          "answer": "39",
-          "text": "78 - ... = 39"
+          "answer": "35",
+          "text": "28 + ... = 63"
         },
         {
           "answer": "35",
-          "text": "76 - ... = 41"
+          "text": "47 + ... = 82"
         },
         {
-          "answer": "18",
-          "text": "28 + ... = 46"
+          "answer": "35",
+          "text": "39 + ... = 74"
         },
         {
-          "answer": "16",
-          "text": "38 + ... = 54"
+          "answer": "37",
+          "text": "56 + ... = 93"
         },
         {
-          "answer": "36",
-          "text": "75 - ... = 39"
+          "answer": "27",
+          "text": "68 + ... = 95"
         },
         {
-          "answer": "7",
-          "text": "44 + ... = 51"
+          "answer": "19",
+          "text": "75 + ... = 94"
         },
         {
-          "answer": "24",
-          "text": "18 + ... = 42"
+          "answer": "37",
+          "text": "27 + ... = 64"
         },
         {
-          "answer": "36",
-          "text": "25 + ... = 61"
+          "answer": "25",
+          "text": "48 + ... = 73"
         },
         {
           "answer": "22",
-          "text": "36 + ... = 58"
+          "text": "59 + ... = 81"
+        },
+        {
+          "answer": "36",
+          "text": "36 + ... = 72"
+        },
+        {
+          "answer": "27",
+          "text": "72 - ... = 45"
+        },
+        {
+          "answer": "25",
+          "text": "81 - ... = 56"
+        },
+        {
+          "answer": "25",
+          "text": "63 - ... = 38"
         },
         {
           "answer": "28",
-          "text": "53 + ... = 81"
+          "text": "74 - ... = 46"
+        },
+        {
+          "answer": "45",
+          "text": "92 - ... = 47"
+        },
+        {
+          "answer": "46",
+          "text": "85 - ... = 39"
+        },
+        {
+          "answer": "23",
+          "text": "71 - ... = 48"
+        },
+        {
+          "answer": "37",
+          "text": "64 - ... = 27"
+        },
+        {
+          "answer": "27",
+          "text": "83 - ... = 56"
+        },
+        {
+          "answer": "28",
+          "text": "52 - ... = 24"
+        },
+        {
+          "answer": "38",
+          "text": "46 + ... = 84"
+        },
+        {
+          "answer": "29",
+          "text": "57 + ... = 86"
+        },
+        {
+          "answer": "28",
+          "text": "67 + ... = 95"
+        },
+        {
+          "answer": "28",
+          "text": "38 + ... = 66"
+        },
+        {
+          "answer": "29",
+          "text": "29 + ... = 58"
         }
       ],
       "features": [
@@ -1596,6 +1792,102 @@
         {
           "answer": "23",
           "text": "Emma a 41 autocollants dans sa boite. Après en avoir reçu quelques-uns, elle en a maintenant 64. Combien d'autocollants a-t-elle reçus ?"
+        },
+        {
+          "answer": "35",
+          "text": "Luca avait 28 billes. Son ami lui en donne encore et il en a maintenant 63. Combien de billes son ami lui a-t-il données ?"
+        },
+        {
+          "answer": "27",
+          "text": "Dans la classe, il y avait 72 crayons. Après la distribution, il en reste 45. Combien de crayons ont ete distribues ?"
+        },
+        {
+          "answer": "25",
+          "text": "Mia avait 81 cartes. Elle en prete a sa soeur et il lui en reste 56. Combien de cartes a-t-elle pretees ?"
+        },
+        {
+          "answer": "37",
+          "text": "Noe avait 56 images. Il en recoit d'autres et il en a maintenant 93. Combien d'images a-t-il recues ?"
+        },
+        {
+          "answer": "28",
+          "text": "Le bibliothecaire avait 74 livres sur son chariot. Il en range une partie et il en reste 46. Combien de livres a-t-il ranges ?"
+        },
+        {
+          "answer": "22",
+          "text": "Le fermier avait 59 oeufs dans un panier. Il en ajoute encore et il en a maintenant 81. Combien d'oeufs a-t-il ajoutes ?"
+        },
+        {
+          "answer": "45",
+          "text": "Paul avait 92 perles. Apres en avoir donne, il ne lui en reste que 47. Combien de perles a-t-il donnees ?"
+        },
+        {
+          "answer": "29",
+          "text": "Lina avait 57 stickers. Sa tante lui en offre d'autres et elle en a maintenant 86. Combien de stickers a-t-elle recus ?"
+        },
+        {
+          "answer": "38",
+          "text": "Pour la fete, l'ecole avait 46 ballons. Les parents en apportent encore et il y en a maintenant 84. Combien de ballons ont ete apportes ?"
+        },
+        {
+          "answer": "46",
+          "text": "Un magasin avait 85 jouets en vitrine. Apres les ventes du matin, il en reste 39. Combien de jouets ont ete vendus ?"
+        },
+        {
+          "answer": "28",
+          "text": "Tom avait 38 cartes de collection. Il en gagne encore et il en a maintenant 66. Combien de cartes a-t-il gagnees ?"
+        },
+        {
+          "answer": "25",
+          "text": "La maitresse avait 63 cahiers. Elle en distribue et il en reste 38. Combien de cahiers a-t-elle distribues ?"
+        },
+        {
+          "answer": "37",
+          "text": "Nina avait 27 bonbons. Son grand-pere lui en donne et elle en a maintenant 64. Combien de bonbons a-t-elle recus ?"
+        },
+        {
+          "answer": "23",
+          "text": "Le zoo avait 71 billets disponibles. En fin de journee, il en reste 48. Combien de billets ont ete vendus ?"
+        },
+        {
+          "answer": "28",
+          "text": "Leo avait 67 timbres. Il en trouve encore et il en a maintenant 95. Combien de timbres a-t-il trouves ?"
+        },
+        {
+          "answer": "27",
+          "text": "Maman avait 83 euros. Apres ses courses, il lui reste 56 euros. Combien a-t-elle depense ?"
+        },
+        {
+          "answer": "36",
+          "text": "Il y avait 36 spectateurs dans la salle. D'autres arrivent et ils sont maintenant 72. Combien de spectateurs sont arrives ?"
+        },
+        {
+          "answer": "28",
+          "text": "Le jardinier avait 52 plantes. Apres en avoir repique, il lui en reste 24 dans les bacs. Combien en a-t-il repique ?"
+        },
+        {
+          "answer": "35",
+          "text": "Clara avait 39 billes. Elle en recoit d'autres et elle en a maintenant 74. Combien de billes a-t-elle recues ?"
+        },
+        {
+          "answer": "19",
+          "text": "Maxime avait 75 images. Il en echange et il lui en reste 56. Combien d'images a-t-il echangees ?"
+        },
+        {
+          "answer": "37",
+          "text": "Au marche, un vendeur avait 64 pommes. En fin de matinée, il lui en reste 27. Combien de pommes a-t-il vendues ?"
+        },
+        {
+          "answer": "27",
+          "text": "Sofia avait 68 perles. Elle en ajoute sur son collier et en a maintenant 95. Combien de perles a-t-elle ajoutees ?"
+        },
+        {
+          "answer": "25",
+          "text": "Le directeur avait 48 livres neufs. L'ecole en reçoit et il y en a maintenant 73. Combien de livres ont ete recus ?"
+        },
+        {
+          "answer": "36",
+          "text": "Une bibliotheque possedait 92 BD. Apres un don, il lui en reste 56. Combien de BD ont ete donnees ?"
         }
       ],
       "features": [
@@ -2573,6 +2865,1238 @@
         {
           "text": "28 + ... = 30",
           "answer": "2"
+        }
+      ]
+    },
+    {
+      "name": "DU +/- DU | Calculs | Non lacunaire | Avec passage",
+      "features": [
+        "DU +/- DU",
+        "Calculs",
+        "Non lacunaire",
+        "Avec passage"
+      ],
+      "image": "",
+      "calculations": [
+        {
+          "text": "38 + 27 = ...",
+          "answer": "65"
+        },
+        {
+          "text": "47 + 36 = ...",
+          "answer": "83"
+        },
+        {
+          "text": "59 + 24 = ...",
+          "answer": "83"
+        },
+        {
+          "text": "68 + 17 = ...",
+          "answer": "85"
+        },
+        {
+          "text": "76 + 18 = ...",
+          "answer": "94"
+        },
+        {
+          "text": "55 + 29 = ...",
+          "answer": "84"
+        },
+        {
+          "text": "27 + 45 = ...",
+          "answer": "72"
+        },
+        {
+          "text": "58 + 26 = ...",
+          "answer": "84"
+        },
+        {
+          "text": "39 + 48 = ...",
+          "answer": "87"
+        },
+        {
+          "text": "72 + 19 = ...",
+          "answer": "91"
+        },
+        {
+          "text": "66 + 27 = ...",
+          "answer": "93"
+        },
+        {
+          "text": "92 - 47 = ...",
+          "answer": "45"
+        },
+        {
+          "text": "81 - 36 = ...",
+          "answer": "45"
+        },
+        {
+          "text": "74 - 28 = ...",
+          "answer": "46"
+        },
+        {
+          "text": "63 - 27 = ...",
+          "answer": "36"
+        },
+        {
+          "text": "95 - 48 = ...",
+          "answer": "47"
+        },
+        {
+          "text": "83 - 57 = ...",
+          "answer": "26"
+        },
+        {
+          "text": "71 - 46 = ...",
+          "answer": "25"
+        },
+        {
+          "text": "64 - 38 = ...",
+          "answer": "26"
+        },
+        {
+          "text": "52 - 29 = ...",
+          "answer": "23"
+        },
+        {
+          "text": "90 - 54 = ...",
+          "answer": "36"
+        },
+        {
+          "text": "62 - 37 = ...",
+          "answer": "25"
+        },
+        {
+          "text": "80 - 46 = ...",
+          "answer": "34"
+        },
+        {
+          "text": "73 - 58 = ...",
+          "answer": "15"
+        }
+      ]
+    },
+    {
+      "name": "DU +/- DU | Situation problème | Non lacunaire | Avec passage",
+      "features": [
+        "DU +/- DU",
+        "Situation problème",
+        "Non lacunaire",
+        "Avec passage"
+      ],
+      "image": "",
+      "calculations": [
+        {
+          "text": "Emma a 47 autocollants. Sa tante lui en offre 28 de plus. Combien d'autocollants Emma a-t-elle maintenant ?",
+          "answer": "75"
+        },
+        {
+          "text": "Léo avait 58 billes. Il en perd 29 pendant la récréation. Combien de billes lui reste-t-il ?",
+          "answer": "29"
+        },
+        {
+          "text": "Dans la classe, il y a 36 crayons rouges et 27 crayons bleus. Combien y a-t-il de crayons en tout ?",
+          "answer": "63"
+        },
+        {
+          "text": "Paul avait 74 cartes. Il en donne 38 à son cousin. Combien de cartes lui reste-t-il ?",
+          "answer": "36"
+        },
+        {
+          "text": "La bibliothèque reçoit 49 nouveaux livres puis 26 autres le lendemain. Combien de nouveaux livres a-t-elle reçus en tout ?",
+          "answer": "75"
+        },
+        {
+          "text": "Dans le jardin, 65 fleurs ont poussé. Après une tempête, 27 fleurs sont abîmées. Combien de fleurs restent en bon état ?",
+          "answer": "38"
+        },
+        {
+          "text": "Pour la kermesse, les élèves vendent 38 tickets le matin et 47 l'après-midi. Combien de tickets vendent-ils au total ?",
+          "answer": "85"
+        },
+        {
+          "text": "Nora avait 82 bonbons. Elle en distribue 46 à ses amis. Combien de bonbons lui reste-t-il ?",
+          "answer": "36"
+        },
+        {
+          "text": "Le fermier ramasse 57 oeufs le lundi et 18 le mardi. Combien d'oeufs a-t-il ramassés en tout ?",
+          "answer": "75"
+        },
+        {
+          "text": "Lucas a 61 euros dans sa tirelire. Il dépense 27 euros pour un jeu. Combien d'euros lui reste-t-il ?",
+          "answer": "34"
+        },
+        {
+          "text": "Au zoo, 29 visiteurs arrivent le matin et 36 l'après-midi. Combien de visiteurs sont venus au total ?",
+          "answer": "65"
+        },
+        {
+          "text": "Sophie avait 93 perles. Elle en offre 57 à sa soeur. Combien de perles lui reste-t-il ?",
+          "answer": "36"
+        },
+        {
+          "text": "Le boulanger prépare 48 pains blancs et 35 pains complets. Combien de pains prépare-t-il en tout ?",
+          "answer": "83"
+        },
+        {
+          "text": "Tom possède 72 cartes de collection. Il en perd 48. Combien de cartes garde-t-il ?",
+          "answer": "24"
+        },
+        {
+          "text": "L'ecole achète 67 gommes et 26 règles. Combien de fournitures ont été achetées en tout ?",
+          "answer": "93"
+        },
+        {
+          "text": "Mila avait 54 stickers. Elle en donne 27 à sa copine. Combien lui en reste-t-il ?",
+          "answer": "27"
+        },
+        {
+          "text": "Au marché, un commerçant vend 39 pommes le matin puis 24 l'après-midi. Combien de pommes vend-il en tout ?",
+          "answer": "63"
+        },
+        {
+          "text": "Papa avait 81 euros. Après ses achats, il lui reste 35 euros. Combien a-t-il dépensé ?",
+          "answer": "46"
+        },
+        {
+          "text": "Dans le bus scolaire, 46 élèves montent au premier arrêt puis 27 au second. Combien d'élèves sont dans le bus ?",
+          "answer": "73"
+        },
+        {
+          "text": "La bibliothécaire avait 70 livres sur son chariot. Elle en range 38. Combien de livres restent sur le chariot ?",
+          "answer": "32"
+        },
+        {
+          "text": "Lina enfile 58 perles bleues puis 17 perles jaunes. Combien de perles y a-t-il sur son collier ?",
+          "answer": "75"
+        },
+        {
+          "text": "Max avait 64 cartes Pokemon. Il en échange 28. Combien de cartes garde-t-il ?",
+          "answer": "36"
+        },
+        {
+          "text": "Pour la fête, la classe gonfle 27 ballons rouges et 35 ballons verts. Combien de ballons sont gonflés en tout ?",
+          "answer": "62"
+        },
+        {
+          "text": "Emma avait 95 coquillages. Elle en donne 48 à son frère. Combien de coquillages lui reste-t-il ?",
+          "answer": "47"
+        },
+        {
+          "text": "L'ecole reçoit 56 cahiers puis 29 cahiers supplémentaires. Combien de cahiers reçoit-elle en tout ?",
+          "answer": "85"
+        }
+      ]
+    },
+    {
+      "name": "DU +/- Dizaines | Calculs | Non lacunaire",
+      "features": [
+        "DU +/- Dizaines",
+        "Calculs",
+        "Non lacunaire"
+      ],
+      "image": "",
+      "calculations": [
+        {
+          "text": "34 + 20 = ...",
+          "answer": "54"
+        },
+        {
+          "text": "56 - 20 = ...",
+          "answer": "36"
+        },
+        {
+          "text": "26 + 40 = ...",
+          "answer": "66"
+        },
+        {
+          "text": "63 - 30 = ...",
+          "answer": "33"
+        },
+        {
+          "text": "46 + 40 = ...",
+          "answer": "86"
+        },
+        {
+          "text": "27 + 10 = ...",
+          "answer": "37"
+        },
+        {
+          "text": "25 + 30 = ...",
+          "answer": "55"
+        },
+        {
+          "text": "43 + 40 = ...",
+          "answer": "83"
+        },
+        {
+          "text": "20 + 43 = ...",
+          "answer": "63"
+        },
+        {
+          "text": "16 + 10 = ...",
+          "answer": "26"
+        },
+        {
+          "text": "75 - 20 = ...",
+          "answer": "55"
+        },
+        {
+          "text": "89 - 40 = ...",
+          "answer": "49"
+        },
+        {
+          "text": "38 + 50 = ...",
+          "answer": "88"
+        },
+        {
+          "text": "91 - 30 = ...",
+          "answer": "61"
+        },
+        {
+          "text": "52 + 20 = ...",
+          "answer": "72"
+        },
+        {
+          "text": "67 - 50 = ...",
+          "answer": "17"
+        },
+        {
+          "text": "44 + 30 = ...",
+          "answer": "74"
+        },
+        {
+          "text": "73 - 20 = ...",
+          "answer": "53"
+        },
+        {
+          "text": "59 + 10 = ...",
+          "answer": "69"
+        },
+        {
+          "text": "84 - 60 = ...",
+          "answer": "24"
+        },
+        {
+          "text": "31 + 40 = ...",
+          "answer": "71"
+        },
+        {
+          "text": "68 - 30 = ...",
+          "answer": "38"
+        },
+        {
+          "text": "22 + 50 = ...",
+          "answer": "72"
+        },
+        {
+          "text": "97 - 40 = ...",
+          "answer": "57"
+        },
+        {
+          "text": "36 + 20 = ...",
+          "answer": "56"
+        }
+      ]
+    },
+    {
+      "name": "Reflexion sur les nombres < 100 | Nombres ronds",
+      "features": [
+        "Reflexion sur les nombres",
+        "Nombres < 100",
+        "Nombres ronds"
+      ],
+      "image": "",
+      "calculations": [
+        {
+          "text": "Quel est le nombre rond le plus proche de 12 ?",
+          "answer": "10"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 18 ?",
+          "answer": "20"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 23 ?",
+          "answer": "20"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 27 ?",
+          "answer": "30"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 31 ?",
+          "answer": "30"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 34 ?",
+          "answer": "30"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 38 ?",
+          "answer": "40"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 42 ?",
+          "answer": "40"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 46 ?",
+          "answer": "50"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 49 ?",
+          "answer": "50"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 51 ?",
+          "answer": "50"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 54 ?",
+          "answer": "50"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 58 ?",
+          "answer": "60"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 61 ?",
+          "answer": "60"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 64 ?",
+          "answer": "60"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 67 ?",
+          "answer": "70"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 72 ?",
+          "answer": "70"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 76 ?",
+          "answer": "80"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 79 ?",
+          "answer": "80"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 81 ?",
+          "answer": "80"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 84 ?",
+          "answer": "80"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 87 ?",
+          "answer": "90"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 91 ?",
+          "answer": "90"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 94 ?",
+          "answer": "90"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 88 ?",
+          "answer": "90"
+        }
+      ]
+    },
+    {
+      "name": "Reflexion sur les nombres < 100 | Trouve un nombre entre x et y",
+      "features": [
+        "Reflexion sur les nombres",
+        "Nombres < 100",
+        "Trouve un nombre"
+      ],
+      "image": "",
+      "calculations": [
+        {
+          "text": "Trouve un nombre entre 12 et 27."
+        },
+        {
+          "text": "Trouve un nombre entre 15 et 28."
+        },
+        {
+          "text": "Trouve un nombre entre 23 et 37."
+        },
+        {
+          "text": "Trouve un nombre entre 34 et 48."
+        },
+        {
+          "text": "Trouve un nombre entre 18 et 33."
+        },
+        {
+          "text": "Trouve un nombre entre 41 et 58."
+        },
+        {
+          "text": "Trouve un nombre entre 26 et 39."
+        },
+        {
+          "text": "Trouve un nombre entre 47 et 64."
+        },
+        {
+          "text": "Trouve un nombre entre 13 et 29."
+        },
+        {
+          "text": "Trouve un nombre entre 52 et 71."
+        },
+        {
+          "text": "Trouve un nombre entre 37 et 54."
+        },
+        {
+          "text": "Trouve un nombre entre 68 et 83."
+        },
+        {
+          "text": "Trouve un nombre entre 21 et 42."
+        },
+        {
+          "text": "Trouve un nombre entre 55 et 77."
+        },
+        {
+          "text": "Trouve un nombre entre 31 et 46."
+        },
+        {
+          "text": "Trouve un nombre entre 63 et 81."
+        },
+        {
+          "text": "Trouve un nombre entre 74 et 94."
+        },
+        {
+          "text": "Trouve un nombre entre 44 et 67."
+        },
+        {
+          "text": "Trouve un nombre entre 16 et 35."
+        },
+        {
+          "text": "Trouve un nombre entre 28 et 51."
+        },
+        {
+          "text": "Trouve un nombre entre 49 et 72."
+        },
+        {
+          "text": "Trouve un nombre entre 11 et 24."
+        },
+        {
+          "text": "Trouve un nombre entre 58 et 89."
+        },
+        {
+          "text": "Trouve un nombre entre 39 et 62."
+        },
+        {
+          "text": "Trouve un nombre entre 77 et 96."
+        }
+      ]
+    },
+    {
+      "name": "Reflexion sur les nombres < 100 | Peut-on prendre x dans y ?",
+      "features": [
+        "Reflexion sur les nombres",
+        "Nombres < 100",
+        "Peut-on prendre"
+      ],
+      "image": "",
+      "calculations": [
+        
+        {
+          "text": "Peut-on prendre 14 dans 12 ?"
+        },
+        {
+          "text": "Peut-on prendre 11 dans 18 ?"
+        },
+        {
+          "text": "Peut-on prendre 25 dans 20 ?"
+        },
+        {
+          "text": "Peut-on prendre 13 dans 13 ?"
+        },
+        {
+          "text": "Peut-on prendre 19 dans 24 ?"
+        },
+        {
+          "text": "Peut-on prendre 32 dans 27 ?"
+        },
+        {
+          "text": "Peut-on prendre 28 dans 41 ?"
+        },
+        {
+          "text": "Peut-on prendre 47 dans 47 ?"
+        },
+        {
+          "text": "Peut-on prendre 56 dans 39 ?"
+        },
+        {
+          "text": "Peut-on prendre 33 dans 60 ?"
+        },
+        {
+          "text": "Peut-on prendre 72 dans 68 ?"
+        },
+        {
+          "text": "Peut-on prendre 45 dans 90 ?"
+        },
+        {
+          "text": "Peut-on prendre 88 dans 88 ?"
+        },
+        {
+          "text": "Peut-on prendre 94 dans 71 ?"
+        },
+        {
+          "text": "Peut-on prendre 52 dans 99 ?"
+        }
+      ]
+    },
+    {
+      "name": "Reflexion sur les nombres < 100 | Ecrire un nombre",
+      "features": [
+        "Reflexion sur les nombres",
+        "Nombres < 100",
+        "Ecrire un nombre"
+      ],
+      "image": "",
+      "calculations": [
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 3 et 5 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 4 et 2 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 1 et 8 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 6 et 7 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 2 et 9 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 5 et 4 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 7 et 1 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 8 et 6 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 9 et 3 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 4 et 7 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 3 et 0 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 5 et 9 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 1 et 2 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 6 et 0 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 2 et 4 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 7 et 8 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 8 et 1 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 9 et 0 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 4 et 4 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 2 et 6 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 5 et 1 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 7 et 3 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 8 et 5 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 1 et 6 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 3 et 8 ?"
+        }
+      ]
+    },
+    {
+      "name": "Reflexion sur les nombres < 100 | Construire un nombre",
+      "features": [
+        "Reflexion sur les nombres",
+        "Nombres < 100",
+        "Construire un nombre"
+      ],
+      "image": "",
+      "calculations": [
+        {
+          "text": "Quel nombre construit-on avec 3 dizaines et 5 unités ?",
+          "answer": "35"
+        },
+        {
+          "text": "Quel nombre construit-on avec 4 dizaines et 2 unités ?",
+          "answer": "42"
+        },
+        {
+          "text": "Quel nombre construit-on avec 1 dizaine et 8 unités ?",
+          "answer": "18"
+        },
+        {
+          "text": "Quel nombre construit-on avec 6 dizaines et 7 unités ?",
+          "answer": "67"
+        },
+        {
+          "text": "Quel nombre construit-on avec 2 dizaines et 9 unités ?",
+          "answer": "29"
+        },
+        {
+          "text": "Quel nombre construit-on avec 5 dizaines et 4 unités ?",
+          "answer": "54"
+        },
+        {
+          "text": "Quel nombre construit-on avec 7 dizaines et 1 unité ?",
+          "answer": "71"
+        },
+        {
+          "text": "Quel nombre construit-on avec 8 dizaines et 6 unités ?",
+          "answer": "86"
+        },
+        {
+          "text": "Quel nombre construit-on avec 9 dizaines et 3 unités ?",
+          "answer": "93"
+        },
+        {
+          "text": "Quel nombre construit-on avec 4 dizaines et 7 unités ?",
+          "answer": "47"
+        },
+        {
+          "text": "Quel nombre construit-on avec 3 dizaines et 0 unité ?",
+          "answer": "30"
+        },
+        {
+          "text": "Quel nombre construit-on avec 5 dizaines et 9 unités ?",
+          "answer": "59"
+        },
+        {
+          "text": "Quel nombre construit-on avec 1 dizaine et 2 unités ?",
+          "answer": "12"
+        },
+        {
+          "text": "Quel nombre construit-on avec 6 dizaines et 0 unité ?",
+          "answer": "60"
+        },
+        {
+          "text": "Quel nombre construit-on avec 2 dizaines et 4 unités ?",
+          "answer": "24"
+        },
+        {
+          "text": "Quel nombre construit-on avec 7 dizaines et 8 unités ?",
+          "answer": "78"
+        },
+        {
+          "text": "Quel nombre construit-on avec 8 dizaines et 1 unité ?",
+          "answer": "81"
+        },
+        {
+          "text": "Quel nombre construit-on avec 9 dizaines et 0 unité ?",
+          "answer": "90"
+        },
+        {
+          "text": "Quel nombre construit-on avec 4 dizaines et 4 unités ?",
+          "answer": "44"
+        },
+        {
+          "text": "Quel nombre construit-on avec 2 dizaines et 6 unités ?",
+          "answer": "26"
+        },
+        {
+          "text": "Quel nombre construit-on avec 5 dizaines et 1 unité ?",
+          "answer": "51"
+        },
+        {
+          "text": "Quel nombre construit-on avec 7 dizaines et 3 unités ?",
+          "answer": "73"
+        },
+        {
+          "text": "Quel nombre construit-on avec 8 dizaines et 5 unités ?",
+          "answer": "85"
+        },
+        {
+          "text": "Quel nombre construit-on avec 1 dizaine et 6 unités ?",
+          "answer": "16"
+        },
+        {
+          "text": "Quel nombre construit-on avec 3 dizaines et 8 unités ?",
+          "answer": "38"
+        }
+      ]
+    },
+    {
+      "name": "Reflexion sur les nombres entre 100 et < 1000 | Nombres ronds",
+      "features": [
+        "Reflexion sur les nombres",
+        "Nombres >= 100 et < 1000",
+        "Nombres ronds"
+      ],
+      "image": "",
+      "calculations": [
+        {
+          "text": "Quel est le nombre rond le plus proche de 112 ?",
+          "answer": "110"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 148 ?",
+          "answer": "150"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 196 ?",
+          "answer": "200"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 241 ?",
+          "answer": "240"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 258 ?",
+          "answer": "260"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 295 ?",
+          "answer": "300"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 314 ?",
+          "answer": "310"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 349 ?",
+          "answer": "350"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 398 ?",
+          "answer": "400"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 421 ?",
+          "answer": "420"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 456 ?",
+          "answer": "460"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 502 ?",
+          "answer": "500"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 538 ?",
+          "answer": "540"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 589 ?",
+          "answer": "590"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 648 ?",
+          "answer": "650"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 695 ?",
+          "answer": "700"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 714 ?",
+          "answer": "710"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 752 ?",
+          "answer": "750"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 798 ?",
+          "answer": "800"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 821 ?",
+          "answer": "820"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 867 ?",
+          "answer": "870"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 894 ?",
+          "answer": "890"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 905 ?",
+          "answer": "910"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 949 ?",
+          "answer": "950"
+        },
+        {
+          "text": "Quel est le nombre rond le plus proche de 996 ?",
+          "answer": "1000"
+        }
+      ]
+    },
+    {
+      "name": "Reflexion sur les nombres entre 100 et < 1000 | Trouve un nombre entre x et y",
+      "features": [
+        "Reflexion sur les nombres",
+        "Nombres >= 100 et < 1000",
+        "Trouve un nombre"
+      ],
+      "image": "",
+      "calculations": [
+        {
+          "text": "Trouve un nombre entre 123 et 267."
+        },
+        {
+          "text": "Trouve un nombre entre 145 et 298."
+        },
+        {
+          "text": "Trouve un nombre entre 234 et 378."
+        },
+        {
+          "text": "Trouve un nombre entre 256 et 412."
+        },
+        {
+          "text": "Trouve un nombre entre 183 et 356."
+        },
+        {
+          "text": "Trouve un nombre entre 412 et 567."
+        },
+        {
+          "text": "Trouve un nombre entre 289 et 423."
+        },
+        {
+          "text": "Trouve un nombre entre 534 et 678."
+        },
+        {
+          "text": "Trouve un nombre entre 157 et 298."
+        },
+        {
+          "text": "Trouve un nombre entre 612 et 756."
+        },
+        {
+          "text": "Trouve un nombre entre 378 et 512."
+        },
+        {
+          "text": "Trouve un nombre entre 723 et 867."
+        },
+        {
+          "text": "Trouve un nombre entre 234 et 445."
+        },
+        {
+          "text": "Trouve un nombre entre 567 et 723."
+        },
+        {
+          "text": "Trouve un nombre entre 312 et 489."
+        },
+        {
+          "text": "Trouve un nombre entre 645 et 834."
+        },
+        {
+          "text": "Trouve un nombre entre 789 et 956."
+        },
+        {
+          "text": "Trouve un nombre entre 456 et 634."
+        },
+        {
+          "text": "Trouve un nombre entre 178 et 321."
+        },
+        {
+          "text": "Trouve un nombre entre 289 et 534."
+        },
+        {
+          "text": "Trouve un nombre entre 523 et 745."
+        },
+        {
+          "text": "Trouve un nombre entre 134 et 267."
+        },
+        {
+          "text": "Trouve un nombre entre 612 et 834."
+        },
+        {
+          "text": "Trouve un nombre entre 398 et 567."
+        },
+        {
+          "text": "Trouve un nombre entre 756 et 923."
+        }
+      ]
+    },
+    {
+      "name": "Reflexion sur les nombres entre 100 et < 1000 | Peut-on prendre x dans y ?",
+      "features": [
+        "Reflexion sur les nombres",
+        "Nombres >= 100 et < 1000",
+        "Peut-on prendre"
+      ],
+      "image": "",
+      "calculations": [
+        {
+          "text": "Peut-on prendre 214 dans 192 ?"
+        },
+        {
+          "text": "Peut-on prendre 111 dans 188 ?"
+        },
+        {
+          "text": "Peut-on prendre 325 dans 220 ?"
+        },
+        {
+          "text": "Peut-on prendre 313 dans 313 ?"
+        },
+        {
+          "text": "Peut-on prendre 219 dans 524 ?"
+        },
+        {
+          "text": "Peut-on prendre 432 dans 327 ?"
+        },
+        {
+          "text": "Peut-on prendre 528 dans 641 ?"
+        },
+        {
+          "text": "Peut-on prendre 747 dans 747 ?"
+        },
+        {
+          "text": "Peut-on prendre 856 dans 639 ?"
+        },
+        {
+          "text": "Peut-on prendre 333 dans 760 ?"
+        },
+        {
+          "text": "Peut-on prendre 972 dans 868 ?"
+        },
+        {
+          "text": "Peut-on prendre 445 dans 990 ?"
+        },
+        {
+          "text": "Peut-on prendre 888 dans 888 ?"
+        },
+        {
+          "text": "Peut-on prendre 994 dans 971 ?"
+        },
+        {
+          "text": "Peut-on prendre 652 dans 999 ?"
+        }
+      ]
+    },
+    {
+      "name": "Reflexion sur les nombres entre 100 et < 1000 | Ecrire un nombre",
+      "features": [
+        "Reflexion sur les nombres",
+        "Nombres >= 100 et < 1000",
+        "Ecrire un nombre"
+      ],
+      "image": "",
+      "calculations": [
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 3, 5 et 2 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 4, 2 et 7 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 1, 8 et 6 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 6, 7 et 4 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 2, 9 et 1 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 5, 4 et 8 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 7, 1 et 3 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 8, 6 et 2 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 9, 3 et 5 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 4, 7 et 0 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 3, 0 et 9 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 5, 9 et 1 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 1, 2 et 4 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 6, 0 et 8 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 2, 4 et 6 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 7, 8 et 5 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 8, 1 et 9 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 9, 0 et 2 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 4, 4 et 7 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 2, 6 et 3 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 5, 1 et 0 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 7, 3 et 6 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 8, 5 et 4 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 1, 6 et 2 ?"
+        },
+        {
+          "text": "Quel nombre peut-on écrire avec les chiffres 3, 8 et 9 ?"
+        }
+      ]
+    },
+    {
+      "name": "Reflexion sur les nombres entre 100 et < 1000 | Construire un nombre",
+      "features": [
+        "Reflexion sur les nombres",
+        "Nombres >= 100 et < 1000",
+        "Construire un nombre"
+      ],
+      "image": "",
+      "calculations": [
+        {
+          "text": "Quel nombre construit-on avec 3 centaines, 5 dizaines et 2 unités ?",
+          "answer": "352"
+        },
+        {
+          "text": "Quel nombre construit-on avec 4 centaines, 2 dizaines et 7 unités ?",
+          "answer": "427"
+        },
+        {
+          "text": "Quel nombre construit-on avec 1 centaine, 8 dizaines et 6 unités ?",
+          "answer": "186"
+        },
+        {
+          "text": "Quel nombre construit-on avec 6 centaines, 7 dizaines et 4 unités ?",
+          "answer": "674"
+        },
+        {
+          "text": "Quel nombre construit-on avec 2 centaines, 9 dizaines et 1 unité ?",
+          "answer": "291"
+        },
+        {
+          "text": "Quel nombre construit-on avec 5 centaines, 4 dizaines et 8 unités ?",
+          "answer": "548"
+        },
+        {
+          "text": "Quel nombre construit-on avec 7 centaines, 1 dizaine et 3 unités ?",
+          "answer": "713"
+        },
+        {
+          "text": "Quel nombre construit-on avec 8 centaines, 6 dizaines et 2 unités ?",
+          "answer": "862"
+        },
+        {
+          "text": "Quel nombre construit-on avec 9 centaines, 3 dizaines et 5 unités ?",
+          "answer": "935"
+        },
+        {
+          "text": "Quel nombre construit-on avec 4 centaines, 7 dizaines et 0 unité ?",
+          "answer": "470"
+        },
+        {
+          "text": "Quel nombre construit-on avec 3 centaines, 0 dizaine et 9 unités ?",
+          "answer": "309"
+        },
+        {
+          "text": "Quel nombre construit-on avec 5 centaines, 9 dizaines et 1 unité ?",
+          "answer": "591"
+        },
+        {
+          "text": "Quel nombre construit-on avec 1 centaine, 2 dizaines et 4 unités ?",
+          "answer": "124"
+        },
+        {
+          "text": "Quel nombre construit-on avec 6 centaines, 0 dizaine et 8 unités ?",
+          "answer": "608"
+        },
+        {
+          "text": "Quel nombre construit-on avec 2 centaines, 4 dizaines et 6 unités ?",
+          "answer": "246"
+        },
+        {
+          "text": "Quel nombre construit-on avec 7 centaines, 8 dizaines et 5 unités ?",
+          "answer": "785"
+        },
+        {
+          "text": "Quel nombre construit-on avec 8 centaines, 1 dizaine et 9 unités ?",
+          "answer": "819"
+        },
+        {
+          "text": "Quel nombre construit-on avec 9 centaines, 0 dizaine et 2 unités ?",
+          "answer": "902"
+        },
+        {
+          "text": "Quel nombre construit-on avec 4 centaines, 4 dizaines et 7 unités ?",
+          "answer": "447"
+        },
+        {
+          "text": "Quel nombre construit-on avec 2 centaines, 6 dizaines et 3 unités ?",
+          "answer": "263"
+        },
+        {
+          "text": "Quel nombre construit-on avec 5 centaines, 1 dizaine et 0 unité ?",
+          "answer": "510"
+        },
+        {
+          "text": "Quel nombre construit-on avec 7 centaines, 3 dizaines et 6 unités ?",
+          "answer": "736"
+        },
+        {
+          "text": "Quel nombre construit-on avec 8 centaines, 5 dizaines et 4 unités ?",
+          "answer": "854"
+        },
+        {
+          "text": "Quel nombre construit-on avec 1 centaine, 6 dizaines et 2 unités ?",
+          "answer": "162"
+        },
+        {
+          "text": "Quel nombre construit-on avec 3 centaines, 8 dizaines et 9 unités ?",
+          "answer": "389"
         }
       ]
     }
