@@ -4,8 +4,8 @@
   "theme_color": "#0f766e",
   "background_color": "#ffffff",
   "display": "standalone",
-  "scope": "/Mathlogo/",
-  "start_url": "/Mathlogo/setup",
+  "scope": "/MathLogo/",
+  "start_url": "/MathLogo/setup",
   "icons": [
     {
       "src": "icons/icon-192x192.png",
