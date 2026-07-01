@@ -1,4 +1,4 @@
-import { Component, inject, signal } from '@angular/core';
+import { Component, inject, signal, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { GameService, Category, Theme, GameConfig, Calculation } from '../game.service';
@@ -19,9 +19,23 @@ export class SetupComponent {
   numberOfCalculations = signal(10);
   rewardEnabled = signal(false);
   showFinalScore = signal(true);
+  sequencedMode = signal(false);
   selectedTheme = signal<string>('');
   selectedImages = signal<string[]>([]);
   selectedFeatures = signal<string[]>([]);
+
+  ngOnInit() {
+    const currentConfig = this.gameService.getCurrentConfig();
+    if (currentConfig) {
+      this.numberOfCalculations.set(currentConfig.numberOfCalculations);
+      this.selectedCategories.set([...currentConfig.categories]);
+      this.rewardEnabled.set(currentConfig.rewardEnabled);
+      this.showFinalScore.set(currentConfig.showFinalScore);
+      this.sequencedMode.set(currentConfig.sequencedMode ?? false);
+      this.selectedTheme.set(currentConfig.theme ?? '');
+      this.selectedImages.set([...currentConfig.selectedImages]);
+    }
+  }
 
   private normalizeFeature(feature: string): string {
     return feature.trim().toLocaleLowerCase();
@@ -155,6 +169,7 @@ export class SetupComponent {
       theme: this.selectedTheme(),
       selectedImages: this.selectedImages(),
       showFinalScore: this.showFinalScore(),
+      sequencedMode: this.sequencedMode(),
     };
     this.gameService.setGameConfig(config);
     this.router.navigate(['/game']);

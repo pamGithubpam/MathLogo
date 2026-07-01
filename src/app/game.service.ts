@@ -27,6 +27,7 @@ export interface GameConfig {
   theme?: string;
   selectedImages: string[];
   showFinalScore: boolean;
+  sequencedMode?: boolean;
 }
 
 @Injectable({
@@ -41,6 +42,10 @@ export class GameService {
   private currentCalculations = signal<Calculation[]>([]);
   private currentIndex = signal(0);
   private score = signal(0);
+  private currentCategoryIndex = signal(0);
+  private calculationsByCategory = signal<Calculation[][]>([]);
+  private totalCalculationsCount = signal(0);
+  private processedCalculationsCount = signal(0);
 
   constructor(private http: HttpClient) {
     this.loadData();
@@ -80,8 +85,26 @@ export class GameService {
     this.generateCalculations();
   }
 
+  getCurrentConfig(): GameConfig | null {
+    return this.gameConfig();
+  }
+
   private generateCalculations() {
     const config = this.gameConfig()!;
+
+    if (config.sequencedMode) {
+      this.generateSequencedCalculations(config);
+    } else {
+      this.generateMixedCalculations(config);
+    }
+
+    this.currentIndex.set(0);
+    this.score.set(0);
+    this.processedCalculationsCount.set(0);
+    this.currentCategoryIndex.set(0);
+  }
+
+  private generateMixedCalculations(config: GameConfig) {
     const allCalcs: Calculation[] = [];
     config.categories.forEach((catConfig) => {
       const category = this._calculations().find((c) => c.name === catConfig.name);
@@ -91,9 +114,33 @@ export class GameService {
         allCalcs.push(...selected);
       }
     });
-    this.currentCalculations.set(this.shuffle(allCalcs).slice(0, config.numberOfCalculations));
-    this.currentIndex.set(0);
-    this.score.set(0);
+    const shuffled = this.shuffle(allCalcs).slice(0, config.numberOfCalculations);
+    this.currentCalculations.set(shuffled);
+    this.totalCalculationsCount.set(shuffled.length);
+    this.calculationsByCategory.set([]);
+  }
+
+  private generateSequencedCalculations(config: GameConfig) {
+    const allCalcsByCategory: Calculation[][] = [];
+    let total = 0;
+    config.categories.forEach((catConfig) => {
+      const category = this._calculations().find((c) => c.name === catConfig.name);
+      if (category) {
+        const num = Math.round((catConfig.percentage / 100) * config.numberOfCalculations);
+        const selected = this.shuffle(category.calculations).slice(0, num);
+        allCalcsByCategory.push(selected);
+        total += selected.length;
+      }
+    });
+
+    this.calculationsByCategory.set(allCalcsByCategory);
+    this.totalCalculationsCount.set(total);
+    // Initialize with calculations from the first category
+    if (allCalcsByCategory.length > 0) {
+      this.currentCalculations.set(allCalcsByCategory[0]);
+    } else {
+      this.currentCalculations.set([]);
+    }
   }
 
   private shuffle<T>(array: T[]): T[] {
@@ -125,10 +172,20 @@ export class GameService {
 
   nextCalculation() {
     this.currentIndex.update((i) => i + 1);
+    this.processedCalculationsCount.update((c) => c + 1);
   }
 
   isGameFinished(): boolean {
-    return this.currentIndex() >= this.currentCalculations().length;
+    if (!this.isSequencedMode()) {
+      return this.currentIndex() >= this.currentCalculations().length;
+    }
+
+    // In sequenced mode, game is finished only if we're at the last category
+    // and we've completed all calculations in that category
+    const isLastCategory = this.currentCategoryIndex() >= this.calculationsByCategory().length - 1;
+    const isCurrentCategoryComplete = this.currentIndex() >= this.currentCalculations().length;
+
+    return isLastCategory && isCurrentCategoryComplete;
   }
 
   getScore(): number {
@@ -136,7 +193,7 @@ export class GameService {
   }
 
   getTotalCalculations(): number {
-    return this.currentCalculations().length;
+    return this.totalCalculationsCount();
   }
 
   showFinalScore(): boolean {
@@ -179,11 +236,48 @@ export class GameService {
     this.currentCalculations.set([]);
     this.currentIndex.set(0);
     this.score.set(0);
+    this.processedCalculationsCount.set(0);
+    this.currentCategoryIndex.set(0);
+    this.calculationsByCategory.set([]);
+    this.totalCalculationsCount.set(0);
   }
 
   restartGameWithSameConfig() {
     if (this.gameConfig()) {
       this.generateCalculations();
     }
+  }
+
+  isSequencedMode(): boolean {
+    return this.gameConfig()?.sequencedMode ?? false;
+  }
+
+  getCurrentCategoryIndex(): number {
+    return this.currentCategoryIndex();
+  }
+
+  getNumberOfCategories(): number {
+    return this.calculationsByCategory().length;
+  }
+
+  switchToCategory(categoryIndex: number) {
+    if (categoryIndex >= 0 && categoryIndex < this.calculationsByCategory().length) {
+      this.currentCategoryIndex.set(categoryIndex);
+      this.currentCalculations.set(this.calculationsByCategory()[categoryIndex]);
+      this.currentIndex.set(0);
+    }
+  }
+
+  switchToMixedMode() {
+    const config = this.gameConfig();
+    if (config && this.isSequencedMode()) {
+      // Generate mixed calculations from all categories
+      this.generateMixedCalculations(config);
+      this.currentIndex.set(0);
+    }
+  }
+
+  getConfiguredCategories(): { name: string; percentage: number }[] {
+    return this.gameConfig()?.categories ?? [];
   }
 }

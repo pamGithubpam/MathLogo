@@ -19,7 +19,7 @@ export class EndComponent {
 
   restartSameConfig() {
     this.gameService.restartGameWithSameConfig();
-    this.router.navigate(['/game']);
+    this.router.navigate(['/setup']);
   }
 
   newGame() {

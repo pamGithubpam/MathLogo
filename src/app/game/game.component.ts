@@ -20,8 +20,22 @@ export class GameComponent implements OnInit {
   rewardImage = signal<string | null>(null);
   feedbackImage = signal<string | null>(null);
   feedbackMessage = signal('');
+  isSequencedMode = signal(false);
+  currentCategoryIndex = signal(0);
+  numberOfCategories = signal(0);
+  selectedCategories = signal<string[]>([]);
+  showQuitPanel = signal(false);
 
   ngOnInit() {
+    this.isSequencedMode.set(this.gameService.isSequencedMode());
+    this.numberOfCategories.set(this.gameService.getNumberOfCategories());
+
+    if (this.isSequencedMode()) {
+      const categories = this.gameService.getConfiguredCategories();
+      this.selectedCategories.set(categories.map((c) => c.name));
+      this.currentCategoryIndex.set(this.gameService.getCurrentCategoryIndex());
+    }
+
     this.loadNextCalculation();
   }
 
@@ -92,6 +106,43 @@ export class GameComponent implements OnInit {
   }
 
   quitGame() {
+    this.showQuitPanel.set(true);
+  }
+
+  restartSameConfig() {
+    this.gameService.restartGameWithSameConfig();
+    this.showQuitPanel.set(false);
+    this.loadNextCalculation();
+  }
+
+  returnToConfig() {
+    this.showQuitPanel.set(false);
     this.router.navigate(['/setup']);
+  }
+
+  newGame() {
+    this.gameService.resetGame();
+    this.showQuitPanel.set(false);
+    this.router.navigate(['/setup']);
+  }
+
+  closeCancelQuitPanel() {
+    this.showQuitPanel.set(false);
+  }
+
+  switchToCategory(categoryIndex: number) {
+    if (this.isSequencedMode()) {
+      this.gameService.switchToCategory(categoryIndex);
+      this.currentCategoryIndex.set(categoryIndex);
+      this.loadNextCalculation();
+    }
+  }
+
+  switchToMixedMode() {
+    if (this.isSequencedMode()) {
+      this.gameService.switchToMixedMode();
+      this.currentCategoryIndex.set(-1);
+      this.loadNextCalculation();
+    }
   }
 }

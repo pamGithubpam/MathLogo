@@ -1,4 +1,25 @@
 <div class="game-container">
+  @if (isSequencedMode()) {
+    <div class="category-controls">
+      @for (category of selectedCategories(); track category; let i = $index) {
+        <button
+          type="button"
+          class="category-button"
+          [class.active]="currentCategoryIndex() === i"
+          (click)="switchToCategory(i)">
+          {{ i + 1 }}
+        </button>
+      }
+      <button
+        type="button"
+        class="category-button mix-button"
+        [class.active]="currentCategoryIndex() === -1"
+        (click)="switchToMixedMode()">
+        Mix
+      </button>
+    </div>
+  }
+  
   <div class="game-header">
     <button type="button" class="quit-button" (click)="quitGame()">Quitter</button>
   </div>
@@ -40,6 +61,25 @@
   @if (showReward()) {
     <div class="reward-overlay">
       <img [src]="rewardImage()" [alt]="rewardImage()">
+    </div>
+  }
+
+  @if (showQuitPanel()) {
+    <div class="quit-panel-overlay">
+      <div class="quit-panel">
+        <h2>Quitter le jeu ?</h2>
+        <div class="quit-panel-buttons">
+          <button type="button" class="btn-restart" (click)="returnToConfig()">
+            Retour configuration
+          </button>
+          <button type="button" class="btn-new" (click)="newGame()">
+            Nouveau jeu
+          </button>
+          <button type="button" class="btn-cancel" (click)="closeCancelQuitPanel()">
+            Continuer
+          </button>
+        </div>
+      </div>
     </div>
   }
 </div>
