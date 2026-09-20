@@ -28,6 +28,8 @@ export interface GameConfig {
   selectedImages: string[];
   showFinalScore: boolean;
   sequencedMode?: boolean;
+  sprintMode?: boolean;
+  sprintDurationSeconds?: number;
 }
 
 @Injectable({
@@ -46,6 +48,8 @@ export class GameService {
   private calculationsByCategory = signal<Calculation[][]>([]);
   private totalCalculationsCount = signal(0);
   private processedCalculationsCount = signal(0);
+  private sprintEnded = signal(false);
+  private static readonly SPRINT_BUFFER_SIZE = 60;
 
   constructor(private http: HttpClient) {
     this.loadData();
@@ -92,7 +96,13 @@ export class GameService {
   private generateCalculations() {
     const config = this.gameConfig()!;
 
-    if (config.sequencedMode) {
+    this.sprintEnded.set(false);
+
+    if (config.sprintMode && config.sequencedMode) {
+      this.generateSprintSequencedCalculations(config);
+    } else if (config.sprintMode) {
+      this.generateSprintCalculations(config);
+    } else if (config.sequencedMode) {
       this.generateSequencedCalculations(config);
     } else {
       this.generateMixedCalculations(config);
@@ -104,20 +114,59 @@ export class GameService {
     this.currentCategoryIndex.set(0);
   }
 
-  private generateMixedCalculations(config: GameConfig) {
+  private buildCalculationsBatch(config: GameConfig, count: number): Calculation[] {
     const allCalcs: Calculation[] = [];
     config.categories.forEach((catConfig) => {
       const category = this._calculations().find((c) => c.name === catConfig.name);
-      if (category) {
-        const num = Math.round((catConfig.percentage / 100) * config.numberOfCalculations);
-        const selected = this.shuffle(category.calculations).slice(0, num);
+      if (category && category.calculations.length > 0) {
+        const num = Math.max(1, Math.round((catConfig.percentage / 100) * count));
+        const selected: Calculation[] = [];
+        while (selected.length < num) {
+          const remaining = num - selected.length;
+          selected.push(...this.shuffle(category.calculations).slice(0, remaining));
+        }
         allCalcs.push(...selected);
       }
     });
-    const shuffled = this.shuffle(allCalcs).slice(0, config.numberOfCalculations);
+    return this.shuffle(allCalcs);
+  }
+
+  private generateMixedCalculations(config: GameConfig) {
+    const shuffled = this.buildCalculationsBatch(config, config.numberOfCalculations).slice(
+      0,
+      config.numberOfCalculations,
+    );
     this.currentCalculations.set(shuffled);
     this.totalCalculationsCount.set(shuffled.length);
     this.calculationsByCategory.set([]);
+  }
+
+  private generateSprintCalculations(config: GameConfig) {
+    const initial = this.buildCalculationsBatch(config, GameService.SPRINT_BUFFER_SIZE);
+    this.currentCalculations.set(initial);
+    this.totalCalculationsCount.set(0);
+    this.calculationsByCategory.set([]);
+  }
+
+  private buildCategoryBatch(categoryName: string, count: number): Calculation[] {
+    const category = this._calculations().find((c) => c.name === categoryName);
+    if (!category || category.calculations.length === 0) {
+      return [];
+    }
+    const selected: Calculation[] = [];
+    while (selected.length < count) {
+      selected.push(...this.shuffle(category.calculations).slice(0, count - selected.length));
+    }
+    return selected;
+  }
+
+  private generateSprintSequencedCalculations(config: GameConfig) {
+    const byCategory = config.categories.map((catConfig) =>
+      this.buildCategoryBatch(catConfig.name, GameService.SPRINT_BUFFER_SIZE),
+    );
+    this.calculationsByCategory.set(byCategory);
+    this.totalCalculationsCount.set(0);
+    this.currentCalculations.set(byCategory.length > 0 ? byCategory[0] : []);
   }
 
   private generateSequencedCalculations(config: GameConfig) {
@@ -173,9 +222,40 @@ export class GameService {
   nextCalculation() {
     this.currentIndex.update((i) => i + 1);
     this.processedCalculationsCount.update((c) => c + 1);
+
+    if (this.isSprintMode() && this.currentIndex() >= this.currentCalculations().length) {
+      this.replenishSprintCalculations();
+    }
+  }
+
+  private replenishSprintCalculations() {
+    const config = this.gameConfig();
+    if (!config) return;
+
+    if (this.isSequencedMode()) {
+      const categoryIndex = this.currentCategoryIndex();
+      if (categoryIndex >= 0 && categoryIndex < this.calculationsByCategory().length) {
+        const catConfig = config.categories[categoryIndex];
+        const more = this.buildCategoryBatch(catConfig.name, GameService.SPRINT_BUFFER_SIZE);
+        this.calculationsByCategory.update((cats) => {
+          const next = [...cats];
+          next[categoryIndex] = [...next[categoryIndex], ...more];
+          return next;
+        });
+        this.currentCalculations.set(this.calculationsByCategory()[categoryIndex]);
+        return;
+      }
+    }
+
+    const more = this.buildCalculationsBatch(config, GameService.SPRINT_BUFFER_SIZE);
+    this.currentCalculations.update((calcs) => [...calcs, ...more]);
   }
 
   isGameFinished(): boolean {
+    if (this.isSprintMode()) {
+      return this.sprintEnded();
+    }
+
     if (!this.isSequencedMode()) {
       return this.currentIndex() >= this.currentCalculations().length;
     }
@@ -186,6 +266,22 @@ export class GameService {
     const isCurrentCategoryComplete = this.currentIndex() >= this.currentCalculations().length;
 
     return isLastCategory && isCurrentCategoryComplete;
+  }
+
+  endSprint() {
+    this.sprintEnded.set(true);
+  }
+
+  isSprintMode(): boolean {
+    return this.gameConfig()?.sprintMode ?? false;
+  }
+
+  getSprintDurationSeconds(): number {
+    return this.gameConfig()?.sprintDurationSeconds ?? 60;
+  }
+
+  getSprintCalculationsCount(): number {
+    return this.processedCalculationsCount();
   }
 
   getScore(): number {
@@ -240,6 +336,7 @@ export class GameService {
     this.currentCategoryIndex.set(0);
     this.calculationsByCategory.set([]);
     this.totalCalculationsCount.set(0);
+    this.sprintEnded.set(false);
   }
 
   restartGameWithSameConfig() {
@@ -271,8 +368,15 @@ export class GameService {
   switchToMixedMode() {
     const config = this.gameConfig();
     if (config && this.isSequencedMode()) {
-      // Generate mixed calculations from all categories
-      this.generateMixedCalculations(config);
+      if (this.isSprintMode()) {
+        this.currentCalculations.set(
+          this.buildCalculationsBatch(config, GameService.SPRINT_BUFFER_SIZE),
+        );
+      } else {
+        // Generate mixed calculations from all categories
+        this.generateMixedCalculations(config);
+      }
+      this.currentCategoryIndex.set(-1);
       this.currentIndex.set(0);
     }
   }

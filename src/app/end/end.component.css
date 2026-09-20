@@ -26,6 +26,12 @@ p {
   font-weight: 700;
 }
 
+.encouragement {
+  font-size: 1.8rem;
+  color: #ff8c00;
+  font-weight: 700;
+}
+
 .buttons-container {
   display: flex;
   gap: 20px;

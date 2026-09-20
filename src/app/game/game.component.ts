@@ -1,4 +1,4 @@
-import { Component, inject, signal, OnInit } from '@angular/core';
+import { Component, inject, signal, OnInit, OnDestroy } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
 import { FormsModule } from '@angular/forms';
@@ -10,7 +10,7 @@ import { GameService, Calculation } from '../game.service';
   templateUrl: './game.component.html',
   styleUrls: ['./game.component.css'],
 })
-export class GameComponent implements OnInit {
+export class GameComponent implements OnInit, OnDestroy {
   private gameService = inject(GameService);
   private router = inject(Router);
 
@@ -25,10 +25,15 @@ export class GameComponent implements OnInit {
   numberOfCategories = signal(0);
   selectedCategories = signal<string[]>([]);
   showQuitPanel = signal(false);
+  isSprintMode = signal(false);
+  sprintTimeRemaining = signal(0);
+  sprintCalculationsDone = signal(0);
+  private sprintTimerHandle?: ReturnType<typeof setInterval>;
 
   ngOnInit() {
     this.isSequencedMode.set(this.gameService.isSequencedMode());
     this.numberOfCategories.set(this.gameService.getNumberOfCategories());
+    this.isSprintMode.set(this.gameService.isSprintMode());
 
     if (this.isSequencedMode()) {
       const categories = this.gameService.getConfiguredCategories();
@@ -36,7 +41,34 @@ export class GameComponent implements OnInit {
       this.currentCategoryIndex.set(this.gameService.getCurrentCategoryIndex());
     }
 
+    if (this.isSprintMode()) {
+      this.sprintTimeRemaining.set(this.gameService.getSprintDurationSeconds());
+      this.startSprintTimer();
+    }
+
     this.loadNextCalculation();
+  }
+
+  ngOnDestroy() {
+    this.stopSprintTimer();
+  }
+
+  private startSprintTimer() {
+    this.sprintTimerHandle = setInterval(() => {
+      this.sprintTimeRemaining.update((t) => t - 1);
+      if (this.sprintTimeRemaining() <= 0) {
+        this.stopSprintTimer();
+        this.gameService.endSprint();
+        this.router.navigate(['/end']);
+      }
+    }, 1000);
+  }
+
+  private stopSprintTimer() {
+    if (this.sprintTimerHandle) {
+      clearInterval(this.sprintTimerHandle);
+      this.sprintTimerHandle = undefined;
+    }
   }
 
   loadNextCalculation() {
@@ -105,6 +137,12 @@ export class GameComponent implements OnInit {
     this.next();
   }
 
+  nextSprint() {
+    this.gameService.nextCalculation();
+    this.sprintCalculationsDone.set(this.gameService.getSprintCalculationsCount());
+    this.loadNextCalculation();
+  }
+
   quitGame() {
     this.showQuitPanel.set(true);
   }
@@ -112,6 +150,12 @@ export class GameComponent implements OnInit {
   restartSameConfig() {
     this.gameService.restartGameWithSameConfig();
     this.showQuitPanel.set(false);
+    this.sprintCalculationsDone.set(0);
+    if (this.isSprintMode()) {
+      this.stopSprintTimer();
+      this.sprintTimeRemaining.set(this.gameService.getSprintDurationSeconds());
+      this.startSprintTimer();
+    }
     this.loadNextCalculation();
   }
 

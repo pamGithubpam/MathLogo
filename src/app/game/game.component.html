@@ -23,7 +23,17 @@
   <div class="game-header">
     <button type="button" class="quit-button" (click)="quitGame()">Quitter</button>
   </div>
-  @if (currentCalculation(); as calc) {
+
+  @if (isSprintMode()) {
+    <div class="sprint-header">
+      <span class="sprint-timer">⏱ {{ sprintTimeRemaining() }}s</span>
+      <span class="sprint-count">Calculs réalisés: {{ sprintCalculationsDone() }}</span>
+    </div>
+    @if (currentCalculation(); as calc) {
+      <h2>{{ calc.text }}</h2>
+      <button type="button" class="sprint-next-btn" (click)="nextSprint()">Suivant</button>
+    }
+  } @else if (currentCalculation(); as calc) {
     <h2>{{ calc.text }}</h2>
 
     @if (calc.answer) {

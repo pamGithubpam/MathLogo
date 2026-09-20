@@ -2,7 +2,7 @@
   "themes": [
     {
       "name": "Halloween",
-      "images": ["pumpkin", "ghost", "witch", "bat", "candy"],
+      "images": ["Citrouille.png", "Fantôme.png", "Faucheur.png", "Sorcière.png", "Vampire.png"],
       "feedback": { "correct": "correct", "wrong": "wrong" }
     },
     {
@@ -29,12 +29,12 @@
     },
     {
       "name": "Pâques",
-      "images": ["egg", "bunny", "chick", "basket", "flower"],
+      "images": ["lapin faché.png", "Lapin joyeux.png", "mouton.png", "Oeuf.png", "poussin.png"],
       "feedback": { "correct": "correct", "wrong": "wrong" }
     },
     {
       "name": "Vacances d'été",
-      "images": ["sun", "beach", "icecream", "ball", "shell"],
+      "images": ["Ananas.png", "crabe.png", "Crabe faché.png", "soleil.png", "tortue.png"],
       "feedback": { "correct": "correct", "wrong": "wrong" }
     }
   ]

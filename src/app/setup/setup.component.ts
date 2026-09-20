@@ -20,6 +20,8 @@ export class SetupComponent {
   rewardEnabled = signal(false);
   showFinalScore = signal(true);
   sequencedMode = signal(false);
+  sprintMode = signal(false);
+  sprintDurationSeconds = signal(60);
   selectedTheme = signal<string>('');
   selectedImages = signal<string[]>([]);
   selectedFeatures = signal<string[]>([]);
@@ -32,6 +34,8 @@ export class SetupComponent {
       this.rewardEnabled.set(currentConfig.rewardEnabled);
       this.showFinalScore.set(currentConfig.showFinalScore);
       this.sequencedMode.set(currentConfig.sequencedMode ?? false);
+      this.sprintMode.set(currentConfig.sprintMode ?? false);
+      this.sprintDurationSeconds.set(currentConfig.sprintDurationSeconds ?? 60);
       this.selectedTheme.set(currentConfig.theme ?? '');
       this.selectedImages.set([...currentConfig.selectedImages]);
     }
@@ -143,6 +147,13 @@ export class SetupComponent {
     this.selectedImages.set([]);
   }
 
+  toggleSprintMode() {
+    this.sprintMode.update((v) => !v);
+    if (this.sprintMode()) {
+      this.rewardEnabled.set(false);
+    }
+  }
+
   toggleImage(image: string) {
     const current = this.selectedImages();
     if (current.includes(image)) {
@@ -170,6 +181,8 @@ export class SetupComponent {
       selectedImages: this.selectedImages(),
       showFinalScore: this.showFinalScore(),
       sequencedMode: this.sequencedMode(),
+      sprintMode: this.sprintMode(),
+      sprintDurationSeconds: this.sprintDurationSeconds(),
     };
     this.gameService.setGameConfig(config);
     this.router.navigate(['/game']);

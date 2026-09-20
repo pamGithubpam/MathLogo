@@ -4,10 +4,10 @@
   <div class="form-group inline-config-row">
     <div class="config-item config-item-number">
       <label for="numberOfCalculations">Nombre de calculs:</label>
-      <input id="numberOfCalculations" type="number" [(ngModel)]="numberOfCalculations" min="1" max="999">
+      <input id="numberOfCalculations" type="number" [(ngModel)]="numberOfCalculations" min="1" max="999" [disabled]="sprintMode()">
     </div>
     <label class="config-item checkbox-item">
-      <input type="checkbox" [(ngModel)]="rewardEnabled"> Activer les récompenses
+      <input type="checkbox" [ngModel]="rewardEnabled()" (ngModelChange)="rewardEnabled.set($event)" [disabled]="sprintMode()"> Activer les récompenses
     </label>
     <label class="config-item checkbox-item">
       <input type="checkbox" [(ngModel)]="showFinalScore"> Afficher le score final
@@ -15,7 +15,20 @@
     <label class="config-item checkbox-item">
       <input type="checkbox" [(ngModel)]="sequencedMode"> Mode séquencé
     </label>
+    <label class="config-item checkbox-item">
+      <input type="checkbox" [ngModel]="sprintMode()" (ngModelChange)="toggleSprintMode()"> Mode sprint
+    </label>
+    @if (sprintMode()) {
+      <div class="config-item config-item-number">
+        <label for="sprintDurationSeconds">Temps de jeu (secondes):</label>
+        <input id="sprintDurationSeconds" type="number" [(ngModel)]="sprintDurationSeconds" min="10" max="600">
+      </div>
+    }
   </div>
+
+  @if (sprintMode()) {
+    <p class="hint">Le mode sprint est incompatible avec les récompenses et désactive le nombre de calculs (temps limité).</p>
+  }
 
   <div class="form-group">
     <label>Filtrer par caractéristiques:</label>

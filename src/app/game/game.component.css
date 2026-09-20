@@ -25,6 +25,34 @@
   background-color: #c82333;
 }
 
+.sprint-header {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.sprint-timer {
+  color: #dc3545;
+}
+
+.sprint-next-btn {
+  font-size: 2rem;
+  padding: 20px 50px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.sprint-next-btn:hover {
+  background-color: #0056b3;
+}
+
 h2 {
   font-size: 3rem;
   margin-bottom: 20px;
