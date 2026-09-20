@@ -2,6 +2,7 @@ import { Component, inject, signal, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { GameService, Category, Theme, GameConfig, Calculation } from '../game.service';
+import { APP_VERSION } from '../version';
 
 @Component({
   selector: 'app-setup',
@@ -14,6 +15,7 @@ export class SetupComponent {
   categories = this.gameService.categories;
   themes = this.gameService.themes;
   private router = inject(Router);
+  readonly appVersion = APP_VERSION;
 
   selectedCategories = signal<{ name: string; percentage: number }[]>([]);
   numberOfCalculations = signal(10);
