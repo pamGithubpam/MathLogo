@@ -4102,7 +4102,7 @@
     },
     {
   "name": "Multiplications | Situation problème",
-  "features": ["Multiplications", "Situation problème"],
+  "features": ["Divisions/multiplications", "Situation problème"],
   "image": "multiplication",
   "calculations": [
     {"text":"Paul range 4 boîtes contenant chacune 6 billes. Combien de billes a-t-il rangées au total ?","answer":"24"},
@@ -4134,7 +4134,7 @@
 },
 {
   "name": "Divisions | Situation problème",
-  "features": ["Divisions", "Situation problème"],
+  "features": ["Divisions/multiplications", "Situation problème"],
   "image": "division",
   "calculations": [
     {"text":"24 bonbons sont répartis équitablement entre 4 enfants. Combien chaque enfant reçoit-il de bonbons ?","answer":"6"},
@@ -4166,7 +4166,7 @@
 },
 {
   "name": "Multiplications | Calculs",
-  "features": ["Multiplications", "Calculs"],
+  "features": ["Divisions/multiplications", "Calculs"],
   "image": "multiplication",
   "calculations": [
     {"text":"2 × 3 = ...","answer":"6"},
