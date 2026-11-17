@@ -3,116 +3,6 @@
     {
       "calculations": [
         {
-          "answer": "24",
-          "text": "... : 4 = 6"
-        },
-        {
-          "answer": "25",
-          "text": "125 : 5 = ..."
-        },
-        {
-          "answer": "13",
-          "text": "65 : 5 = ..."
-        },
-        {
-          "answer": "3",
-          "text": "27 : ... = 9"
-        },
-        {
-          "answer": "4",
-          "text": "32 : ... = 8"
-        },
-        {
-          "answer": "24",
-          "text": "72 : 3 = ..."
-        },
-        {
-          "answer": "4",
-          "text": "24 : 6 = ..."
-        },
-        {
-          "answer": "130",
-          "text": "260 : 2 = ..."
-        },
-        {
-          "answer": "16",
-          "text": "32 : 2 = ..."
-        },
-        {
-          "answer": "12",
-          "text": "48 : 4 = ..."
-        },
-        {
-          "answer": "125",
-          "text": "250 : 2 = ..."
-        },
-        {
-          "answer": "12",
-          "text": "36 : 3 = ..."
-        },
-        {
-          "answer": "4",
-          "text": "32 : 8 = ..."
-        },
-        {
-          "answer": "6",
-          "text": "36 : 6 = ..."
-        },
-        {
-          "answer": "13",
-          "text": "65 : 5 = ..."
-        },
-        {
-          "answer": "16",
-          "text": "32 : 2 = ..."
-        },
-        {
-          "answer": "17",
-          "text": "68 : 4 = ..."
-        },
-        {
-          "answer": "6",
-          "text": "42 : 7 = ..."
-        },
-        {
-          "answer": "72",
-          "text": "... : 8 = 9"
-        },
-        {
-          "answer": "12",
-          "text": "48 : 4 = ..."
-        },
-        {
-          "answer": "9",
-          "text": "45 : 5 = ..."
-        },
-        {
-          "answer": "13",
-          "text": "65 : 5 = ..."
-        },
-        {
-          "answer": "28",
-          "text": "56 : 2 = ..."
-        },
-        {
-          "answer": "4",
-          "text": "24 : ... = 6"
-        },
-        {
-          "answer": "7",
-          "text": "28 : 4 = ..."
-        }
-      ],
-      "features": [
-        "Divisions/multiplications",
-        "Calculs"
-      ],
-      "image": "division",
-      "name": "Divisions | Calculs"
-    },
-    {
-      "calculations": [
-        {
           "answer": "26",
           "text": "29 - 3 = ..."
         },
@@ -3405,7 +3295,6 @@
       ],
       "image": "",
       "calculations": [
-        
         {
           "text": "Peut-on prendre 14 dans 12 ?"
         },
@@ -4101,103 +3990,812 @@
       ]
     },
     {
-  "name": "Multiplications | Situation problème",
-  "features": ["Divisions/multiplications", "Situation problème"],
-  "image": "multiplication",
-  "calculations": [
-    {"text":"Paul range 4 boîtes contenant chacune 6 billes. Combien de billes a-t-il rangées au total ?","answer":"24"},
-    {"text":"Une fermière place 8 œufs dans chacune de ses 5 boîtes. Combien d'œufs a-t-elle placés ?","answer":"40"},
-    {"text":"Un professeur distribue 7 cahiers à chacun des 3 groupes. Combien de cahiers distribue-t-il ?","answer":"21"},
-    {"text":"Une librairie expose 9 étagères contenant chacune 2 livres. Combien de livres sont exposés ?","answer":"18"},
-    {"text":"Il y a 6 rangées de 5 fleurs dans le jardin. Combien y a-t-il de fleurs ?","answer":"30"},
-    {"text":"Une école achète 4 paquets de 8 crayons. Combien de crayons a-t-elle achetés ?","answer":"32"},
-    {"text":"Dans un parking, il y a 3 rangées de 9 vélos. Combien y a-t-il de vélos ?","answer":"27"},
-    {"text":"Un boulanger prépare 10 plateaux contenant chacun 7 croissants. Combien de croissants a-t-il préparés ?","answer":"70"},
-    {"text":"Julie possède 12 sachets contenant chacun 4 autocollants. Combien possède-t-elle d'autocollants ?","answer":"48"},
-    {"text":"Un fermier a 11 cages contenant chacune 5 poules. Combien de poules possède-t-il ?","answer":"55"},
-    {"text":"Une classe compte 8 tables avec 8 élèves par groupe. Combien d'élèves ?","answer":"64"},
-    {"text":"Un cinéma possède 9 rangées de 9 sièges. Combien de sièges ?","answer":"81"},
-    {"text":"7 bus transportent chacun 12 enfants. Combien d'enfants sont transportés ?","answer":"84"},
-    {"text":"6 boîtes contiennent chacune 11 chocolats. Combien de chocolats ?","answer":"66"},
-    {"text":"12 paniers contiennent chacun 6 fruits. Combien de fruits ?","answer":"72"},
-    {"text":"5 paquets contiennent chacun 11 cartes. Combien de cartes ?","answer":"55"},
-    {"text":"4 sacs contiennent chacun 12 billes. Combien de billes ?","answer":"48"},
-    {"text":"3 aquariums contiennent chacun 11 poissons. Combien de poissons ?","answer":"33"},
-    {"text":"10 étagères portent chacune 10 livres. Combien de livres ?","answer":"100"},
-    {"text":"2 boîtes contiennent chacune 12 feutres. Combien de feutres ?","answer":"24"},
-    {"text":"5 bouquets contiennent chacun 9 fleurs. Combien de fleurs ?","answer":"45"},
-    {"text":"7 rangées contiennent chacune 8 chaises. Combien de chaises ?","answer":"56"},
-    {"text":"12 paquets contiennent chacun 8 biscuits. Combien de biscuits ?","answer":"96"},
-    {"text":"11 cages contiennent chacune 7 lapins. Combien de lapins ?","answer":"77"},
-    {"text":"6 équipes de 12 joueurs participent à un tournoi. Combien de joueurs ?","answer":"72"}
-  ]
-},
-{
-  "name": "Divisions | Situation problème",
-  "features": ["Divisions/multiplications", "Situation problème"],
-  "image": "division",
-  "calculations": [
-    {"text":"24 bonbons sont répartis équitablement entre 4 enfants. Combien chaque enfant reçoit-il de bonbons ?","answer":"6"},
-    {"text":"40 crayons sont rangés dans 5 boîtes identiques. Combien y a-t-il de crayons par boîte ?","answer":"8"},
-    {"text":"21 billes sont distribuées équitablement entre 3 joueurs. Combien chaque joueur reçoit-il de billes ?","answer":"7"},
-    {"text":"18 pommes sont placées dans 2 paniers identiques. Combien de pommes dans chaque panier ?","answer":"9"},
-    {"text":"30 fleurs sont réparties dans 6 vases identiques. Combien de fleurs par vase ?","answer":"5"},
-    {"text":"32 cartes sont partagées entre 4 enfants. Combien chacun reçoit-il de cartes ?","answer":"8"},
-    {"text":"27 biscuits sont répartis entre 9 enfants. Combien de biscuits reçoit chaque enfant ?","answer":"3"},
-    {"text":"70 croissants sont rangés dans 10 paniers identiques. Combien de croissants par panier ?","answer":"7"},
-    {"text":"48 autocollants sont distribués à 12 élèves. Combien chaque élève reçoit-il ?","answer":"4"},
-    {"text":"84 livres sont placés sur 7 étagères identiques. Combien de livres par étagère ?","answer":"12"},
-    {"text":"64 bonbons sont partagés entre 8 enfants. Combien chacun reçoit-il ?","answer":"8"},
-    {"text":"81 perles sont réparties dans 9 boîtes. Combien de perles par boîte ?","answer":"9"},
-    {"text":"66 chocolats sont placés dans 6 boîtes identiques. Combien par boîte ?","answer":"11"},
-    {"text":"72 fruits sont répartis dans 12 paniers. Combien par panier ?","answer":"6"},
-    {"text":"55 cartes sont rangées dans 5 paquets identiques. Combien de cartes par paquet ?","answer":"11"},
-    {"text":"48 billes sont réparties dans 4 sacs. Combien de billes par sac ?","answer":"12"},
-    {"text":"33 poissons sont répartis dans 3 aquariums. Combien de poissons par aquarium ?","answer":"11"},
-    {"text":"100 livres sont rangés sur 10 étagères. Combien de livres par étagère ?","answer":"10"},
-    {"text":"24 feutres sont répartis dans 2 boîtes. Combien de feutres par boîte ?","answer":"12"},
-    {"text":"45 fleurs sont réparties dans 5 bouquets. Combien de fleurs par bouquet ?","answer":"9"},
-    {"text":"56 chaises sont placées sur 7 rangées. Combien de chaises par rangée ?","answer":"8"},
-    {"text":"96 biscuits sont répartis dans 12 paquets. Combien de biscuits par paquet ?","answer":"8"},
-    {"text":"77 lapins sont répartis dans 11 cages. Combien de lapins par cage ?","answer":"7"},
-    {"text":"72 joueurs sont répartis dans 6 équipes. Combien de joueurs par équipe ?","answer":"12"},
-    {"text":"60 gommes sont distribuées à 12 élèves. Combien de gommes par élève ?","answer":"5"}
-  ]
-},
-{
-  "name": "Multiplications | Calculs",
-  "features": ["Divisions/multiplications", "Calculs"],
-  "image": "multiplication",
-  "calculations": [
-    {"text":"2 × 3 = ...","answer":"6"},
-    {"text":"4 × 5 = ...","answer":"20"},
-    {"text":"6 × 4 = ...","answer":"24"},
-    {"text":"8 × 5 = ...","answer":"40"},
-    {"text":"7 × 3 = ...","answer":"21"},
-    {"text":"9 × 2 = ...","answer":"18"},
-    {"text":"5 × 6 = ...","answer":"30"},
-    {"text":"4 × 8 = ...","answer":"32"},
-    {"text":"3 × 9 = ...","answer":"27"},
-    {"text":"10 × 7 = ...","answer":"70"},
-    {"text":"12 × 4 = ...","answer":"48"},
-    {"text":"11 × 5 = ...","answer":"55"},
-    {"text":"9 × 9 = ...","answer":"81"},
-    {"text":"7 × 12 = ...","answer":"84"},
-    {"text":"6 × 11 = ...","answer":"66"},
-    {"text":"8 × 8 = ...","answer":"64"},
-    {"text":"12 × 6 = ...","answer":"72"},
-    {"text":"5 × 11 = ...","answer":"55"},
-    {"text":"4 × 12 = ...","answer":"48"},
-    {"text":"3 × 11 = ...","answer":"33"},
-    {"text":"8 × 7 = ...","answer":"56"},
-    {"text":"7 × 6 = ...","answer":"42"},
-    {"text":"8 × 8 = ...","answer":"64"},
-    {"text":"9 × 9 = ...","answer":"81"},
-    {"text":"6 × 12 = ...","answer":"72"}
-  ]
-}
-
-
-
+      "name": "Multiplications | Calculs | Tables",
+      "features": [
+        "Divisions/multiplications",
+        "Calculs",
+        "Tables"
+      ],
+      "image": "multiplication",
+      "calculations": [
+        {
+          "text": "2 × 3 = ...",
+          "answer": "6"
+        },
+        {
+          "text": "4 × 5 = ...",
+          "answer": "20"
+        },
+        {
+          "text": "6 × 4 = ...",
+          "answer": "24"
+        },
+        {
+          "text": "8 × 5 = ...",
+          "answer": "40"
+        },
+        {
+          "text": "7 × 3 = ...",
+          "answer": "21"
+        },
+        {
+          "text": "9 × 2 = ...",
+          "answer": "18"
+        },
+        {
+          "text": "5 × 6 = ...",
+          "answer": "30"
+        },
+        {
+          "text": "4 × 8 = ...",
+          "answer": "32"
+        },
+        {
+          "text": "3 × 9 = ...",
+          "answer": "27"
+        },
+        {
+          "text": "10 × 7 = ...",
+          "answer": "70"
+        },
+        {
+          "text": "9 × 9 = ...",
+          "answer": "81"
+        },
+        {
+          "text": "8 × 8 = ...",
+          "answer": "64"
+        },
+        {
+          "text": "8 × 7 = ...",
+          "answer": "56"
+        },
+        {
+          "text": "7 × 6 = ...",
+          "answer": "42"
+        },
+        {
+          "text": "6 × 7 = ...",
+          "answer": "42"
+        },
+        {
+          "text": "7 × 7 = ...",
+          "answer": "49"
+        },
+        {
+          "text": "9 × 6 = ...",
+          "answer": "54"
+        },
+        {
+          "text": "8 × 6 = ...",
+          "answer": "48"
+        },
+        {
+          "text": "3 × 7 = ...",
+          "answer": "21"
+        },
+        {
+          "text": "6 × 6 = ...",
+          "answer": "36"
+        },
+        {
+          "text": "9 × 4 = ...",
+          "answer": "36"
+        },
+        {
+          "text": "7 × 9 = ...",
+          "answer": "63"
+        },
+        {
+          "text": "8 × 9 = ...",
+          "answer": "72"
+        },
+        {
+          "text": "5 × 7 = ...",
+          "answer": "35"
+        },
+        {
+          "text": "4 × 6 = ...",
+          "answer": "24"
+        }
+      ]
+    },
+    {
+      "name": "Multiplications | Calculs | Complexes",
+      "features": [
+        "Divisions/multiplications",
+        "Calculs",
+        "Complexes"
+      ],
+      "image": "multiplication",
+      "calculations": [
+        {
+          "text": "12 × 4 = ...",
+          "answer": "48"
+        },
+        {
+          "text": "11 × 5 = ...",
+          "answer": "55"
+        },
+        {
+          "text": "7 × 12 = ...",
+          "answer": "84"
+        },
+        {
+          "text": "6 × 11 = ...",
+          "answer": "66"
+        },
+        {
+          "text": "12 × 6 = ...",
+          "answer": "72"
+        },
+        {
+          "text": "5 × 11 = ...",
+          "answer": "55"
+        },
+        {
+          "text": "4 × 12 = ...",
+          "answer": "48"
+        },
+        {
+          "text": "3 × 11 = ...",
+          "answer": "33"
+        },
+        {
+          "text": "6 × 12 = ...",
+          "answer": "72"
+        },
+        {
+          "text": "13 × 3 = ...",
+          "answer": "39"
+        },
+        {
+          "text": "15 × 4 = ...",
+          "answer": "60"
+        },
+        {
+          "text": "14 × 5 = ...",
+          "answer": "70"
+        },
+        {
+          "text": "25 × 4 = ...",
+          "answer": "100"
+        },
+        {
+          "text": "21 × 3 = ...",
+          "answer": "63"
+        },
+        {
+          "text": "16 × 2 = ...",
+          "answer": "32"
+        },
+        {
+          "text": "23 × 3 = ...",
+          "answer": "69"
+        },
+        {
+          "text": "32 × 3 = ...",
+          "answer": "96"
+        },
+        {
+          "text": "18 × 5 = ...",
+          "answer": "90"
+        },
+        {
+          "text": "24 × 4 = ...",
+          "answer": "96"
+        },
+        {
+          "text": "20 × 7 = ...",
+          "answer": "140"
+        },
+        {
+          "text": "30 × 6 = ...",
+          "answer": "180"
+        },
+        {
+          "text": "45 × 2 = ...",
+          "answer": "90"
+        },
+        {
+          "text": "50 × 8 = ...",
+          "answer": "400"
+        },
+        {
+          "text": "125 × 2 = ...",
+          "answer": "250"
+        },
+        {
+          "text": "13 × 6 = ...",
+          "answer": "78"
+        }
+      ]
+    },
+    {
+      "name": "Multiplications | Situation problème | Tables",
+      "features": [
+        "Divisions/multiplications",
+        "Situation problème",
+        "Tables"
+      ],
+      "image": "multiplication",
+      "calculations": [
+        {
+          "text": "Paul range 4 boîtes contenant chacune 6 billes. Combien de billes a-t-il rangées au total ?",
+          "answer": "24"
+        },
+        {
+          "text": "Une fermière place 8 œufs dans chacune de ses 5 boîtes. Combien d'œufs a-t-elle placés ?",
+          "answer": "40"
+        },
+        {
+          "text": "Un professeur distribue 7 cahiers à chacun des 3 groupes. Combien de cahiers distribue-t-il ?",
+          "answer": "21"
+        },
+        {
+          "text": "Une librairie expose 9 étagères contenant chacune 2 livres. Combien de livres sont exposés ?",
+          "answer": "18"
+        },
+        {
+          "text": "Il y a 6 rangées de 5 fleurs dans le jardin. Combien y a-t-il de fleurs ?",
+          "answer": "30"
+        },
+        {
+          "text": "Une école achète 4 paquets de 8 crayons. Combien de crayons a-t-elle achetés ?",
+          "answer": "32"
+        },
+        {
+          "text": "Dans un parking, il y a 3 rangées de 9 vélos. Combien y a-t-il de vélos ?",
+          "answer": "27"
+        },
+        {
+          "text": "Un boulanger prépare 10 plateaux contenant chacun 7 croissants. Combien de croissants a-t-il préparés ?",
+          "answer": "70"
+        },
+        {
+          "text": "Une classe compte 8 tables avec 8 élèves par groupe. Combien d'élèves ?",
+          "answer": "64"
+        },
+        {
+          "text": "Un cinéma possède 9 rangées de 9 sièges. Combien de sièges ?",
+          "answer": "81"
+        },
+        {
+          "text": "10 étagères portent chacune 10 livres. Combien de livres ?",
+          "answer": "100"
+        },
+        {
+          "text": "5 bouquets contiennent chacun 9 fleurs. Combien de fleurs ?",
+          "answer": "45"
+        },
+        {
+          "text": "7 rangées contiennent chacune 8 chaises. Combien de chaises ?",
+          "answer": "56"
+        },
+        {
+          "text": "Un chat a 4 pattes. Combien de pattes ont 7 chats ?",
+          "answer": "28"
+        },
+        {
+          "text": "Une araignée a 8 pattes. Combien de pattes ont 6 araignées ?",
+          "answer": "48"
+        },
+        {
+          "text": "Une main a 5 doigts. Combien de doigts y a-t-il sur 9 mains ?",
+          "answer": "45"
+        },
+        {
+          "text": "Un tricycle a 3 roues. Combien de roues ont 8 tricycles ?",
+          "answer": "24"
+        },
+        {
+          "text": "Une semaine compte 7 jours. Combien de jours y a-t-il dans 6 semaines ?",
+          "answer": "42"
+        },
+        {
+          "text": "Un paquet contient 6 yaourts. Combien de yaourts y a-t-il dans 9 paquets ?",
+          "answer": "54"
+        }
+      ]
+    },
+    {
+      "name": "Multiplications | Situation problème | Complexes",
+      "features": [
+        "Divisions/multiplications",
+        "Situation problème",
+        "Complexes"
+      ],
+      "image": "multiplication",
+      "calculations": [
+        {
+          "text": "Julie possède 12 sachets contenant chacun 4 autocollants. Combien possède-t-elle d'autocollants ?",
+          "answer": "48"
+        },
+        {
+          "text": "Un fermier a 11 cages contenant chacune 5 poules. Combien de poules possède-t-il ?",
+          "answer": "55"
+        },
+        {
+          "text": "7 bus transportent chacun 12 enfants. Combien d'enfants sont transportés ?",
+          "answer": "84"
+        },
+        {
+          "text": "6 boîtes contiennent chacune 11 chocolats. Combien de chocolats ?",
+          "answer": "66"
+        },
+        {
+          "text": "12 paniers contiennent chacun 6 fruits. Combien de fruits ?",
+          "answer": "72"
+        },
+        {
+          "text": "5 paquets contiennent chacun 11 cartes. Combien de cartes ?",
+          "answer": "55"
+        },
+        {
+          "text": "4 sacs contiennent chacun 12 billes. Combien de billes ?",
+          "answer": "48"
+        },
+        {
+          "text": "3 aquariums contiennent chacun 11 poissons. Combien de poissons ?",
+          "answer": "33"
+        },
+        {
+          "text": "2 boîtes contiennent chacune 12 feutres. Combien de feutres ?",
+          "answer": "24"
+        },
+        {
+          "text": "12 paquets contiennent chacun 8 biscuits. Combien de biscuits ?",
+          "answer": "96"
+        },
+        {
+          "text": "11 cages contiennent chacune 7 lapins. Combien de lapins ?",
+          "answer": "77"
+        },
+        {
+          "text": "6 équipes de 12 joueurs participent à un tournoi. Combien de joueurs ?",
+          "answer": "72"
+        },
+        {
+          "text": "Un album a 15 pages avec 4 photos sur chaque page. Combien de photos contient-il ?",
+          "answer": "60"
+        },
+        {
+          "text": "Un théâtre a 20 rangées de 8 places. Combien de places y a-t-il ?",
+          "answer": "160"
+        },
+        {
+          "text": "Une boîte contient 25 crayons. Combien de crayons y a-t-il dans 3 boîtes ?",
+          "answer": "75"
+        },
+        {
+          "text": "Un livre coûte 13 €. Combien coûtent 4 livres ?",
+          "answer": "52"
+        },
+        {
+          "text": "Une semaine compte 7 jours. Combien de jours y a-t-il dans 14 semaines ?",
+          "answer": "98"
+        },
+        {
+          "text": "Un car a 50 places. Combien de places y a-t-il dans 6 cars ?",
+          "answer": "300"
+        },
+        {
+          "text": "Un carton contient 24 briques de jus. Combien de briques y a-t-il dans 3 cartons ?",
+          "answer": "72"
+        },
+        {
+          "text": "Une place de cinéma coûte 15 €. Combien coûtent 5 places ?",
+          "answer": "75"
+        }
+      ]
+    },
+    {
+      "name": "Divisions | Calculs | Tables",
+      "features": [
+        "Divisions/multiplications",
+        "Calculs",
+        "Tables"
+      ],
+      "image": "division",
+      "calculations": [
+        {
+          "text": "... : 4 = 6",
+          "answer": "24"
+        },
+        {
+          "text": "27 : ... = 9",
+          "answer": "3"
+        },
+        {
+          "text": "32 : ... = 8",
+          "answer": "4"
+        },
+        {
+          "text": "24 : 6 = ...",
+          "answer": "4"
+        },
+        {
+          "text": "32 : 8 = ...",
+          "answer": "4"
+        },
+        {
+          "text": "36 : 6 = ...",
+          "answer": "6"
+        },
+        {
+          "text": "42 : 7 = ...",
+          "answer": "6"
+        },
+        {
+          "text": "... : 8 = 9",
+          "answer": "72"
+        },
+        {
+          "text": "45 : 5 = ...",
+          "answer": "9"
+        },
+        {
+          "text": "24 : ... = 6",
+          "answer": "4"
+        },
+        {
+          "text": "28 : 4 = ...",
+          "answer": "7"
+        },
+        {
+          "text": "56 : 8 = ...",
+          "answer": "7"
+        },
+        {
+          "text": "63 : 9 = ...",
+          "answer": "7"
+        },
+        {
+          "text": "49 : 7 = ...",
+          "answer": "7"
+        },
+        {
+          "text": "54 : 6 = ...",
+          "answer": "9"
+        },
+        {
+          "text": "18 : 3 = ...",
+          "answer": "6"
+        },
+        {
+          "text": "40 : 5 = ...",
+          "answer": "8"
+        },
+        {
+          "text": "81 : 9 = ...",
+          "answer": "9"
+        },
+        {
+          "text": "35 : 5 = ...",
+          "answer": "7"
+        },
+        {
+          "text": "64 : 8 = ...",
+          "answer": "8"
+        },
+        {
+          "text": "30 : ... = 6",
+          "answer": "5"
+        },
+        {
+          "text": "... : 7 = 8",
+          "answer": "56"
+        },
+        {
+          "text": "72 : 9 = ...",
+          "answer": "8"
+        },
+        {
+          "text": "48 : 6 = ...",
+          "answer": "8"
+        },
+        {
+          "text": "21 : 3 = ...",
+          "answer": "7"
+        }
+      ]
+    },
+    {
+      "name": "Divisions | Calculs | Complexes",
+      "features": [
+        "Divisions/multiplications",
+        "Calculs",
+        "Complexes"
+      ],
+      "image": "division",
+      "calculations": [
+        {
+          "text": "125 : 5 = ...",
+          "answer": "25"
+        },
+        {
+          "text": "65 : 5 = ...",
+          "answer": "13"
+        },
+        {
+          "text": "72 : 3 = ...",
+          "answer": "24"
+        },
+        {
+          "text": "260 : 2 = ...",
+          "answer": "130"
+        },
+        {
+          "text": "32 : 2 = ...",
+          "answer": "16"
+        },
+        {
+          "text": "48 : 4 = ...",
+          "answer": "12"
+        },
+        {
+          "text": "250 : 2 = ...",
+          "answer": "125"
+        },
+        {
+          "text": "36 : 3 = ...",
+          "answer": "12"
+        },
+        {
+          "text": "68 : 4 = ...",
+          "answer": "17"
+        },
+        {
+          "text": "56 : 2 = ...",
+          "answer": "28"
+        },
+        {
+          "text": "84 : 4 = ...",
+          "answer": "21"
+        },
+        {
+          "text": "96 : 3 = ...",
+          "answer": "32"
+        },
+        {
+          "text": "90 : 6 = ...",
+          "answer": "15"
+        },
+        {
+          "text": "75 : 5 = ...",
+          "answer": "15"
+        },
+        {
+          "text": "84 : 7 = ...",
+          "answer": "12"
+        },
+        {
+          "text": "132 : 11 = ...",
+          "answer": "12"
+        },
+        {
+          "text": "144 : 12 = ...",
+          "answer": "12"
+        },
+        {
+          "text": "100 : 4 = ...",
+          "answer": "25"
+        },
+        {
+          "text": "64 : 2 = ...",
+          "answer": "32"
+        },
+        {
+          "text": "99 : 3 = ...",
+          "answer": "33"
+        },
+        {
+          "text": "150 : 3 = ...",
+          "answer": "50"
+        },
+        {
+          "text": "120 : 4 = ...",
+          "answer": "30"
+        },
+        {
+          "text": "78 : 6 = ...",
+          "answer": "13"
+        },
+        {
+          "text": "... : 3 = 14",
+          "answer": "42"
+        },
+        {
+          "text": "96 : ... = 8",
+          "answer": "12"
+        }
+      ]
+    },
+    {
+      "name": "Divisions | Situation problème | Tables",
+      "features": [
+        "Divisions/multiplications",
+        "Situation problème",
+        "Tables"
+      ],
+      "image": "division",
+      "calculations": [
+        {
+          "text": "24 bonbons sont répartis équitablement entre 4 enfants. Combien chaque enfant reçoit-il de bonbons ?",
+          "answer": "6"
+        },
+        {
+          "text": "40 crayons sont rangés dans 5 boîtes identiques. Combien y a-t-il de crayons par boîte ?",
+          "answer": "8"
+        },
+        {
+          "text": "21 billes sont distribuées équitablement entre 3 joueurs. Combien chaque joueur reçoit-il de billes ?",
+          "answer": "7"
+        },
+        {
+          "text": "18 pommes sont placées dans 2 paniers identiques. Combien de pommes dans chaque panier ?",
+          "answer": "9"
+        },
+        {
+          "text": "30 fleurs sont réparties dans 6 vases identiques. Combien de fleurs par vase ?",
+          "answer": "5"
+        },
+        {
+          "text": "32 cartes sont partagées entre 4 enfants. Combien chacun reçoit-il de cartes ?",
+          "answer": "8"
+        },
+        {
+          "text": "27 biscuits sont répartis entre 9 enfants. Combien de biscuits reçoit chaque enfant ?",
+          "answer": "3"
+        },
+        {
+          "text": "70 croissants sont rangés dans 10 paniers identiques. Combien de croissants par panier ?",
+          "answer": "7"
+        },
+        {
+          "text": "64 bonbons sont partagés entre 8 enfants. Combien chacun reçoit-il ?",
+          "answer": "8"
+        },
+        {
+          "text": "81 perles sont réparties dans 9 boîtes. Combien de perles par boîte ?",
+          "answer": "9"
+        },
+        {
+          "text": "100 livres sont rangés sur 10 étagères. Combien de livres par étagère ?",
+          "answer": "10"
+        },
+        {
+          "text": "45 fleurs sont réparties dans 5 bouquets. Combien de fleurs par bouquet ?",
+          "answer": "9"
+        },
+        {
+          "text": "56 chaises sont placées sur 7 rangées. Combien de chaises par rangée ?",
+          "answer": "8"
+        },
+        {
+          "text": "36 élèves forment des équipes de 4. Combien d'équipes y a-t-il ?",
+          "answer": "9"
+        },
+        {
+          "text": "42 jours, cela fait combien de semaines de 7 jours ?",
+          "answer": "6"
+        },
+        {
+          "text": "45 bonbons sont partagés entre 5 amis. Combien chacun reçoit-il de bonbons ?",
+          "answer": "9"
+        },
+        {
+          "text": "63 cartes sont distribuées à 7 joueurs. Combien de cartes reçoit chaque joueur ?",
+          "answer": "9"
+        },
+        {
+          "text": "35 billes sont réparties dans 5 sacs. Combien de billes par sac ?",
+          "answer": "7"
+        },
+        {
+          "text": "54 œufs sont rangés dans des boîtes de 6. Combien de boîtes faut-il ?",
+          "answer": "9"
+        },
+        {
+          "text": "28 pattes de chats sont comptées. Un chat a 4 pattes. Combien y a-t-il de chats ?",
+          "answer": "7"
+        }
+      ]
+    },
+    {
+      "name": "Divisions | Situation problème | Complexes",
+      "features": [
+        "Divisions/multiplications",
+        "Situation problème",
+        "Complexes"
+      ],
+      "image": "division",
+      "calculations": [
+        {
+          "text": "48 autocollants sont distribués à 12 élèves. Combien chaque élève reçoit-il ?",
+          "answer": "4"
+        },
+        {
+          "text": "84 livres sont placés sur 7 étagères identiques. Combien de livres par étagère ?",
+          "answer": "12"
+        },
+        {
+          "text": "66 chocolats sont placés dans 6 boîtes identiques. Combien par boîte ?",
+          "answer": "11"
+        },
+        {
+          "text": "72 fruits sont répartis dans 12 paniers. Combien par panier ?",
+          "answer": "6"
+        },
+        {
+          "text": "55 cartes sont rangées dans 5 paquets identiques. Combien de cartes par paquet ?",
+          "answer": "11"
+        },
+        {
+          "text": "48 billes sont réparties dans 4 sacs. Combien de billes par sac ?",
+          "answer": "12"
+        },
+        {
+          "text": "33 poissons sont répartis dans 3 aquariums. Combien de poissons par aquarium ?",
+          "answer": "11"
+        },
+        {
+          "text": "24 feutres sont répartis dans 2 boîtes. Combien de feutres par boîte ?",
+          "answer": "12"
+        },
+        {
+          "text": "96 biscuits sont répartis dans 12 paquets. Combien de biscuits par paquet ?",
+          "answer": "8"
+        },
+        {
+          "text": "77 lapins sont répartis dans 11 cages. Combien de lapins par cage ?",
+          "answer": "7"
+        },
+        {
+          "text": "72 joueurs sont répartis dans 6 équipes. Combien de joueurs par équipe ?",
+          "answer": "12"
+        },
+        {
+          "text": "60 gommes sont distribuées à 12 élèves. Combien de gommes par élève ?",
+          "answer": "5"
+        },
+        {
+          "text": "Une maman partage 90 € entre ses 3 enfants. Combien chaque enfant reçoit-il ?",
+          "answer": "30"
+        },
+        {
+          "text": "96 élèves sont répartis dans 4 classes. Combien d'élèves par classe ?",
+          "answer": "24"
+        },
+        {
+          "text": "75 billes sont réparties dans 5 sacs. Combien de billes par sac ?",
+          "answer": "15"
+        },
+        {
+          "text": "84 jours, cela fait combien de semaines de 7 jours ?",
+          "answer": "12"
+        },
+        {
+          "text": "Un livre de 150 pages est lu en 5 jours, autant chaque jour. Combien de pages par jour ?",
+          "answer": "30"
+        },
+        {
+          "text": "64 crayons sont rangés dans 2 boîtes identiques. Combien de crayons par boîte ?",
+          "answer": "32"
+        },
+        {
+          "text": "Un ruban de 80 cm est coupé en 4 morceaux égaux. Combien mesure chaque morceau (en cm) ?",
+          "answer": "20"
+        },
+        {
+          "text": "126 chaises sont placées en 6 rangées identiques. Combien de chaises par rangée ?",
+          "answer": "21"
+        },
+        {
+          "text": "120 œufs sont rangés dans 10 boîtes identiques. Combien d'œufs par boîte ?",
+          "answer": "12"
+        }
+      ]
+    }
   ]
 }
